@@ -32,7 +32,7 @@ this repository records my subscriptions of SNN in arxiv daily, and [these](http
 
 -  [10] [Srivatsa P] You Only Spike Once: Improving Energy-Efficient Neuromorphic Inference to ANN-Level Accuracy. [paper](https://arxiv.org/abs/2006.09982 "this paper has been uploaded.") .
 
-- [10] [Yahui Zhang] All-optical neuromorphic binary convolution with a spiking VCSEL neuron for image gradient magnitudes. [paper](https://arxiv.org/abs/2011.04438 "首次提出并实验证明了与光子尖顶垂直腔面发射激光(VCSEL)神经元的全光二元卷积。
+- `[10]` [Yahui Zhang] All-optical neuromorphic binary convolution with a spiking VCSEL neuron for image gradient magnitudes. [paper](https://arxiv.org/abs/2011.04438 "首次提出并实验证明了与光子尖顶垂直腔面发射激光(VCSEL)神经元的全光二元卷积。
   从数字图像中提取并使用矩形脉冲进行时间编码的光学输入被注入到VCSEL神经元中，该神经元以快速(100ps长)脉冲发射的次数传递卷积结果。
   实验和数值结果表明，单spiking VCSEL神经元可以成功地实现二值卷积，全光二值卷积可以用于计算图像梯度大小，用于检测边缘特征和分离源图像的垂直分量和水平分量。
   我们还证明了这个全光尖峰二进制卷积系统对噪声具有很好的鲁棒性，并且可以处理高分辨率的图像。
