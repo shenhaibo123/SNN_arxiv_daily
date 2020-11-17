@@ -26,7 +26,7 @@ this repository records my subscriptions of SNN in arxiv daily, and [these](http
   为此，我们提出了一种基于新兴时空反向传播的阈值相关批归一化(tdBN)方法，称为STBP-tdBN，能够直接训练深度SNN，并有效地在神经形态硬件上实现其推理。
   通过所提出的方法和详细的快捷连接，我们显著地将直接训练的SNNs从浅层结构( 10层)到非常深的结构(50层)。基于块体动态等距理论，从理论上分析了该方法的有效性。
   最后，我们报告了在很少时间步长的情况下，CIFAR-10的准确率为93.15%，ds - cifar10的准确率为67.8%，ImageNet的准确率为67.05%。
-  据我们所知，这是首次在ImageNet上探索直接训练的高性能深度SNNs") .  ** 
+  据我们所知，这是首次在ImageNet上探索直接训练的高性能深度SNNs") . ** 
   
 -  [10] [Bruno Golosio] Fast simulations of highly-connected spiking cortical models using GPUs. [paper](https://arxiv.org/abs/2007.14236 "this paper has been uploaded") .
 
@@ -47,7 +47,7 @@ this repository records my subscriptions of SNN in arxiv daily, and [these](http
   实验结果表明，该学习算法在基于单峰值时间的深度神经网络学习算法中取得了较高的分类精度。
   此外，利用从STDBP学习算法获得的训练模型参数，我们演示了在最近提出的神经形态推断加速器上的超低功率推理操作。
   实验结果表明，neuromorphic硬件消耗总功耗为0.751~mW，实现了47.71~ms的低延迟从MNIST数据集图像分类。
-  总的来说，这项工作研究了脉冲时序动力学对信息编码、突触可塑性和决策的贡献，为未来的深度神经网络和神经形态硬件系统的设计提供了一个新的视角。[") . ** 
+  总的来说，这项工作研究了脉冲时序动力学对信息编码、突触可塑性和决策的贡献，为未来的深度神经网络和神经形态硬件系统的设计提供了一个新的视角。") . ** 
 
 - [3] [Fabio Schittler Neves] Controlled Perturbation-Induced Switching in Pulse-Coupled Oscillator Networks. [paper](https://arxiv.org/abs/2011.00888 "脉冲耦合系统，如尖峰神经网络，显示非平凡不变量集的形式吸引，但不稳定鞍状周期轨道，单位同步成组。
   这些轨道之间的异宿连接在原则上可能支持这些网络中的交换过程，并使新型的神经计算成为可能。
