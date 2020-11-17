@@ -1,9 +1,49 @@
 # SNN_arxiv_daily
 this repository records my subscriptions of SNN in arxiv daily, and [these](https://github.com/shenhaibo123/SNN_summaries) are my summaries.
 
+## 2020.11
 
+-  
 
-**the following subscribes came from my  senior: [LuoYiHao](https://github.com/luoyihao666).
+- [5] [Malu Zhang] Rectified Linear Postsynaptic Potential Function for Backpropagation in Deep Spiking Neural Networks. [paper](https://arxiv.org/abs/2003.11837 "脉冲神经网络(SNNs)利用时空脉冲模式来表示和传输信息，不仅具有生物学上的真实性，而且适用于超低功耗事件驱动的神经形态实现。
+  在深度学习成功的激励下，深度尖峰神经网络(DeepSNNs)的研究为人工智能应用提供了前景广阔的方向。
+  然而，DeepSNNs的训练并不简单，因为研究充分的误差反向传播(BP)算法并不直接适用。
+  在本文中，我们首先建立了一个理解，为什么误差反向传播不能很好地工作在深度snns。
+  为了解决这个问题，我们提出了一种简单而有效的直线型突触后电位函数(ReL-PSP)用于尖峰神经元，并提出了一种依赖于尖峰时间的反向传播(STDBP)学习算法用于深度神经网络。
+  在STDBP算法中，利用单个峰值的时间来传递信息(时间编码)，并以事件驱动的方式基于峰值的时间进行学习(反向传播)。
+  实验结果表明，该学习算法在基于单峰值时间的深度神经网络学习算法中取得了较高的分类精度。
+  此外，利用从STDBP学习算法获得的训练模型参数，我们演示了在最近提出的神经形态推断加速器上的超低功率推理操作。
+  实验结果表明，neuromorphic硬件消耗总功耗为0.751~mW，实现了47.71~ms的低延迟从MNIST数据集图像分类。
+  总的来说，这项工作研究了脉冲时序动力学对信息编码、突触可塑性和决策的贡献，为未来的深度神经网络和神经形态硬件系统的设计提供了一个新的视角。[") .
+
+- [3] [Fabio Schittler Neves] Controlled Perturbation-Induced Switching in Pulse-Coupled Oscillator Networks. [paper](https://arxiv.org/abs/2011.00888 "脉冲耦合系统，如尖峰神经网络，显示非平凡不变量集的形式吸引，但不稳定鞍状周期轨道，单位同步成组。
+  这些轨道之间的异宿连接在原则上可能支持这些网络中的交换过程，并使新型的神经计算成为可能。
+  对于小型的耦合振荡器网络，我们在这里研究在什么条件下以及系统的对称性如何加强或禁止某些可能由扰动引起的开关跃迁。
+  对于五振子网络，我们推导出两簇对称与连续耦合的振子对称的显式转移规则。
+  第三种对称产生了由具有这种对称的不稳定吸引子集合和它们之间的连接组成的异诊所网络。
+  我们的结果表明，脉冲耦合系统可以可靠地产生定义良好的复杂时空模式集，符合特定的跃迁规则。
+  我们简要讨论尖峰神经系统的计算可能的含义。[") .
+
+- [3] [Julien Dupeyroux] Neuromorphic control for optic-flow-based landings of MAVs using the Loihi processor [paper](https://arxiv.org/abs/2011.00534 "像Loihi这样的神经形态处理器提供了一种很有前途的传统计算模块的替代品，可以为受约束的系统，如微型飞行器(MAVs)，提供健壮、高效和自主的技能，如起飞和着陆、避障和追踪。
+  然而，在机器人平台上使用这种处理器的一个主要挑战是仿真和真实世界之间的现实差距。
+  在本研究中，我们首次提出Loihi神经形态芯片原型在飞行机器人上的完全嵌入式应用。
+  在此基础上，提出了一种基于腹侧光流场发散度的脉冲神经网络来计算推力指令，实现了自主着陆。
+  进化是在使用PySNN库的基于python的模拟器中执行的。
+  最终的网络结构只有35个神经元分布在3层中。
+  仿真与Loihi的定量分析表明，推力设定值的均方根误差低至0.005 g，隐含层的脉冲序列匹配率为99.8%，输出层的匹配率为99.7%。
+  所提出的方法成功地弥合了现实差距，为未来机器人神经形态的应用提供了重要的见解。[") , [Supplementary material](https://mavlab.tudelft.nl/loihi/.) .
+
+- [3] [ Joshua Mack] RANC: Reconfigurable Architecture for Neuromorphic Computing.  [paper](https://arxiv.org/abs/2011.00624 "神经形态结构已被引入作为高效尖突神经网络执行的平台。
+  这些架构所提供的大量并行性也引发了非机器学习应用领域的兴趣。
+  为了为硬件设计者和应用开发者打开进入的障碍，我们提出了RANC:一个神经形态计算的可重构架构，一个开源的高度灵活的生态系统，它能够在软件上通过c++仿真和硬件上通过FPGA仿真进行神经形态架构的快速实验。
+  我们展示了RANC生态系统的效用，展示了它重建IBM TrueNorth行为的能力，并与IBM的Compass模拟环境和出版的文献进行了直接比较。
+  RANC允许基于应用洞见优化架构，也可以原型化未来的神经形态架构，以完全支持新的应用类别。
+  我们通过基于肺泡U250 FPGA进行定量分析，研究架构变化对提高应用程序映射效率的影响，展示了RANC的高度参数化和可配置性。
+  我们提供了跨实现合成孔径雷达分类和向量矩阵乘法应用的后路由资源使用和吞吐量分析，并演示了可伸缩到模拟259K不同神经元和73.3M不同突触的神经形态体系结构。[ ") , [source code](https://github.com/UA-RCL/RANC) .
+
+  
+
+**the following subscribes came from my  senior: [LuoYiHao](https://github.com/luoyihao666). and I will sort them out two weeks later.
 
 ## 2020.10
 
