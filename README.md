@@ -3,9 +3,9 @@ this repository records my subscriptions of SNN in arxiv daily, and [these](http
 
 ## 2020.11
 
-- **[13] [Tielin Zhang] Tuning Convolutional Spiking Neural Network with Biologically-plausible Reward Propagation. [paper](https://arxiv.org/abs/2010.04434 "this paper has been uploaded") .** 
+- **[13] [Tielin Zhang] Tuning Convolutional Spiking Neural Network with Biologically-plausible Reward Propagation.** [paper](https://arxiv.org/abs/2010.04434 "this paper has been uploaded") . 
 
-- **[13] [Zhenzhi Wu] LIAF-Net: Leaky Integrate and Analog Fire Network for Lightweight and Efficient Spatiotemporal Information Processing. [paper](https://arxiv.org/abs/2011.06176 " 基于泄漏集成和Fire (LIF)模型的尖峰神经网络(Spiking neural networks, SNNs)被应用于时间和时空处理任务中。
+- **[13] [Zhenzhi Wu] LIAF-Net: Leaky Integrate and Analog Fire Network for Lightweight and Efficient Spatiotemporal Information Processing.** [paper](https://arxiv.org/abs/2011.06176 " 基于泄漏集成和Fire (LIF)模型的尖峰神经网络(Spiking neural networks, SNNs)被应用于时间和时空处理任务中。
   由于生物上似是而非的神经元动力学和简单性，LIF-SNN从事件驱动的处理中获益，然而，通常面临性能下降的尴尬。
   这可能是因为在LIF-SNN中神经元通过尖刺传递信息。
   为了解决这一问题，本文提出了一种漏集模拟Fire (LIAF)神经元模型，使模拟值能够在神经元之间进行传输，并在此基础上构建了一个名为LIAF- net的深度网络，以实现高效的时空处理。
@@ -15,9 +15,9 @@ this repository records my subscriptions of SNN in arxiv daily, and [these](http
   实验结果表明LIAF-Net达到类似性能的复发性单元(格勒乌)和长期短期记忆(LSTM)泛神教义问答(QA)的任务,并达到最先进的性能时空动态视觉传感器(dv)的数据集,包括MNIST-DVS CIFAR10-DVS DVS128姿态,更少数量的突触权重和计算开销与传统网络相比由LSTM,格勒乌,
   卷积LSTM (ConvLSTM)或3D卷积(Conv3D)。
   与传统的LIF-SNN相比，LIAF-Net在所有实验中都有显著的精度提高。
-  综上所述，LIAF-Net提供了一个框架，结合了ann和SNNs的优点，实现了轻量级和高效的时空信息处理。") .** 
+  综上所述，LIAF-Net提供了一个框架，结合了ann和SNNs的优点，实现了轻量级和高效的时空信息处理。") .
   
-- **[11] [Hanle Zheng] Going Deeper With Directly-Trained Larger Spiking Neural Networks.  [paper](https://arxiv.org/abs/2011.05280  "尖峰神经网络(SNNs)在时空信息和事件驱动信号处理的生物编码方面很有前途，非常适合在神经形态硬件中实现高能效。
+- **[11] [Hanle Zheng] Going Deeper With Directly-Trained Larger Spiking Neural Networks.**  [paper](https://arxiv.org/abs/2011.05280  "尖峰神经网络(SNNs)在时空信息和事件驱动信号处理的生物编码方面很有前途，非常适合在神经形态硬件中实现高能效。
   然而，SNNs独特的工作模式使其比传统网络更难培养。
   目前，探索高性能深度SNNs的训练主要有两条路径。
   第一种是将预先训练好的神经网络模型转换为SNN模型，该模型通常需要较长的编码窗口来收敛，在训练时无法利用时空特征来求解时间任务。
@@ -26,19 +26,19 @@ this repository records my subscriptions of SNN in arxiv daily, and [these](http
   为此，我们提出了一种基于新兴时空反向传播的阈值相关批归一化(tdBN)方法，称为STBP-tdBN，能够直接训练深度SNN，并有效地在神经形态硬件上实现其推理。
   通过所提出的方法和详细的快捷连接，我们显著地将直接训练的SNNs从浅层结构( 10层)到非常深的结构(50层)。基于块体动态等距理论，从理论上分析了该方法的有效性。
   最后，我们报告了在很少时间步长的情况下，CIFAR-10的准确率为93.15%，ds - cifar10的准确率为67.8%，ImageNet的准确率为67.05%。
-  据我们所知，这是首次在ImageNet上探索直接训练的高性能深度SNNs") . ** 
+  据我们所知，这是首次在ImageNet上探索直接训练的高性能深度SNNs") . 
   
 -  [10] [Bruno Golosio] Fast simulations of highly-connected spiking cortical models using GPUs. [paper](https://arxiv.org/abs/2007.14236 "this paper has been uploaded") .
 
 -  [10] [Srivatsa P] You Only Spike Once: Improving Energy-Efficient Neuromorphic Inference to ANN-Level Accuracy. [paper](https://arxiv.org/abs/2006.09982 "this paper has been uploaded.") .
 
-- `[10]` [Yahui Zhang] All-optical neuromorphic binary convolution with a spiking VCSEL neuron for image gradient magnitudes. [paper](https://arxiv.org/abs/2011.04438 "首次提出并实验证明了与光子尖顶垂直腔面发射激光(VCSEL)神经元的全光二元卷积。
+- [10] [Yahui Zhang] All-optical neuromorphic binary convolution with a spiking VCSEL neuron for image gradient magnitudes. [paper](https://arxiv.org/abs/2011.04438 "首次提出并实验证明了与光子尖顶垂直腔面发射激光(VCSEL)神经元的全光二元卷积。
   从数字图像中提取并使用矩形脉冲进行时间编码的光学输入被注入到VCSEL神经元中，该神经元以快速(100ps长)脉冲发射的次数传递卷积结果。
   实验和数值结果表明，单spiking VCSEL神经元可以成功地实现二值卷积，全光二值卷积可以用于计算图像梯度大小，用于检测边缘特征和分离源图像的垂直分量和水平分量。
   我们还证明了这个全光尖峰二进制卷积系统对噪声具有很好的鲁棒性，并且可以处理高分辨率的图像。
   此外，该系统具有速度快、能量效率高和硬件实现简单等重要优点，突出了尖形光子VCSEL神经元在高速神经形态图像处理系统和未来光子尖形卷积神经网络中的潜力[[") .
   
-- **[5] [Malu Zhang] Rectified Linear Postsynaptic Potential Function for Backpropagation in Deep Spiking Neural Networks. [paper](https://arxiv.org/abs/2003.11837 "脉冲神经网络(SNNs)利用时空脉冲模式来表示和传输信息，不仅具有生物学上的真实性，而且适用于超低功耗事件驱动的神经形态实现。
+- **[5] [Malu Zhang] Rectified Linear Postsynaptic Potential Function for Backpropagation in Deep Spiking Neural Networks.** [paper](https://arxiv.org/abs/2003.11837 "脉冲神经网络(SNNs)利用时空脉冲模式来表示和传输信息，不仅具有生物学上的真实性，而且适用于超低功耗事件驱动的神经形态实现。
   在深度学习成功的激励下，深度尖峰神经网络(DeepSNNs)的研究为人工智能应用提供了前景广阔的方向。
   然而，DeepSNNs的训练并不简单，因为研究充分的误差反向传播(BP)算法并不直接适用。
   在本文中，我们首先建立了一个理解，为什么误差反向传播不能很好地工作在深度snns。
@@ -47,7 +47,7 @@ this repository records my subscriptions of SNN in arxiv daily, and [these](http
   实验结果表明，该学习算法在基于单峰值时间的深度神经网络学习算法中取得了较高的分类精度。
   此外，利用从STDBP学习算法获得的训练模型参数，我们演示了在最近提出的神经形态推断加速器上的超低功率推理操作。
   实验结果表明，neuromorphic硬件消耗总功耗为0.751~mW，实现了47.71~ms的低延迟从MNIST数据集图像分类。
-  总的来说，这项工作研究了脉冲时序动力学对信息编码、突触可塑性和决策的贡献，为未来的深度神经网络和神经形态硬件系统的设计提供了一个新的视角。") . ** 
+  总的来说，这项工作研究了脉冲时序动力学对信息编码、突触可塑性和决策的贡献，为未来的深度神经网络和神经形态硬件系统的设计提供了一个新的视角。") . 
 
 - [3] [Fabio Schittler Neves] Controlled Perturbation-Induced Switching in Pulse-Coupled Oscillator Networks. [paper](https://arxiv.org/abs/2011.00888 "脉冲耦合系统，如尖峰神经网络，显示非平凡不变量集的形式吸引，但不稳定鞍状周期轨道，单位同步成组。
   这些轨道之间的异宿连接在原则上可能支持这些网络中的交换过程，并使新型的神经计算成为可能。
