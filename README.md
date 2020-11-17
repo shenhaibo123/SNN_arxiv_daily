@@ -5,30 +5,7 @@ this repository records my subscriptions of SNN in arxiv daily, and [these](http
 
 - **[13]** [Tielin Zhang] Tuning Convolutional Spiking Neural Network with Biologically-plausible Reward Propagation. [paper](https://arxiv.org/abs/2010.04434 "this paper has been uploaded") .
 
-- **[13]** [Zhenzhi Wu] LIAF-Net: Leaky Integrate and Analog Fire Network for Lightweight and Efficient Spatiotemporal Information Processing. [paper](https://arxiv.org/abs/2011.06176 "Spiking neural networks (SNNs) based on Leaky Integrate and Fire (LIF) model
-  have been applied to energy-efficient temporal and spatiotemporal processing
-  tasks. Thanks to the bio-plausible neuronal dynamics and simplicity, LIF-SNN
-  benefits from event-driven processing, however, usually faces the embarrassment
-  of reduced performance. This may because in LIF-SNN the neurons transmit
-  information via spikes. To address this issue, in this work, we propose a Leaky
-  Integrate and Analog Fire (LIAF) neuron model, so that analog values can be
-  transmitted among neurons, and a deep network termed as LIAF-Net is built on it
-  for efficient spatiotemporal processing. In the temporal domain, LIAF follows
-  the traditional LIF dynamics to maintain its temporal processing capability. In
-  the spatial domain, LIAF is able to integrate spatial information through
-  convolutional integration or fully-connected integration. As a spatiotemporal
-  layer, LIAF can also be used with traditional artificial neural network (ANN)
-  layers jointly. Experiment results indicate that LIAF-Net achieves comparable
-  performance to Gated Recurrent Unit (GRU) and Long short-term memory (LSTM) on
-  bAbI Question Answering (QA) tasks, and achieves state-of-the-art performance
-  on spatiotemporal Dynamic Vision Sensor (DVS) datasets, including MNIST-DVS,
-  CIFAR10-DVS and DVS128 Gesture, with much less number of synaptic weights and
-  computational overhead compared with traditional networks built by LSTM, GRU,
-  Convolutional LSTM (ConvLSTM) or 3D convolution (Conv3D). Compared with
-  traditional LIF-SNN, LIAF-Net also shows dramatic accuracy gain on all these
-  experiments. In conclusion, LIAF-Net provides a framework combining the
-  advantages of both ANNs and SNNs for lightweight and efficient spatiotemporal
-  information processing.   基于泄漏集成和Fire (LIF)模型的尖峰神经网络(Spiking neural networks, SNNs)被应用于时间和时空处理任务中。
+- **[13]** [Zhenzhi Wu] LIAF-Net: Leaky Integrate and Analog Fire Network for Lightweight and Efficient Spatiotemporal Information Processing. [paper](https://arxiv.org/abs/2011.06176 " 基于泄漏集成和Fire (LIF)模型的尖峰神经网络(Spiking neural networks, SNNs)被应用于时间和时空处理任务中。
   由于生物上似是而非的神经元动力学和简单性，LIF-SNN从事件驱动的处理中获益，然而，通常面临性能下降的尴尬。
   这可能是因为在LIF-SNN中神经元通过尖刺传递信息。
   为了解决这一问题，本文提出了一种漏集模拟Fire (LIAF)神经元模型，使模拟值能够在神经元之间进行传输，并在此基础上构建了一个名为LIAF- net的深度网络，以实现高效的时空处理。
@@ -39,31 +16,8 @@ this repository records my subscriptions of SNN in arxiv daily, and [these](http
   卷积LSTM (ConvLSTM)或3D卷积(Conv3D)。
   与传统的LIF-SNN相比，LIAF-Net在所有实验中都有显著的精度提高。
   综上所述，LIAF-Net提供了一个框架，结合了ann和SNNs的优点，实现了轻量级和高效的时空信息处理。[[") .
-
-- **[11]** [Hanle Zheng] Going Deeper With Directly-Trained Larger Spiking Neural Networks. [paper](https://arxiv.org/abs/2011.05280 "Spiking neural networks (SNNs) are promising in a bio-plausible coding for
-  spatio-temporal information and event-driven signal processing, which is very
-  suited for energy-efficient implementation in neuromorphic hardware. However,
-  the unique working mode of SNNs makes them more difficult to train than
-  traditional networks. Currently, there are two main routes to explore the
-  training of deep SNNs with high performance. The first is to convert a
-  pre-trained ANN model to its SNN version, which usually requires a long coding
-  window for convergence and cannot exploit the spatio-temporal features during
-  training for solving temporal tasks. The other is to directly train SNNs in the
-  spatio-temporal domain. But due to the binary spike activity of the firing
-  function and the problem of gradient vanishing or explosion, current methods
-  are restricted to shallow architectures and thereby difficult in harnessing
-  large-scale datasets (e.g. ImageNet). To this end, we propose a
-  threshold-dependent batch normalization (tdBN) method based on the emerging
-  spatio-temporal backpropagation, termed "STBP-tdBN", enabling direct training
-  of a very deep SNN and the efficient implementation of its inference on
-  neuromorphic hardware. With the proposed method and elaborated shortcut
-  connection, we significantly extend directly-trained SNNs from a shallow
-  structure ( < 10 layer) to a very deep structure (50 layers). Furthermore, we
-  theoretically analyze the effectiveness of our method based on "Block Dynamical
-  Isometry" theory. Finally, we report superior accuracy results including 93.15
-  % on CIFAR-10, 67.8 % on DVS-CIFAR10, and 67.05% on ImageNet with very few
-  timesteps. To our best knowledge, it's the first time to explore the
-  directly-trained deep SNNs with high performance on ImageNet   尖峰神经网络(SNNs)在时空信息和事件驱动信号处理的生物编码方面很有前途，非常适合在神经形态硬件中实现高能效。
+  
+- **[11]** [Hanle Zheng] Going Deeper With Directly-Trained Larger Spiking Neural Networks. [paper](https://arxiv.org/abs/2011.05280 " 尖峰神经网络(SNNs)在时空信息和事件驱动信号处理的生物编码方面很有前途，非常适合在神经形态硬件中实现高能效。
   然而，SNNs独特的工作模式使其比传统网络更难培养。
   目前，探索高性能深度SNNs的训练主要有两条路径。
   第一种是将预先训练好的神经网络模型转换为SNN模型，该模型通常需要较长的编码窗口来收敛，在训练时无法利用时空特征来求解时间任务。
@@ -75,32 +29,17 @@ this repository records my subscriptions of SNN in arxiv daily, and [these](http
   基于块体动态等距理论，从理论上分析了该方法的有效性。
   最后，我们报告了在很少时间步长的情况下，CIFAR-10的准确率为93.15%，ds - cifar10的准确率为67.8%，ImageNet的准确率为67.05%。
   据我们所知，这是首次在ImageNet上探索直接训练的高性能深度SNNs[[") .
-
+  
 -  [10] [Bruno Golosio] Fast simulations of highly-connected spiking cortical models using GPUs. [paper](https://arxiv.org/abs/2007.14236 "this paper has been uploaded") .
 
 -  [10] [Srivatsa P] You Only Spike Once: Improving Energy-Efficient Neuromorphic Inference to ANN-Level Accuracy. [paper](https://arxiv.org/abs/2006.09982 "this paper has been uploaded.") .
 
-- [10] [Yahui Zhang] All-optical neuromorphic binary convolution with a spiking VCSEL neuron for image gradient magnitudes. [paper](https://arxiv.org/abs/2011.04438 "All-optical binary convolution with a photonic spiking vertical-cavity
-  surface-emitting laser (VCSEL) neuron is proposed and demonstrated
-  experimentally for the first time. Optical inputs, extracted from digital
-  images and temporally encoded using rectangular pulses, are injected in the
-  VCSEL neuron which delivers the convolution result in the number of fast (<100
-  ps long) spikes fired. Experimental and numerical results show that binary
-  convolution is achieved successfully with a single spiking VCSEL neuron and
-  that all-optical binary convolution can be used to calculate image gradient
-  magnitudes to detect edge features and separate vertical and horizontal
-  components in source images. We also show that this all-optical spiking binary
-  convolution system is robust to noise and can operate with high-resolution
-  images. Additionally, the proposed system offers important advantages such as
-  ultrafast speed, high energy efficiency and simple hardware implementation,
-  highlighting the potentials of spiking photonic VCSEL neurons for high-speed
-  neuromorphic image processing systems and future photonic spiking convolutional
-  neural networks.  首次提出并实验证明了与光子尖顶垂直腔面发射激光(VCSEL)神经元的全光二元卷积。
+- [10] [Yahui Zhang] All-optical neuromorphic binary convolution with a spiking VCSEL neuron for image gradient magnitudes. [paper](https://arxiv.org/abs/2011.04438 "首次提出并实验证明了与光子尖顶垂直腔面发射激光(VCSEL)神经元的全光二元卷积。
   从数字图像中提取并使用矩形脉冲进行时间编码的光学输入被注入到VCSEL神经元中，该神经元以快速(100ps长)脉冲发射的次数传递卷积结果。
   实验和数值结果表明，单spiking VCSEL神经元可以成功地实现二值卷积，全光二值卷积可以用于计算图像梯度大小，用于检测边缘特征和分离源图像的垂直分量和水平分量。
   我们还证明了这个全光尖峰二进制卷积系统对噪声具有很好的鲁棒性，并且可以处理高分辨率的图像。
   此外，该系统具有速度快、能量效率高和硬件实现简单等重要优点，突出了尖形光子VCSEL神经元在高速神经形态图像处理系统和未来光子尖形卷积神经网络中的潜力[[") .
-
+  
 - **[5]** [Malu Zhang] Rectified Linear Postsynaptic Potential Function for Backpropagation in Deep Spiking Neural Networks. [paper](https://arxiv.org/abs/2003.11837 "脉冲神经网络(SNNs)利用时空脉冲模式来表示和传输信息，不仅具有生物学上的真实性，而且适用于超低功耗事件驱动的神经形态实现。
   在深度学习成功的激励下，深度尖峰神经网络(DeepSNNs)的研究为人工智能应用提供了前景广阔的方向。
   然而，DeepSNNs的训练并不简单，因为研究充分的误差反向传播(BP)算法并不直接适用。
