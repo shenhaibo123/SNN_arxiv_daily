@@ -17,16 +17,16 @@ this repository records my subscriptions of SNN in arxiv daily, and [these](http
   与传统的LIF-SNN相比，LIAF-Net在所有实验中都有显著的精度提高。
   综上所述，LIAF-Net提供了一个框架，结合了ann和SNNs的优点，实现了轻量级和高效的时空信息处理。") .
   
-- **[11]** [Hanle Zheng] Going Deeper With Directly-Trained Larger Spiking Neural Networks. [paper](https://arxiv.org/abs/2011.05280  "尖峰神经网络(SNNs)在时空信息和事件驱动信号处理的生物编码方面很有前途，非常适合在神经形态硬件中实现高能效。
+- **[11]** [Hanle Zheng] Going Deeper With Directly-Trained Larger Spiking Neural Networks.  [paper](https://arxiv.org/abs/2011.05280  "尖峰神经网络(SNNs)在时空信息和事件驱动信号处理的生物编码方面很有前途，非常适合在神经形态硬件中实现高能效。
   然而，SNNs独特的工作模式使其比传统网络更难培养。
   目前，探索高性能深度SNNs的训练主要有两条路径。
   第一种是将预先训练好的神经网络模型转换为SNN模型，该模型通常需要较长的编码窗口来收敛，在训练时无法利用时空特征来求解时间任务。
   二是在时空域直接训练SNNs。
   但由于激发函数的二元脉冲活动和梯度消失或爆炸问题，目前的方法仅限于浅层架构，因此难以利用大规模数据集(如ImageNet)。
-  为此，我们提出了一种基于新兴时空反向传播的阈值相关批归一化(tdBN)方法，称为"STBP-tdBN"，能够直接训练深度SNN，并有效地在神经形态硬件上实现其推理。
+  为此，我们提出了一种基于新兴时空反向传播的阈值相关批归一化(tdBN)方法，称为STBP-tdBN，能够直接训练深度SNN，并有效地在神经形态硬件上实现其推理。
   通过所提出的方法和详细的快捷连接，我们显著地将直接训练的SNNs从浅层结构( 10层)到非常深的结构(50层)。基于块体动态等距理论，从理论上分析了该方法的有效性。
   最后，我们报告了在很少时间步长的情况下，CIFAR-10的准确率为93.15%，ds - cifar10的准确率为67.8%，ImageNet的准确率为67.05%。
-  据我们所知，这是首次在ImageNet上探索直接训练的高性能深度SNNs[") .
+  据我们所知，这是首次在ImageNet上探索直接训练的高性能深度SNNs") .
   
 -  [10] [Bruno Golosio] Fast simulations of highly-connected spiking cortical models using GPUs. [paper](https://arxiv.org/abs/2007.14236 "this paper has been uploaded") .
 
