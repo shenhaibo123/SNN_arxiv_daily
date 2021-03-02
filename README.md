@@ -347,7 +347,7 @@
 <details>	<summary>邮件日期</summary>	2020年11月13日</details>
 
 # 9、利用生物似然奖赏传播调整卷积脉冲神经网络
-- [ ] Tuning Convolutional Spiking Neural Network with Biologically-plausible Reward Propagation 
+- [x] Tuning Convolutional Spiking Neural Network with Biologically-plausible Reward Propagation 
 时间：2020年11月12日                         第一作者：Tielin Zhang                        [链接](https://arxiv.org/abs/2010.04434).                     
 <details>	<summary>邮件日期</summary>	2020年11月13日</details>
 
@@ -371,13 +371,13 @@
 <details>	<summary>邮件日期</summary>	2020年11月10日</details>
 
 # 5、深脉冲神经网络反向传播的校正线性突触后电位函数
-- [ ] Rectified Linear Postsynaptic Potential Function for Backpropagation in Deep Spiking Neural Networks 
+- [x] Rectified Linear Postsynaptic Potential Function for Backpropagation in Deep Spiking Neural Networks 
 时间：2020年11月04日                         第一作者：Malu Zhang                       [链接](https://arxiv.org/abs/2003.11837).                     
 <details>	<summary>注释</summary>	This work has been submitted to the IEEE for possible publication. Copyrightmay be transferred without notice, after which this version may no longer beaccessible </details>
 <details>	<summary>邮件日期</summary>	2020年11月05日</details>
 
 # 4、脉冲耦合振荡器网络中的受控微扰诱导开关
-- [ ] Controlled Perturbation-Induced Switching in Pulse-Coupled Oscillator Networks 
+- [x] Controlled Perturbation-Induced Switching in Pulse-Coupled Oscillator Networks 
 时间：2020年11月02日                         第一作者：Fabio Schittler Neves                        [链接](https://arxiv.org/abs/2011.00888).                     
 ## 摘要：脉冲耦合系统，如脉冲神经网络，表现出非平凡不变集的形式吸引但不稳定的鞍周期轨道的单位同步成组。这些轨道之间的异宿连接原则上可以支持这些网络中的切换过程，并支持新的神经计算。对于耦合振子的小网络，我们在此研究在何种条件下以及系统对称性如何强制或禁止某些可能由扰动引起的开关跃迁。对于由五个振子组成的网络，我们导出了两个团簇对称性的显式跃迁规则，这些规则偏离了已知的连续耦合振子的跃迁规则。第三种对称产生异宿网络，它由所有具有这种对称性的不稳定吸引子以及它们之间的连接组成。我们的结果表明，脉冲耦合系统能够可靠地产生符合特定转换规则的复杂时空模式。我们简要地讨论了脉冲神经系统计算的可能含义。
 <details>	<summary>英文摘要</summary>	Pulse-coupled systems such as spiking neural networks exhibit nontrivial invariant sets in the form of attracting yet unstable saddle periodic orbits where units are synchronized into groups. Heteroclinic connections between such orbits may in principle support switching processes in those networks and enable novel kinds of neural computations. For small networks of coupled oscillators we here investigate under which conditions and how system symmetry enforces or forbids certain switching transitions that may be induced by perturbations. For networks of five oscillators we derive explicit transition rules that for two cluster symmetries deviate from those known from oscillators coupled continuously in time. A third symmetry yields heteroclinic networks that consist of sets of all unstable attractors with that symmetry and the connections between them. Our results indicate that pulse-coupled systems can reliably generate well-defined sets of complex spatiotemporal patterns that conform to specific transition rules. We briefly discuss possible implications for computation with spiking neural systems. </details>
@@ -392,14 +392,14 @@
 <details>	<summary>邮件日期</summary>	2020年11月03日</details>
 
 # 2、基于Loihi处理器的mav光流着陆神经形态控制
-- [ ] Neuromorphic control for optic-flow-based landings of MAVs using the Loihi processor 
+- [x] Neuromorphic control for optic-flow-based landings of MAVs using the Loihi processor 
 时间：2020年11月01日                         第一作者：Julien Dupeyroux                       [链接](https://arxiv.org/abs/2011.00534).                     
 ## 摘要：像Loihi这样的神经形态处理器为微型飞行器（mav）这样的受限系统提供了一个有希望的替代传统计算模块，使其具有强大、高效和自主的技能，如起飞和着陆、避障和追踪。然而，在机器人平台上使用这种处理器的一个主要挑战是模拟和真实世界之间的现实差距。在这项研究中，我们首次提出了一个完全嵌入式应用的Loihi神经芯片原型在飞行机器人。为了实现自主着陆，提出了一种基于腹部光流场发散的脉冲神经网络（SNN）来计算推力指令。进化是使用PySNN库在基于Python的模拟器中执行的。该网络结构仅由分布在3层中的35个神经元组成。仿真和Loihi之间的定量分析表明，推力设定值的均方根误差低至0.005 g，同时，隐藏层的脉冲序列匹配率为99.8%，输出层的脉冲序列匹配率为99.7%。所提出的方法成功地填补了现实差距，为未来机器人中的神经形态应用提供了重要的见解。补充材料可在https://mavlab.tudelft.nl/loihi/。
 <details>	<summary>英文摘要</summary>	Neuromorphic processors like Loihi offer a promising alternative to conventional computing modules for endowing constrained systems like micro air vehicles (MAVs) with robust, efficient and autonomous skills such as take-off and landing, obstacle avoidance, and pursuit. However, a major challenge for using such processors on robotic platforms is the reality gap between simulation and the real world. In this study, we present for the very first time a fully embedded application of the Loihi neuromorphic chip prototype in a flying robot. A spiking neural network (SNN) was evolved to compute the thrust command based on the divergence of the ventral optic flow field to perform autonomous landing. Evolution was performed in a Python-based simulator using the PySNN library. The resulting network architecture consists of only 35 neurons distributed among 3 layers. Quantitative analysis between simulation and Loihi reveals a root-mean-square error of the thrust setpoint as low as 0.005 g, along with a 99.8% matching of the spike sequences in the hidden layer, and 99.7% in the output layer. The proposed approach successfully bridges the reality gap, offering important insights for future neuromorphic applications in robotics. Supplementary material is available at https://mavlab.tudelft.nl/loihi/. </details>
 <details>	<summary>邮件日期</summary>	2020年11月03日</details>
 
 # 1、用直接训练的更大的脉冲神经网络进行更深入的研究
-- [ ] Going Deeper With Directly-Trained Larger Spiking Neural Networks 
+- [x] Going Deeper With Directly-Trained Larger Spiking Neural Networks 
 时间：2020年10月29日                         第一作者：Hanle Zheng                       [链接](https://arxiv.org/abs/2011.05280).                     
 ## 摘要：脉冲神经网络（Spiking neural networks，SNNs）在时空信息和事件驱动信号处理的生物似然编码方面有着广阔的应用前景，非常适合于神经形态硬件的节能实现。然而，SNNs独特的工作模式使其比传统网络更难训练。目前，探索高性能深层snn的培养主要有两条途径。第一种方法是将预先训练好的神经网络模型转换为SNN模型，SNN模型通常需要较长的编码窗口才能收敛，并且在训练过程中不能利用时空特征来求解时间任务。另一种是直接在时空域训练snn。但是由于触发函数的二元脉冲活动和梯度消失或爆炸的问题，目前的方法局限于浅层结构，因此难以利用大规模数据集（如ImageNet）。为此，我们提出了一种基于时空反向传播的阈值相关批处理归一化（tdBN）方法，称为STBP-tdBN，它能够直接训练非常深的SNN并在神经形态硬件上有效地实现其推理。通过提出的方法和详细的快捷连接，我们将直接训练的snn从浅层（<10层）扩展到非常深的结构（50层）。在此基础上，从理论上分析了基于块动态等距理论的方法的有效性。最后，我们报告了更高的准确率结果，包括93.15%的CIFAR-10，67.8%的DVS-CIFAR10和67.05%的ImageNet与很少的时间步长。据我们所知，这是第一次在ImageNet上探索直接训练的高性能深度snn。
 <details>	<summary>英文摘要</summary>	Spiking neural networks (SNNs) are promising in a bio-plausible coding for spatio-temporal information and event-driven signal processing, which is very suited for energy-efficient implementation in neuromorphic hardware. However, the unique working mode of SNNs makes them more difficult to train than traditional networks. Currently, there are two main routes to explore the training of deep SNNs with high performance. The first is to convert a pre-trained ANN model to its SNN version, which usually requires a long coding window for convergence and cannot exploit the spatio-temporal features during training for solving temporal tasks. The other is to directly train SNNs in the spatio-temporal domain. But due to the binary spike activity of the firing function and the problem of gradient vanishing or explosion, current methods are restricted to shallow architectures and thereby difficult in harnessing large-scale datasets (e.g. ImageNet). To this end, we propose a threshold-dependent batch normalization (tdBN) method based on the emerging spatio-temporal backpropagation, termed "STBP-tdBN", enabling direct training of a very deep SNN and the efficient implementation of its inference on neuromorphic hardware. With the proposed method and elaborated shortcut connection, we significantly extend directly-trained SNNs from a shallow structure ( < 10 layer) to a very deep structure (50 layers). Furthermore, we theoretically analyze the effectiveness of our method based on "Block Dynamical Isometry" theory. Finally, we report superior accuracy results including 93.15 % on CIFAR-10, 67.8 % on DVS-CIFAR10, and 67.05% on ImageNet with very few timesteps. To our best knowledge, it's the first time to explore the directly-trained deep SNNs with high performance on ImageNet. </details>
