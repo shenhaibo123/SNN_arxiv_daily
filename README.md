@@ -1,3 +1,24 @@
+# 71、一点点能量就有很大的帮助：高效节能，从卷积神经网络到脉冲神经网络的精确转换
+- [ ] A Little Energy Goes a Long Way: Energy-Efficient, Accurate Conversion from Convolutional Neural Networks to Spiking Neural Networks 
+时间：2021年03月06日                         第一作者：Dengyu Wu                       [链接](https://arxiv.org/abs/2103.00944).                     
+<details>	<summary>邮件日期</summary>	2021年03月09日</details>
+
+# 70、神经形态平台上强化学习的双记忆结构
+- [ ] A Dual-Memory Architecture for Reinforcement Learning on Neuromorphic Platforms 
+时间：2021年03月05日                         第一作者：Wilkie Olin-Ammentorp                       [链接](https://arxiv.org/abs/2103.04780).                     
+## 摘要：强化学习（RL）是生物系统中学习的基础，并提供了一个框架来解决现实世界人工智能应用的众多挑战。RL技术的有效实现允许部署在边缘用例中的代理获得新的能力，例如改进的导航、理解复杂情况和关键决策。为了实现这个目标，我们描述了一个灵活的架构来在神经形态平台上进行强化学习。该体系结构是使用Intel神经形态处理器实现的，并演示了如何使用脉冲动力学解决各种任务。我们的研究为现实世界的RL应用提出了一个可用的节能解决方案，并证明了神经形态平台对RL问题的适用性。
+<details>	<summary>英文摘要</summary>	Reinforcement learning (RL) is a foundation of learning in biological systems and provides a framework to address numerous challenges with real-world artificial intelligence applications. Efficient implementations of RL techniques could allow for agents deployed in edge-use cases to gain novel abilities, such as improved navigation, understanding complex situations and critical decision making. Towards this goal, we describe a flexible architecture to carry out reinforcement learning on neuromorphic platforms. This architecture was implemented using an Intel neuromorphic processor and demonstrated solving a variety of tasks using spiking dynamics. Our study proposes a usable energy efficient solution for real-world RL applications and demonstrates applicability of the neuromorphic platforms for RL problems. </details>
+<details>	<summary>注释</summary>	20 pages, 6 figures ACM-class: I.2 </details>
+<details>	<summary>邮件日期</summary>	2021年03月09日</details>
+
+# 69、基于在线元学习的脉冲神经网络快速设备自适应
+- [ ] Fast On-Device Adaptation for Spiking Neural Networks via Online-Within-Online Meta-Learning 
+时间：2021年02月21日                         第一作者：Bleema Rosenfeld                       [链接](https://arxiv.org/abs/2103.03901).                     
+## 摘要：脉冲神经网络（Spiking Neural Networks，SNNs）由于其低功耗特性，近年来在移动医疗管理和自然语言处理等应用中作为边缘智能的机器学习模型得到了广泛的应用。在这种高度个人化的用例中，模型必须能够用最少的训练数据来适应个体的独特特征。元学习被认为是一种训练模型的方法，这种模型能够快速适应新的任务。为数不多的现有snn元学习解决方案离线运行，并且需要某种形式的反向传播，这与当前的神经形态边缘设备不兼容。在这篇论文中，我们提出了一个SNN的在线内在线元学习规则OWOML-SNN，它能够在任务流上实现终身学习，并且依赖于本地的、无后台的、嵌套的更新。
+<details>	<summary>英文摘要</summary>	Spiking Neural Networks (SNNs) have recently gained popularity as machine learning models for on-device edge intelligence for applications such as mobile healthcare management and natural language processing due to their low power profile. In such highly personalized use cases, it is important for the model to be able to adapt to the unique features of an individual with only a minimal amount of training data. Meta-learning has been proposed as a way to train models that are geared towards quick adaptation to new tasks. The few existing meta-learning solutions for SNNs operate offline and require some form of backpropagation that is incompatible with the current neuromorphic edge-devices. In this paper, we propose an online-within-online meta-learning rule for SNNs termed OWOML-SNN, that enables lifelong learning on a stream of tasks, and relies on local, backprop-free, nested updates. </details>
+<details>	<summary>注释</summary>	Accepted for publication at DSLW 2021 </details>
+<details>	<summary>邮件日期</summary>	2021年03月09日</details>
+
 # 68、机器人神经形态感知工具箱
 - [ ] A toolbox for neuromorphic sensing in robotics 
 时间：2021年03月03日                         第一作者：Julien Dupeyroux                       [链接](https://arxiv.org/abs/2103.02751).                     
