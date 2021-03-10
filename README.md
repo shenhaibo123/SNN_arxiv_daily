@@ -1,3 +1,15 @@
+# 73、一种用于无监督特征学习的高并行度类初启脉冲神经网络
+- [ ] High-parallelism Inception-like Spiking Neural Networks for Unsupervised Feature Learning 
+时间：2021年03月09日                         第一作者：Mingyuan Meng                       [链接](https://arxiv.org/abs/2001.01680).                     
+<details>	<summary>注释</summary>	Published at Neurocomputing DOI: 10.1016/j.neucom.2021.02.027 </details>
+<details>	<summary>邮件日期</summary>	2021年03月10日</details>
+
+# 72、基于在线进化脉冲神经网络的流数据无监督异常检测
+- [ ] Unsupervised Anomaly Detection in Stream Data with Online Evolving Spiking Neural Networks 
+时间：2021年03月08日                         第一作者：Piotr S. Maci\k{a}g (1)                       [链接](https://arxiv.org/abs/1912.08785).                     
+<details>	<summary>注释</summary>	52 pages Journal-ref: Neural Networks, Volume 139, 2021, Pages 118-139 DOI: 10.1016/j.neunet.2021.02.017 </details>
+<details>	<summary>邮件日期</summary>	2021年03月10日</details>
+
 # 71、一点点能量就有很大的帮助：高效节能，从卷积神经网络到脉冲神经网络的精确转换
 - [ ] A Little Energy Goes a Long Way: Energy-Efficient, Accurate Conversion from Convolutional Neural Networks to Spiking Neural Networks 
 时间：2021年03月06日                         第一作者：Dengyu Wu                       [链接](https://arxiv.org/abs/2103.00944).                     
