@@ -1,3 +1,16 @@
+# 86、基于峰值模式识别的蛋白质结构库计算
+- [ ] Protein Structured Reservoir computing for Spike-based Pattern Recognition 
+时间：2021年03月29日                         第一作者：Karolos-Alex                       [链接](https://arxiv.org/abs/2008.03330).                     
+<details>	<summary>注释</summary>	15 pages, 9 figures DOI: 10.1109/TPDS.2021.3068826 </details>
+<details>	<summary>邮件日期</summary>	2021年03月30日</details>
+
+# 85、能量衰减网络（EDeN）
+- [ ] Energy Decay Network (EDeN) 
+时间：2021年03月10日                         第一作者：Jamie Nicholas Shelley                       [链接](https://arxiv.org/abs/2103.15552).                     
+## 摘要：本文和伴随的Python和C++框架是作者感知到的问题与狭窄的（基于歧视的）人工智能的产物。（人工智能）该框架试图通过使用共同的调节/交换值（能量）的潜在结构表达来开发经验的遗传转移，从而创建一个模型，通过遗传和实时信号处理影响，神经结构和所有单元过程相互依赖地共同发展；成功的路径是由每个时期的穗分布的稳定性来定义的，它受遗传编码的形态发育的影响偏见。这些这些原则的目的是建立一个多样化和强大的网络，能够适应一般的任务，通过在一个旨在将学习转移到其他领域的模拟训练规模的媒介。
+<details>	<summary>英文摘要</summary>	This paper and accompanying Python and C++ Framework is the product of the authors perceived problems with narrow (Discrimination based) AI. (Artificial Intelligence) The Framework attempts to develop a genetic transfer of experience through potential structural expressions using a common regulation/exchange value (energy) to create a model whereby neural architecture and all unit processes are co-dependently developed by genetic and real time signal processing influences; successful routes are defined by stability of the spike distribution per epoch which is influenced by genetically encoded morphological development biases.These principles are aimed towards creating a diverse and robust network that is capable of adapting to general tasks by training within a simulation designed for transfer learning to other mediums at scale. </details>
+<details>	<summary>邮件日期</summary>	2021年03月30日</details>
+
 # 84、利用脉冲间隔对脉冲神经网络的直观解释
 - [ ] Visual Explanations from Spiking Neural Networks using Interspike Intervals 
 时间：2021年03月26日                         第一作者：Youngeun Kim                       [链接](https://arxiv.org/abs/2103.14441).                     
