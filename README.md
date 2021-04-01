@@ -1,3 +1,8 @@
+# 88、乘性突触脉冲神经网络的非线性计算
+- [ ] Nonlinear computations in spiking neural networks through multiplicative synapses 
+时间：2021年03月31日                         第一作者：Michele Nardin                       [链接](https://arxiv.org/abs/2009.03857).                     
+<details>	<summary>邮件日期</summary>	2021年04月01日</details>
+
 # 87、在BrainScaleS-2移动系统上演示模拟推理
 - [ ] Demonstrating Analog Inference on the BrainScaleS-2 Mobile System 
 时间：2021年03月29日                         第一作者：Yannik Stradmann                       [链接](https://arxiv.org/abs/2103.15960).                     
