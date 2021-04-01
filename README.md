@@ -1,3 +1,10 @@
+# 87、在BrainScaleS-2移动系统上演示模拟推理
+- [ ] Demonstrating Analog Inference on the BrainScaleS-2 Mobile System 
+时间：2021年03月29日                         第一作者：Yannik Stradmann                       [链接](https://arxiv.org/abs/2103.15960).                     
+## 摘要：我们提出了BrainScaleS-2mobile系统作为一个基于BrainScaleS-2asic的小型模拟推理机，并展示了它在医学心电图数据集分类方面的能力。利用ASIC的模拟网络核心实现了卷积深度神经网络的乘法累加运算。我们测量了ASIC的总能量消耗192uJ，并实现了每个心电图患者样本276us的分类时间。房颤患者在14.0（10%）假阳性时的检出率为93.7%（7%）。该系统具有体积小、功耗高、I/O灵活等优点，可直接应用于边缘推理应用。未来可能的应用还可以在一个BrainScaleS-2asic上，将传统的机器学习层与神经网络的在线学习结合起来。该系统已成功参与德国联邦教育和研究部（BMBF）独立评审的“Pilotinnovationswettbewerb‘Energieeffizientes KI system’”竞赛，并被证明运行可靠。
+<details>	<summary>英文摘要</summary>	We present the BrainScaleS-2 mobile system as a compact analog inference engine based on the BrainScaleS-2 ASIC and demonstrate its capabilities at classifying a medical electrocardiogram dataset. The analog network core of the ASIC is utilized to perform the multiply-accumulate operations of a convolutional deep neural network. We measure a total energy consumption of 192uJ for the ASIC and achieve a classification time of 276us per electrocardiographic patient sample. Patients with atrial fibrillation are correctly identified with a detection rate of 93.7(7)% at 14.0(10)% false positives. The system is directly applicable to edge inference applications due to its small size, power envelope and flexible I/O capabilities. Possible future applications can furthermore combine conventional machine learning layers with online-learning in spiking neural networks on a single BrainScaleS-2 ASIC. The system has successfully participated and proven to operate reliably in the independently judged competition "Pilotinnovationswettbewerb 'Energieeffizientes KI-System'" of the German Federal Ministry of Education and Research (BMBF). </details>
+<details>	<summary>邮件日期</summary>	2021年03月31日</details>
+
 # 86、基于峰值模式识别的蛋白质结构库计算
 - [ ] Protein Structured Reservoir computing for Spike-based Pattern Recognition 
 时间：2021年03月29日                         第一作者：Karolos-Alex                       [链接](https://arxiv.org/abs/2008.03330).                     
