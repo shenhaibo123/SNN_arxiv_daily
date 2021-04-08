@@ -1,3 +1,10 @@
+# 90、基于神经形态立体视觉系统的实时立体深度估计
+- [ ] Instantaneous Stereo Depth Estimation of Real-World Stimuli with a Neuromorphic Stereo-Vision Setup 
+时间：2021年04月06日                         第一作者：Nicoletta Risi                       [链接](https://arxiv.org/abs/2104.02541).                     
+## 摘要：在生物学中，立体匹配问题得到了有效的解决，即在两个不同的视图中匹配相应的特征来重建深度。然而，它仍然是经典机器视觉方法的计算瓶颈。利用事件摄像机的特性，最近提出的立体视觉脉冲神经网络（SNN）结构有可能简化立体匹配问题。一些结合事件摄像机和基于峰值的神经形态处理器的解决方案已经存在。然而，他们要么在数字硬件上模拟，要么在简化的刺激物上测试。在这项工作中，我们使用动态视觉传感器3D人体姿势数据集（DHP19）来验证一个基于大脑启发事件的立体匹配架构，该架构是在一个混合信号神经形态处理器上实现的，并具有真实世界的数据。我们的实验表明，这种由重合检测器和视差敏感神经元组成的SNN结构能够在瞬间提供对输入视差的粗略估计，从而实时检测到深度移动的刺激的存在。
+<details>	<summary>英文摘要</summary>	The stereo-matching problem, i.e., matching corresponding features in two different views to reconstruct depth, is efficiently solved in biology. Yet, it remains the computational bottleneck for classical machine vision approaches. By exploiting the properties of event cameras, recently proposed Spiking Neural Network (SNN) architectures for stereo vision have the potential of simplifying the stereo-matching problem. Several solutions that combine event cameras with spike-based neuromorphic processors already exist. However, they are either simulated on digital hardware or tested on simplified stimuli. In this work, we use the Dynamic Vision Sensor 3D Human Pose Dataset (DHP19) to validate a brain-inspired event-based stereo-matching architecture implemented on a mixed-signal neuromorphic processor with real-world data. Our experiments show that this SNN architecture, composed of coincidence detectors and disparity sensitive neurons, is able to provide a coarse estimate of the input disparity instantaneously, thereby detecting the presence of a stimulus moving in depth in real-time. </details>
+<details>	<summary>邮件日期</summary>	2021年04月07日</details>
+
 # 89、基于神经形态立体视觉系统的实时立体深度估计
 - [ ] Instantaneous Stereo Depth Estimation of Real-World Stimuli with a Neuromorphic Stereo-Vision Setup 
 时间：2021年04月06日                         第一作者：Nicoletta Risi                       [链接](https://arxiv.org/abs/2104.02541).                     
