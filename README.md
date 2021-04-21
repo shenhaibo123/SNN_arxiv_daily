@@ -1,3 +1,16 @@
+# 96、脉冲神经网络无监督模式识别的权值散度易化原理
+- [ ] The principle of weight divergence facilitation for unsupervised pattern recognition in spiking neural networks 
+时间：2021年04月20日                         第一作者：Oleg Nikitin                       [链接](https://arxiv.org/abs/2104.09943).                     
+## 摘要：信号处理任务和生物神经元之间的相似性使我们理解了输入信号识别的自组织优化原理。在本文中，我们讨论了生物系统和技术系统之间的相似性。我们建议在众所周知的STDP突触可塑性规则的基础上，将权值调整指向与背景噪声和相关信号之间的最大差异相关的状态。物理约束的重量增长原理被用作控制重量变化的基础。有人提出，生物突触的直接修饰受到可塑性发育所需的生化物质的存在和产生的限制。本文利用信噪比信息来控制这类物质的产生和储存，并驱动神经元的突触压力达到信噪比最佳的状态。通过几个不同输入信号模式的实验来了解该方法的功能。
+<details>	<summary>英文摘要</summary>	Parallels between the signal processing tasks and biological neurons lead to an understanding of the principles of self-organized optimization of input signal recognition. In the present paper, we discuss such similarities among biological and technical systems. We propose the addition to the well-known STDP synaptic plasticity rule to directs the weight modification towards the state associated with the maximal difference between the background noise and correlated signals. The principle of physically constrained weight growth is used as a basis for such control of the modification of the weights. It is proposed, that biological synaptic straight modification is restricted by the existence and production of bio-chemical 'substances' needed for plasticity development. In this paper, the information about the noise-to-signal ratio is used to control such a substances' production and storage and to drive the neuron's synaptic pressures towards the state with the best signal-to-noise ratio. Several experiments with different input signal regimes are considered to understand the functioning of the proposed approach. </details>
+<details>	<summary>注释</summary>	9 pages, 5 figures, submitted to the conference ICANN 2021 MSC-class: 68T05 ACM-class: I.2.6 </details>
+<details>	<summary>邮件日期</summary>	2021年04月21日</details>
+
+# 95、脉冲神经网络的基本组成模型
+- [ ] A Basic Compositional Model for Spiking Neural Networks 
+时间：2021年04月20日                         第一作者：Nancy Lynch                        [链接](https://arxiv.org/abs/1808.03884).                     
+<details>	<summary>邮件日期</summary>	2021年04月21日</details>
+
 # 94、基于原始语音训练的CNNs中间卷积层解释
 - [ ] Interpreting intermediate convolutional layers of CNNs trained on raw speech 
 时间：2021年04月19日                         第一作者：Ga\v{s}per Begu\v{s}                        [链接](https://arxiv.org/abs/2104.09489).                     
