@@ -1,3 +1,15 @@
+# 124、具有第一脉冲时间的快速节能神经形态深度学习
+- [ ] Fast and energy-efficient neuromorphic deep learning with first-spike times 
+时间：2021年05月17日                         第一作者：Julian G\"oltz                       [链接](https://arxiv.org/abs/1912.11443).                     
+<details>	<summary>注释</summary>	24 pages, 11 figures </details>
+<details>	<summary>邮件日期</summary>	2021年05月18日</details>
+
+# 123、SpikE：基于SpikE的多关系图数据嵌入
+- [ ] SpikE: spike-based embeddings for multi-relational graph data 
+时间：2021年05月17日                         第一作者：Dominik Dold                       [链接](https://arxiv.org/abs/2104.13398).                     
+<details>	<summary>注释</summary>	Accepted for publication at IJCNN 2021 </details>
+<details>	<summary>邮件日期</summary>	2021年05月18日</details>
+
 # 122、基于遗传算法的皮层脉冲神经网络多目标优化
 - [ ] Multi-Objective Optimisation of Cortical Spiking Neural Networks With Genetic Algorithms 
 时间：2021年05月14日                         第一作者：James Fitzgerald                        [链接](https://arxiv.org/abs/2105.06824).                     
