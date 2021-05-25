@@ -1,3 +1,29 @@
+# 128、深度脉冲神经网络的梯度重排剪枝
+- [ ] Pruning of Deep Spiking Neural Networks through Gradient Rewiring 
+时间：2021年05月20日                         第一作者：Yanqi Chen                       [链接](https://arxiv.org/abs/2105.04916).                     
+<details>	<summary>注释</summary>	9 pages, 7 figures, 4 tables. To appear in the 30th International Joint Conference on Artificial Intelligence (IJCAI 2021) </details>
+<details>	<summary>邮件日期</summary>	2021年05月21日</details>
+
+# 127、结合反向传播和STDP的半监督学习：STDP通过反向传播在脉冲神经网络中使用少量的标记数据来增强学习
+- [ ] Semi-supervised learning combining backpropagation and STDP: STDP enhances learning by backpropagation with a small amount of labeled data in a spiking neural network 
+时间：2021年05月19日                         第一作者：Kotaro Furuya                        [链接](https://arxiv.org/abs/2102.10530).                     
+<details>	<summary>注释</summary>	9 pages, 12 figures </details>
+<details>	<summary>邮件日期</summary>	2021年05月20日</details>
+
+# 126、稀疏脉冲梯度下降
+- [ ] Sparse Spiking Gradient Descent 
+时间：2021年05月18日                         第一作者：Nicolas Perez-Nieves                        [链接](https://arxiv.org/abs/2105.08810).                     
+## 摘要：在神经形态计算设备上模拟脉冲神经网络（Spiking Neural Networks，SNNs）由于其能耗低而受到越来越多的关注。最近的进展使得训练snn在精确度方面开始与传统的人工神经网络（ANNs）竞争，同时在神经形态硬件上运行时具有能量效率。然而，训练snn的过程仍然是基于最初为ann开发的稠密张量运算，而ann没有利用snn的时空稀疏性。我们在这里提出了第一个稀疏SNN反向传播算法，该算法实现了与当前最先进的方法相同或更好的精度，同时显著提高了速度和内存效率。我们在不同复杂度的真实数据集（时尚MNIST、神经性MNIST和海德堡数字脉冲）上展示了我们的方法的有效性，实现了高达70倍的向后传递加速，并且在不损失准确度的情况下提高了40%的内存效率。
+<details>	<summary>英文摘要</summary>	There is an increasing interest in emulating Spiking Neural Networks (SNNs) on neuromorphic computing devices due to their low energy consumption. Recent advances have allowed training SNNs to a point where they start to compete with traditional Artificial Neural Networks (ANNs) in terms of accuracy, while at the same time being energy efficient when run on neuromorphic hardware. However, the process of training SNNs is still based on dense tensor operations originally developed for ANNs which do not leverage the spatiotemporally sparse nature of SNNs. We present here the first sparse SNN backpropagation algorithm which achieves the same or better accuracy as current state of the art methods while being significantly faster and more memory efficient. We show the effectiveness of our method on real datasets of varying complexity (Fashion-MNIST, Neuromophic-MNIST and Spiking Heidelberg Digits) achieving a speedup in the backward pass of up to 70x, and 40% more memory efficient, without losing accuracy. </details>
+<details>	<summary>邮件日期</summary>	2021年05月20日</details>
+
+# 125、PLSM：一种用于无意行为检测的并行化液态机
+- [ ] PLSM: A Parallelized Liquid State Machine for Unintentional Action Detection 
+时间：2021年05月06日                         第一作者：Dipayan Das                       [链接](https://arxiv.org/abs/2105.09909).                     
+## 摘要：水库计算（RC）为在低端嵌入式系统平台上部署人工智能算法提供了一个可行的选择。液体状态机（LSM）是一种仿生RC模型，它模拟大脑皮层微电路，使用可直接在神经形态硬件上实现的脉冲神经网络（SNN）。在本文中，我们提出了一种新的并行LSM（PLSM）架构，它结合了时空读出层和模型输出的语义约束。据我们所知，这样一个公式在文献中还是第一次，它提供了一个比传统的深度学习模型计算量更轻的替代方案。此外，我们还提出了一个完整的算法来实现与GPU兼容的可并行snn和lsm。利用Oops数据集实现了PLSM模型对无意/意外视频片段进行分类。从视频中无意行为的检测实验结果可以看出，本文提出的模型优于自监督模型和完全监督的传统深度学习模型。所有实现的代码都可以在我们的存储库中找到https://github.com/anonymoussentience2020/Parallelized_LSM_for_Unintentional_Action_Recognition.
+<details>	<summary>英文摘要</summary>	Reservoir Computing (RC) offers a viable option to deploy AI algorithms on low-end embedded system platforms. Liquid State Machine (LSM) is a bio-inspired RC model that mimics the cortical microcircuits and uses spiking neural networks (SNN) that can be directly realized on neuromorphic hardware. In this paper, we present a novel Parallelized LSM (PLSM) architecture that incorporates spatio-temporal read-out layer and semantic constraints on model output. To the best of our knowledge, such a formulation has been done for the first time in literature, and it offers a computationally lighter alternative to traditional deep-learning models. Additionally, we also present a comprehensive algorithm for the implementation of parallelizable SNNs and LSMs that are GPU-compatible. We implement the PLSM model to classify unintentional/accidental video clips, using the Oops dataset. From the experimental results on detecting unintentional action in video, it can be observed that our proposed model outperforms a self-supervised model and a fully supervised traditional deep learning model. All the implemented codes can be found at our repository https://github.com/anonymoussentience2020/Parallelized_LSM_for_Unintentional_Action_Recognition. </details>
+<details>	<summary>邮件日期</summary>	2021年05月21日</details>
+
 # 124、具有第一脉冲时间的快速节能神经形态深度学习
 - [ ] Fast and energy-efficient neuromorphic deep learning with first-spike times 
 时间：2021年05月17日                         第一作者：Julian G\"oltz                       [链接](https://arxiv.org/abs/1912.11443).                     
