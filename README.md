@@ -1,3 +1,9 @@
+# 177、用于神经形态信息处理的共振隧道二极管纳米光电脉冲节点
+- [ ] Resonant tunnelling diode nano-optoelectronic spiking nodes for neuromorphic information processing 
+时间：2021年07月21日                         第一作者：Mat\v{e}j Hejda                       [链接](https://arxiv.org/abs/2107.06721).                     
+<details>	<summary>注释</summary>	Changed manuscript title to lower-case </details>
+<details>	<summary>邮件日期</summary>	2021年07月22日</details>
+
 # 176、深度神经网络中时间稀疏性的训练，在视频处理中的应用
 - [ ] Training for temporal sparsity in deep neural networks, application in video processing 
 时间：2021年07月15日                         第一作者：Amirreza Yousefzadeh                       [链接](https://arxiv.org/abs/2107.07305).                     
