@@ -1,3 +1,21 @@
+# 211、具有易训练性和鲁棒性的时间编码深脉冲神经网络
+- [ ] Temporal-Coded Deep Spiking Neural Network with Easy Training and Robust Performance 
+时间：2021年09月06日                         第一作者：Shibo Zhou                       [链接](https://arxiv.org/abs/1909.10837).                     
+<details>	<summary>邮件日期</summary>	2021年09月07日</details>
+
+# 210、脉冲神经网络集成
+- [ ] Ensembles of Spiking Neural Networks 
+时间：2021年09月06日                         第一作者：Georgiana Neculae                       [链接](https://arxiv.org/abs/2010.14619).                     
+<details>	<summary>注释</summary>	16 pages, 3 tables, 5 figures MSC-class: 68T07, 62J12 </details>
+<details>	<summary>邮件日期</summary>	2021年09月07日</details>
+
+# 209、用于序列学习的具有改进固有递归动力学的脉冲神经网络
+- [ ] Spiking Neural Networks with Improved Inherent Recurrence Dynamics for Sequential Learning 
+时间：2021年09月04日                         第一作者：Wachirawit Ponghiran                        [链接](https://arxiv.org/abs/2109.01905).                     
+## 摘要：具有泄漏集成和激发（LIF）神经元的脉冲神经网络（SNN）可以以事件驱动的方式运行，并具有随时间保留信息的内部状态，为节能的神经形态计算提供了机会，特别是在边缘设备上。然而，值得注意的是，许多关于SNN的有代表性的工作并没有充分证明其固有的重复性（保留过去信息的膜电位）对于顺序学习的有用性。大多数工作训练SNN识别静态图像通过人工扩展输入表示时间通过率编码。我们证明了SNN可以被训练用于序列任务，并提出了对LIF神经元网络的修改，使内部状态能够学习长序列，并使其固有的重现性能够适应消失梯度问题。然后，我们开发了一个训练方案，用改进的固有递归动力学来训练所提出的SNN。我们的训练方案允许脉冲神经元产生多位输出（与二进制脉冲相反），这有助于缓解脉冲神经元激活函数的导数与用于克服脉冲神经元不可微性的替代导数之间的失配。我们的实验结果表明，在TIMIT和LibriSpeech 100h数据集上提出的SNN体系结构的精度与LSTMs相当（分别在1.10%和0.36%范围内），但参数比LSTMs少2倍。在TIMIT和LibriSpeech 100h数据集上，与GRU相比，稀疏SNN输出还导致乘法运算节省10.13倍和11.14倍，GRU通常被视为LSTM的轻量级替代品。
+<details>	<summary>英文摘要</summary>	Spiking neural networks (SNNs) with leaky integrate and fire (LIF) neurons, can be operated in an event-driven manner and have internal states to retain information over time, providing opportunities for energy-efficient neuromorphic computing, especially on edge devices. Note, however, many representative works on SNNs do not fully demonstrate the usefulness of their inherent recurrence (membrane potentials retaining information about the past) for sequential learning. Most of the works train SNNs to recognize static images by artificially expanded input representation in time through rate coding. We show that SNNs can be trained for sequential tasks and propose modifications to a network of LIF neurons that enable internal states to learn long sequences and make their inherent recurrence resilient to the vanishing gradient problem. We then develop a training scheme to train the proposed SNNs with improved inherent recurrence dynamics. Our training scheme allows spiking neurons to produce multi-bit outputs (as opposed to binary spikes) which help mitigate the mismatch between a derivative of spiking neurons' activation function and a surrogate derivative used to overcome spiking neurons' non-differentiability. Our experimental results indicate that the proposed SNN architecture on TIMIT and LibriSpeech 100h dataset yields accuracy comparable to that of LSTMs (within 1.10% and 0.36%, respectively), but with 2x fewer parameters than LSTMs. The sparse SNN outputs also lead to 10.13x and 11.14x savings in multiplication operations compared to GRUs, which is generally con-sidered as a lightweight alternative to LSTMs, on TIMIT and LibriSpeech 100h datasets, respectively. </details>
+<details>	<summary>邮件日期</summary>	2021年09月07日</details>
+
 # 208、卷积脉冲神经网络中基于脉冲时间位移的误差反向传播
 - [ ] Spike time displacement based error backpropagation in convolutional spiking neural networks 
 时间：2021年08月31日                         第一作者：Maryam Mirsadeghi                       [链接](https://arxiv.org/abs/2108.13621).                     
