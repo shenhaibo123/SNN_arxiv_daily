@@ -1,3 +1,16 @@
+# 218、具有易训练性和鲁棒性的时间编码深脉冲神经网络
+- [ ] Temporal-Coded Deep Spiking Neural Network with Easy Training and Robust Performance 
+时间：2021年09月17日                         第一作者：Shibo Zhou                       [链接](https://arxiv.org/abs/1909.10837).                     
+<details>	<summary>邮件日期</summary>	2021年09月20日</details>
+
+# 217、具有共振和激发神经元的深脉冲神经网络
+- [ ] Deep Spiking Neural Networks with Resonate-and-Fire Neurons 
+时间：2021年09月16日                         第一作者：Badr AlKhamissi                       [链接](https://arxiv.org/abs/2109.08234).                     
+## 摘要：在这项工作中，我们探索了一种新的脉冲神经网络（SNN）公式，其中共振和激发（RAF）神经元（Izhikevich，2001）通过反向传播进行梯度下降训练。RAF-SNN虽然在生物学上更合理，但在不同的网络配置中，使用相似或更少的参数，其性能可与机器学习文献中的传统模型相比或更高。引人注目的是，RAF-SNN在静态和动态条件下，对测试/训练时产生的噪声具有鲁棒性。与MNIST上的CNN相比，我们在测试时显示N（0，0.2）诱导噪声的绝对准确度高出25%。与N-MNIST上的LSTM相比，我们在训练时显示了70%的绝对准确度和20%的诱导噪声。
+<details>	<summary>英文摘要</summary>	In this work, we explore a new Spiking Neural Network (SNN) formulation with Resonate-and-Fire (RAF) neurons (Izhikevich, 2001) trained with gradient descent via back-propagation. The RAF-SNN, while more biologically plausible, achieves performance comparable to or higher than conventional models in the Machine Learning literature across different network configurations, using similar or fewer parameters. Strikingly, the RAF-SNN proves robust against noise induced at testing/training time, under both static and dynamic conditions. Against CNN on MNIST, we show 25% higher absolute accuracy with N(0, 0.2) induced noise at testing time. Against LSTM on N-MNIST, we show 70% higher absolute accuracy with 20% induced noise at training time. </details>
+<details>	<summary>注释</summary>	Preprint </details>
+<details>	<summary>邮件日期</summary>	2021年09月20日</details>
+
 # 216、基于加权神经元分配的脉冲神经网络视觉位置识别
 - [ ] Spiking Neural Networks for Visual Place Recognition via Weighted Neuronal Assignments 
 时间：2021年09月14日                         第一作者：Somayeh Hussaini                       [链接](https://arxiv.org/abs/2109.06452).                     
