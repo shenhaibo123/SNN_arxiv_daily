@@ -1,3 +1,76 @@
+# 234、平衡态隐式微分训练反馈脉冲神经网络
+- [ ] Training Feedback Spiking Neural Networks by Implicit Differentiation on the Equilibrium State 
+时间：2021年09月29日                         第一作者：Mingqing Xiao                       [链接](https://arxiv.org/abs/2109.14247).                     
+## 摘要：脉冲神经网络（SNN）是受大脑启发的模型，能够在神经形态硬件上实现节能。然而，由于脉冲神经元模型的不连续性，SNN的监督训练仍然是一个难题。大多数现有的方法模仿人工神经网络的反向传播框架和前馈结构，并使用替代导数或计算关于脉冲时间的梯度来处理该问题。这些方法要么累积近似误差，要么仅通过现有脉冲有限地传播信息，通常需要信息沿时间步传播，具有较大的内存开销和生物不可信性。在这项工作中，我们考虑反馈脉冲神经网络，这是更像大脑，并提出了一种新的训练方法，不依赖于准确的反向正向计算。首先，我们证明了具有反馈连接的SNN的平均放电速率会随着时间逐渐演化到一个平衡状态，这遵循一个不动点方程。然后，通过将反馈SNN的正向计算视为该方程的黑箱解算器，并利用方程上的隐式微分，我们可以计算参数的梯度，而无需考虑精确的正向过程。这样，前向和后向过程被解耦，从而避免了不可微脉冲函数的问题。我们还简要讨论了内隐分化的生物学合理性，它只需要计算另一个平衡。在MNIST、Fashion MNIST、N-MNIST、CIFAR-10和CIFAR-100上进行的大量实验表明，我们的方法对于在少量时间步长内具有较少神经元和参数的反馈模型具有优越的性能。我们的代码可在https://github.com/pkuxmq/IDE-FSNN.
+<details>	<summary>英文摘要</summary>	Spiking neural networks (SNNs) are brain-inspired models that enable energy-efficient implementation on neuromorphic hardware. However, the supervised training of SNNs remains a hard problem due to the discontinuity of the spiking neuron model. Most existing methods imitate the backpropagation framework and feedforward architectures for artificial neural networks, and use surrogate derivatives or compute gradients with respect to the spiking time to deal with the problem. These approaches either accumulate approximation errors or only propagate information limitedly through existing spikes, and usually require information propagation along time steps with large memory costs and biological implausibility. In this work, we consider feedback spiking neural networks, which are more brain-like, and propose a novel training method that does not rely on the exact reverse of the forward computation. First, we show that the average firing rates of SNNs with feedback connections would gradually evolve to an equilibrium state along time, which follows a fixed-point equation. Then by viewing the forward computation of feedback SNNs as a black-box solver for this equation, and leveraging the implicit differentiation on the equation, we can compute the gradient for parameters without considering the exact forward procedure. In this way, the forward and backward procedures are decoupled and therefore the problem of non-differentiable spiking functions is avoided. We also briefly discuss the biological plausibility of implicit differentiation, which only requires computing another equilibrium. Extensive experiments on MNIST, Fashion-MNIST, N-MNIST, CIFAR-10, and CIFAR-100 demonstrate the superior performance of our method for feedback models with fewer neurons and parameters in a small number of time steps. Our code is avaiable at https://github.com/pkuxmq/IDE-FSNN. </details>
+<details>	<summary>注释</summary>	Accepted by NeurIPS 2021 (Spotlight) </details>
+<details>	<summary>邮件日期</summary>	2021年09月30日</details>
+
+# 233、通过信息瓶颈学习脉冲神经网络的时间解码
+- [ ] Learning to Time-Decode in Spiking Neural Networks Through the Information Bottleneck 
+时间：2021年09月29日                         第一作者：Nicolas Skatchkovsky                       [链接](https://arxiv.org/abs/2106.01177).                     
+<details>	<summary>注释</summary>	Accepted at NeuRIPS 2021 </details>
+<details>	<summary>邮件日期</summary>	2021年09月30日</details>
+
+# 232、利用深度学习的经验教训训练脉冲神经网络
+- [ ] Training Spiking Neural Networks Using Lessons From Deep Learning 
+时间：2021年09月29日                         第一作者：Jason K. Eshraghian                        [链接](https://arxiv.org/abs/2109.12894).                     
+<details>	<summary>邮件日期</summary>	2021年09月30日</details>
+
+# 231、立体画：用脉冲神经网络进行深度学习
+- [ ] StereoSpike: Depth Learning with a Spiking Neural Network 
+时间：2021年09月28日                         第一作者：Ulysse Ran\c{c}on                       [链接](https://arxiv.org/abs/2109.13751).                     
+## 摘要：深度估计是一项重要的计算机视觉任务，特别适用于自动驾驶车辆的导航或机器人的目标操纵。在这里，我们使用端到端的神经形态方法解决了这个问题，将两个基于事件的摄像头和一个脉冲神经网络（SNN）与一个稍加修改的类似U网络的编码器-解码器架构相结合，我们将其命名为立体派克。更具体地说，我们使用了多车辆立体事件摄影机数据集（MVSEC）。它提供了一个深度-地面真实值，用于使用代理梯度下降以有监督的方式训练立体派克。我们提出了一种新的读出模式，从解码器的峰值中获得密集的模拟预测——每个像素的深度。我们证明了该体系结构的通用性非常好，甚至比其非脉冲对应结构更好，从而实现了最先进的测试精度。据我们所知，这是第一次用完全脉冲网络解决如此大规模的回归问题。最后，我们证明了通过正则化可以获得低的发射率（<10%），并且在精度上的代价最小。这意味着可以在神经形态芯片上高效地实现立体派克，为低功耗和实时嵌入式系统打开了大门。
+<details>	<summary>英文摘要</summary>	Depth estimation is an important computer vision task, useful in particular for navigation in autonomous vehicles, or for object manipulation in robotics. Here we solved it using an end-to-end neuromorphic approach, combining two event-based cameras and a Spiking Neural Network (SNN) with a slightly modified U-Net-like encoder-decoder architecture, that we named StereoSpike. More specifically, we used the Multi Vehicle Stereo Event Camera Dataset (MVSEC). It provides a depth ground-truth, which was used to train StereoSpike in a supervised manner, using surrogate gradient descent. We propose a novel readout paradigm to obtain a dense analog prediction -- the depth of each pixel -- from the spikes of the decoder. We demonstrate that this architecture generalizes very well, even better than its non-spiking counterparts, leading to state-of-the-art test accuracy. To the best of our knowledge, it is the first time that such a large-scale regression problem is solved by a fully spiking network. Finally, we show that low firing rates (<10%) can be obtained via regularization, with a minimal cost in accuracy. This means that StereoSpike could be efficiently implemented on neuromorphic chips, opening the door for low power and real time embedded systems. </details>
+<details>	<summary>邮件日期</summary>	2021年09月29日</details>
+
+# 230、深相量网络：连接传统神经网络和脉冲神经网络
+- [ ] Deep Phasor Networks: Connecting Conventional and Spiking Neural Networks 
+时间：2021年09月28日                         第一作者：Wilkie Olin-Ammentorp                       [链接](https://arxiv.org/abs/2106.11908).                     
+<details>	<summary>注释</summary>	24 pages, 8 figures </details>
+<details>	<summary>邮件日期</summary>	2021年09月29日</details>
+
+# 229、一种优化的无梯度深脉冲神经网络结构
+- [ ] An optimised deep spiking neural network architecture without gradients 
+时间：2021年09月27日                         第一作者：Yeshwanth Bethi                       [链接](https://arxiv.org/abs/2109.12813).                     
+## 摘要：我们提出了一种端到端可训练的模块化事件驱动神经结构，该结构使用局部突触和阈值适应规则来执行任意时空脉冲模式之间的转换。该体系结构代表了现有脉冲神经网络（SNN）体系结构的高度抽象模型。所提出的优化深度事件驱动脉冲神经网络结构（ODSA）可以同时学习多个任意时间尺度的分层时空特征。ODSA在不使用误差反向传播或梯度计算的情况下执行在线学习。通过在每个节点上使用简单的局部自适应选择阈值，网络可以快速学习在每一层为任何给定问题适当分配其神经元资源，而无需使用实值误差度量。这些自适应选择阈值是ODSA的核心特征，确保了网络的稳定性和对噪声以及初始系统参数选择的显著鲁棒性。由于每一层的硬赢家通吃（WTA）约束，网络激活本质上是稀疏的。我们评估了现有时空数据集的体系结构，包括spike编码的IRIS和TIDIGITS数据集，以及基于我们创建的国际莫尔斯电码的一组新任务。这些测试证明了ODSA的分层时空学习能力。通过这些测试，我们证明了ODSA能够以尽可能少的计算节点数最优地解决实际且极具挑战性的分层时空学习任务。
+<details>	<summary>英文摘要</summary>	We present an end-to-end trainable modular event-driven neural architecture that uses local synaptic and threshold adaptation rules to perform transformations between arbitrary spatio-temporal spike patterns. The architecture represents a highly abstracted model of existing Spiking Neural Network (SNN) architectures. The proposed Optimized Deep Event-driven Spiking neural network Architecture (ODESA) can simultaneously learn hierarchical spatio-temporal features at multiple arbitrary time scales. ODESA performs online learning without the use of error back-propagation or the calculation of gradients. Through the use of simple local adaptive selection thresholds at each node, the network rapidly learns to appropriately allocate its neuronal resources at each layer for any given problem without using a real-valued error measure. These adaptive selection thresholds are the central feature of ODESA, ensuring network stability and remarkable robustness to noise as well as to the selection of initial system parameters. Network activations are inherently sparse due to a hard Winner-Take-All (WTA) constraint at each layer. We evaluate the architecture on existing spatio-temporal datasets, including the spike-encoded IRIS and TIDIGITS datasets, as well as a novel set of tasks based on International Morse Code that we created. These tests demonstrate the hierarchical spatio-temporal learning capabilities of ODESA. Through these tests, we demonstrate ODESA can optimally solve practical and highly challenging hierarchical spatio-temporal learning tasks with the minimum possible number of computing nodes. </details>
+<details>	<summary>注释</summary>	18 pages, 6 figures ACM-class: I.2.6; I.5.1 </details>
+<details>	<summary>邮件日期</summary>	2021年09月28日</details>
+
+# 228、利用深度学习的经验教训训练脉冲神经网络
+- [ ] Training Spiking Neural Networks Using Lessons From Deep Learning 
+时间：2021年09月27日                         第一作者：Jason K. Eshraghian                        [链接](https://arxiv.org/abs/2109.12894).                     
+## 摘要：大脑是寻找灵感以开发更高效的神经网络的完美场所。我们的突触和神经元的内部运作让我们得以窥见深度学习的未来。本文展示了如何将几十年来在深度学习、梯度下降、反向传播和神经科学方面的研究成果应用于生物学上合理的脉冲神经网络。本文探讨了将数据编码为脉冲与学习过程之间微妙的相互作用；将梯度学习应用于脉冲神经网络的挑战和解决方案；时间反向传播和脉冲时间依赖性可塑性之间的微妙联系，以及深度学习如何向生物学上合理的在线学习发展。一些想法在神经形态工程界被广泛接受和使用，而另一些想法在这里首次被提出或证明是正确的。
+<details>	<summary>英文摘要</summary>	The brain is the perfect place to look for inspiration to develop more efficient neural networks. The inner workings of our synapses and neurons provide a glimpse at what the future of deep learning might look like. This paper shows how to apply the lessons learnt from several decades of research in deep learning, gradient descent, backpropagation and neuroscience to biologically plausible spiking neural neural networks. This paper explores the delicate interplay between encoding data as spikes and the learning process; the challenges and solutions of applying gradient-based learning to spiking neural networks; the subtle link between temporal backpropagation and spike timing dependent plasticity, and how deep learning might move towards biologically plausible online learning. Some ideas are well accepted and commonly used amongst the neuromorphic engineering community, while others are presented or justified for the first time here. </details>
+<details>	<summary>邮件日期</summary>	2021年09月28日</details>
+
+# 227、基于代理的脉冲神经网络训练
+- [ ] Spiking neural networks trained via proxy 
+时间：2021年09月27日                         第一作者：Saeed Reza Kheradpisheh                       [链接](https://arxiv.org/abs/2109.13208).                     
+## 摘要：我们提出了一种新的学习算法来训练以传统人工神经网络（ANN）为代理的脉冲神经网络（SNN）。我们分别耦合了两个SNN和ANN网络，这两个网络由具有相同网络结构和共享突触权重的Integrated and fire（IF）和ReLU神经元组成。两个网络的前向传递是完全独立的。通过假设带有速率编码的IF神经元作为ReLU的近似值，我们在代理ANN中反向传播SNN的错误以更新共享权重，只需将ANN的最终输出替换为SNN的最终输出。我们将提出的代理学习应用于深度卷积SNN，并在Fahion MNIST和Cifar10两个基准数据集上对其进行评估，分类准确率分别为94.56%和93.11%。所提出的网络可以优于其他通过串联学习、替代梯度学习或从深度ANN转换而来的深度SNN。转换后的SNN需要很长的模拟时间才能达到合理的精度，而我们的代理学习可以使有效的SNN具有更短的模拟时间。
+<details>	<summary>英文摘要</summary>	We propose a new learning algorithm to train spiking neural networks (SNN) using conventional artificial neural networks (ANN) as proxy. We couple two SNN and ANN networks, respectively, made of integrate-and-fire (IF) and ReLU neurons with the same network architectures and shared synaptic weights. The forward passes of the two networks are totally independent. By assuming IF neuron with rate-coding as an approximation of ReLU, we backpropagate the error of the SNN in the proxy ANN to update the shared weights, simply by replacing the ANN final output with that of the SNN. We applied the proposed proxy learning to deep convolutional SNNs and evaluated it on two benchmarked datasets of Fahion-MNIST and Cifar10 with 94.56% and 93.11% classification accuracy, respectively. The proposed networks could outperform other deep SNNs trained with tandem learning, surrogate gradient learning, or converted from deep ANNs. Converted SNNs require long simulation times to reach reasonable accuracies while our proxy learning leads to efficient SNNs with much shorter simulation times. </details>
+<details>	<summary>邮件日期</summary>	2021年09月28日</details>
+
+# 226、Brian2Loihi：神经形态芯片Loihi的仿真器，使用脉冲神经网络仿真器Brian
+- [ ] Brian2Loihi: An emulator for the neuromorphic chip Loihi using the spiking neural network simulator Brian 
+时间：2021年09月25日                         第一作者：Carlo Michaelis                       [链接](https://arxiv.org/abs/2109.12308).                     
+## 摘要：开发智能神经形态解决方案仍然是一项具有挑战性的工作。它需要对硬件的基本构建块有坚实的概念性理解。除此之外，可访问且用户友好的原型设计对于加快设计流程至关重要。我们开发了一个基于神经网络模拟器Brian的开源Loihi模拟器，该模拟器可以很容易地整合到现有的仿真工作流中。我们在软件中演示了单个神经元和循环连接的脉冲神经网络的无错误Loihi仿真。片上学习也进行了审查和实施，由于随机舍入，存在合理的差异。这项工作对Loihi的计算单元进行了连贯的介绍，并介绍了一个新的、易于使用的Loihi原型软件包，旨在帮助简化新算法的概念化和部署。
+<details>	<summary>英文摘要</summary>	Developing intelligent neuromorphic solutions remains a challenging endeavour. It requires a solid conceptual understanding of the hardware's fundamental building blocks. Beyond this, accessible and user-friendly prototyping is crucial to speed up the design pipeline. We developed an open source Loihi emulator based on the neural network simulator Brian that can easily be incorporated into existing simulation workflows. We demonstrate errorless Loihi emulation in software for a single neuron and for a recurrently connected spiking neural network. On-chip learning is also reviewed and implemented, with reasonable discrepancy due to stochastic rounding. This work provides a coherent presentation of Loihi's computational unit and introduces a new, easy-to-use Loihi prototyping package with the aim to help streamline conceptualisation and deployment of new algorithms. </details>
+<details>	<summary>邮件日期</summary>	2021年09月28日</details>
+
+# 225、具有相变记忆突触的脉冲递归神经网络的在线训练
+- [ ] Online Training of Spiking Recurrent Neural Networks with Phase-Change Memory Synapses 
+时间：2021年09月25日                         第一作者：Yigit Demirag                       [链接](https://arxiv.org/abs/2108.01804).                     
+<details>	<summary>邮件日期</summary>	2021年09月28日</details>
+
+# 224、最大化相互信息的感知系统的生物学上合理的学习规则
+- [ ] Biologically Plausible Learning Rules for Perceptual Systems that Maximize Mutual Information 
+时间：2021年09月07日                         第一作者：Tao Liu                       [链接](https://arxiv.org/abs/2109.13102).                     
+## 摘要：人们普遍认为，生物体的感知系统是针对其所处环境的特性而优化的。这一原理的一个具体例子称为Infomax原理，认为早期感知处理的目的是最大化神经编码和传入感觉信号之间的互信息。在本文中，我们展示了一个利用时空局部、基于脉冲和连续时间学习规则精确实现这一原理的模型。
+<details>	<summary>英文摘要</summary>	It is widely believed that the perceptual system of an organism is optimized for the properties of the environment to which it is exposed. A specific instance of this principle known as the Infomax principle holds that the purpose of early perceptual processing is to maximize the mutual information between the neural coding and the incoming sensory signal. In this article, we show a model to implement this principle accurately with spatio-temporal local, spike-based, and continuous-time learning rules. </details>
+<details>	<summary>邮件日期</summary>	2021年09月28日</details>
+
 # 223、通过正则化训练无神经元破裂或死亡的深脉冲自动编码器
 - [ ] Training Deep Spiking Auto-encoders without Bursting or Dying Neurons through Regularization 
 时间：2021年09月22日                         第一作者：Justus F. H\"ubotter                       [链接](https://arxiv.org/abs/2109.11045).                     
