@@ -1,3 +1,29 @@
+# 276、Spiking CapsNet：一种在胶囊之间具有生物学上合理的路由规则的Spiking神经网络
+- [ ] Spiking CapsNet: A Spiking Neural Network With A Biologically Plausible Routing Rule Between Capsules 
+时间：2021年11月15日                         第一作者：Dongcheng Zhao                       [链接](https://arxiv.org/abs/2111.07785).                     
+## 摘要：脉冲神经网络（SNN）以其强大的时空信息表示能力而备受关注。胶囊神经网络（CapsNet）在不同层次上具有良好的组装和耦合特性。在这里，我们通过将胶囊引入到脉冲神经网络的建模中，提出了脉冲CapsNet。此外，我们还提出了一种更具生物学意义的依赖于脉冲时间的可塑性路由机制。通过充分考虑低电平脉冲胶囊和高电平脉冲胶囊之间的时空关系，进一步提高了它们之间的耦合能力。我们已经在MNIST和FashionMNIST数据集上验证了实验。与其他优秀的SNN模型相比，我们的算法仍然具有较高的性能。我们的脉冲CapsNet充分结合了SNN和CapsNet的优点，对噪声和仿射变换具有很强的鲁棒性。通过向测试数据集添加不同的椒盐噪声和高斯噪声，实验结果表明，当噪声较大时，我们的峰值CapsNet表现出更稳健的性能，而人工神经网络不能正确地进行澄清。此外，我们的脉冲CapsNet对AffNIST数据集上的仿射变换具有很强的泛化能力。
+<details>	<summary>英文摘要</summary>	Spiking neural network (SNN) has attracted much attention due to their powerful spatio-temporal information representation ability. Capsule Neural Network (CapsNet) does well in assembling and coupling features at different levels. Here, we propose Spiking CapsNet by introducing the capsules into the modelling of spiking neural networks. In addition, we propose a more biologically plausible Spike Timing Dependent Plasticity routing mechanism. By fully considering the spatio-temporal relationship between the low-level spiking capsules and the high-level spiking capsules, the coupling ability between them is further improved. We have verified experiments on the MNIST and FashionMNIST datasets. Compared with other excellent SNN models, our algorithm still achieves high performance. Our Spiking CapsNet fully combines the strengthens of SNN and CapsNet, and shows strong robustness to noise and affine transformation. By adding different Salt-Pepper and Gaussian noise to the test dataset, the experimental results demonstrate that our Spiking CapsNet shows a more robust performance when there is more noise, while the artificial neural network can not correctly clarify. As well, our Spiking CapsNet shows strong generalization to affine transformation on the AffNIST dataset. </details>
+<details>	<summary>邮件日期</summary>	2021年11月16日</details>
+
+# 275、非监督学习优化的脉冲神经元突触可塑性模型
+- [ ] A Spiking Neuron Synaptic Plasticity Model Optimized for Unsupervised Learning 
+时间：2021年11月12日                         第一作者：Mikhail Kiselev                       [链接](https://arxiv.org/abs/2111.06768).                     
+## 摘要：脉冲神经网络（SNN）被认为是执行各种学习任务（无监督、有监督和强化学习）的基础。SNN中的学习是通过突触可塑性实现的，突触可塑性规则决定突触重量的动态，通常取决于突触前和突触后神经元的活动。不同学习机制的多样性假设不同形式的突触可塑性可能对无监督和有监督学习最有效，因为在活体神经元中观察到，与基本的棘波时间依赖可塑性（STDP）模型存在多种偏差。在本论文中，我们制定了无监督学习问题对塑性规则的具体要求，并构建了一个新的塑性模型来推广STDP并满足这些要求。这种可塑性模型是本文提出的一种新的监督学习算法SCoBUL（Spike-Correlation-Based Unsupervised learning）的主要逻辑组成部分。我们还提供了计算机模拟实验的结果，证实了这些突触可塑性规则和SCoBUL算法的有效性。
+<details>	<summary>英文摘要</summary>	Spiking neural networks (SNN) are considered as a perspective basis for performing all kinds of learning tasks - unsupervised, supervised and reinforcement learning. Learning in SNN is implemented through synaptic plasticity - the rules which determine dynamics of synaptic weights depending usually on activity of the pre- and post-synaptic neurons. Diversity of various learning regimes assumes that different forms of synaptic plasticity may be most efficient for, for example, unsupervised and supervised learning, as it is observed in living neurons demonstrating many kinds of deviations from the basic spike timing dependent plasticity (STDP) model. In the present paper, we formulate specific requirements to plasticity rules imposed by unsupervised learning problems and construct a novel plasticity model generalizing STDP and satisfying these requirements. This plasticity model serves as main logical component of the novel supervised learning algorithm called SCoBUL (Spike Correlation Based Unsupervised Learning) proposed in this work. We also present the results of computer simulation experiments confirming efficiency of these synaptic plasticity rules and the algorithm SCoBUL. </details>
+<details>	<summary>邮件日期</summary>	2021年11月15日</details>
+
+# 274、基于STDP的事件数据无监督Spiking实例分割
+- [ ] Unsupervised Spiking Instance Segmentation on Event Data using STDP 
+时间：2021年11月12日                         第一作者：Paul Kirkl                       [链接](https://arxiv.org/abs/2111.05283).                     
+<details>	<summary>注释</summary>	20 Pages, 13 Figures </details>
+<details>	<summary>邮件日期</summary>	2021年11月15日</details>
+
+# 273、利用剩余脉冲神经网络进行精确特征提取的关键
+- [ ] Keys to Accurate Feature Extraction Using Residual Spiking Neural Networks 
+时间：2021年11月12日                         第一作者：Alex Vicente-Sola                       [链接](https://arxiv.org/abs/2111.05955).                     
+<details>	<summary>注释</summary>	13 pages, 5 figures, 14 tables ACM-class: I.2.6; I.2.10; I.4.8; I.5.2; D.2.13 </details>
+<details>	<summary>邮件日期</summary>	2021年11月15日</details>
+
 # 272、利用剩余脉冲神经网络进行精确特征提取的关键
 - [ ] Keys to Accurate Feature Extraction Using Residual Spiking Neural Networks 
 时间：2021年11月10日                         第一作者：Alex Vicente-Sola (1)                       [链接](https://arxiv.org/abs/2111.05955).                     
