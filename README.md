@@ -1,3 +1,51 @@
+# 283、通过乘法突触的脉冲神经网络的非线性计算
+- [ ] Nonlinear computations in spiking neural networks through multiplicative synapses 
+时间：2021年11月22日                         第一作者：Michele Nardin                       [链接](https://arxiv.org/abs/2009.03857).                     
+<details>	<summary>注释</summary>	This article has been peer-reviewed and recommended by Peer Community In Neuroscience Journal-ref: Peer Community In Neuroscience, 2021 DOI: 10.24072/pci.cneuro.100003 </details>
+<details>	<summary>邮件日期</summary>	2021年11月23日</details>
+
+# 282、E3NE：一种在FPGA上使用新兴神经编码加速脉冲神经网络的端到端框架
+- [ ] E3NE: An End-to-End Framework for Accelerating Spiking Neural Networks with Emerging Neural Encoding on FPGAs 
+时间：2021年11月19日                         第一作者：Daniel Gerlinghoff                       [链接](https://arxiv.org/abs/2111.10027).                     
+## 摘要：编译器框架对于广泛使用基于FPGA的深度学习加速器至关重要。它们允许不熟悉硬件工程的研究人员和开发人员利用特定领域逻辑所获得的性能。传统的人工神经网络有多种框架。然而，没有太多的研究投入到为脉冲神经网络（SNN）优化的框架的创建上。这种新一代的神经网络对于在边缘设备上部署AI变得越来越有趣，因为边缘设备具有很强的功率和资源约束。我们的端到端框架E3NE自动化了FPGA高效SNN推理逻辑的生成。基于PyTorch模型和用户参数，它应用各种优化并评估基于spike加速器固有的权衡。多层次的并行性和新兴神经编码方案的使用使得效率优于以前的SNN硬件实现。对于类似型号，E3NE使用的硬件资源不到50%，功耗减少20%，同时将延迟降低了一个数量级。此外，可伸缩性和通用性允许部署大规模SNN模型AlexNet和VGG。
+<details>	<summary>英文摘要</summary>	Compiler frameworks are crucial for the widespread use of FPGA-based deep learning accelerators. They allow researchers and developers, who are not familiar with hardware engineering, to harness the performance attained by domain-specific logic. There exists a variety of frameworks for conventional artificial neural networks. However, not much research effort has been put into the creation of frameworks optimized for spiking neural networks (SNNs). This new generation of neural networks becomes increasingly interesting for the deployment of AI on edge devices, which have tight power and resource constraints. Our end-to-end framework E3NE automates the generation of efficient SNN inference logic for FPGAs. Based on a PyTorch model and user parameters, it applies various optimizations and assesses trade-offs inherent to spike-based accelerators. Multiple levels of parallelism and the use of an emerging neural encoding scheme result in an efficiency superior to previous SNN hardware implementations. For a similar model, E3NE uses less than 50% of hardware resources and 20% less power, while reducing the latency by an order of magnitude. Furthermore, scalability and generality allowed the deployment of the large-scale SNN models AlexNet and VGG. </details>
+<details>	<summary>注释</summary>	Accepted by IEEE Transactions on Parallel and Distributed Systems </details>
+<details>	<summary>邮件日期</summary>	2021年11月22日</details>
+
+# 281、用于神经形态信息处理的共振隧穿二极管纳米光电脉冲节点
+- [ ] Resonant tunnelling diode nano-optoelectronic spiking nodes for neuromorphic information processing 
+时间：2021年11月19日                         第一作者：Mat\v{e}j Hejda                       [链接](https://arxiv.org/abs/2107.06721).                     
+<details>	<summary>注释</summary>	Updated with feedback from first round of reviews. Updated figure with 3D model </details>
+<details>	<summary>邮件日期</summary>	2021年11月22日</details>
+
+# 280、用局部规则训练的脉冲网络的连续学习
+- [ ] Continuous learning of spiking networks trained with local rules 
+时间：2021年11月18日                         第一作者：Dmitry Antonov                       [链接](https://arxiv.org/abs/2111.09553).                     
+## 摘要：人工神经网络（ANN）在顺序学习过程中会经历灾难性遗忘（CF）。相反，大脑可以持续学习，而不会出现任何灾难性遗忘的迹象。脉冲神经网络（SNN）是下一代人工神经网络，它借鉴了生物神经网络的许多特性。因此，SNN有可能更好地抵抗CF。在本文中，我们研究了SNN对CF的易感性，并测试了几种受生物学启发的缓解灾难性遗忘的方法。SNN的训练采用基于脉冲时间依赖性可塑性（STDP）的生物学上合理的局部训练规则。当地培训禁止直接使用基于全局损失函数梯度的CF预防方法。我们开发并测试了基于随机朗之万动力学确定突触重要性（权重）的方法，无需梯度。此外，还测试了其他几种模拟神经网络的灾难性遗忘预防方法。这些实验是在SpykeTorch环境中的免费数据集上进行的。
+<details>	<summary>英文摘要</summary>	Artificial neural networks (ANNs) experience catastrophic forgetting (CF) during sequential learning. In contrast, the brain can learn continuously without any signs of catastrophic forgetting. Spiking neural networks (SNNs) are the next generation of ANNs with many features borrowed from biological neural networks. Thus, SNNs potentially promise better resilience to CF. In this paper, we study the susceptibility of SNNs to CF and test several biologically inspired methods for mitigating catastrophic forgetting. SNNs are trained with biologically plausible local training rules based on spike-timing-dependent plasticity (STDP). Local training prohibits the direct use of CF prevention methods based on gradients of a global loss function. We developed and tested the method to determine the importance of synapses (weights) based on stochastic Langevin dynamics without the need for the gradients. Several other methods of catastrophic forgetting prevention adapted from analog neural networks were tested as well. The experiments were performed on freely available datasets in the SpykeTorch environment. </details>
+<details>	<summary>注释</summary>	25 pages </details>
+<details>	<summary>邮件日期</summary>	2021年11月19日</details>
+
+# 279、转换脉冲神经网络的L4范数权重调整
+- [ ] L4-Norm Weight Adjustments for Converted Spiking Neural Networks 
+时间：2021年11月17日                         第一作者：Jason Allred                       [链接](https://arxiv.org/abs/2111.09446).                     
+## 摘要：由于稀疏的、事件驱动的计算，脉冲神经网络（SNN）因其潜在的能源效率优势正在被探索。非脉冲人工神经网络通常采用反向传播的随机梯度下降法进行训练。脉冲神经元的不可微放电事件阻碍了反向传播真实梯度的计算。另一方面，使用近似梯度是有效的，但在许多时间步长上计算成本很高。因此，训练脉冲神经网络的一种常用技术是训练拓扑等价的非脉冲网络，然后将其转换为脉冲网络，用比例速率编码的泊松脉冲序列替换实值输入。转换后的SNN功能足够好，因为脉冲神经元的平均预放电膜电位与输入速率向量和神经元权重向量的点积成正比，类似于非脉冲网络的功能。然而，这种转换只考虑膜电位的平均值，而不考虑膜电位的时间变化。由于预放电膜电位的标准偏差与神经元权重向量的L4范数成正比，我们在转换过程中提出了基于L4范数的权重调整，以提高转换网络的分类精度。
+<details>	<summary>英文摘要</summary>	Spiking Neural Networks (SNNs) are being explored for their potential energy efficiency benefits due to sparse, event-driven computation. Non-spiking artificial neural networks are typically trained with stochastic gradient descent using backpropagation. The calculation of true gradients for backpropagation in spiking neural networks is impeded by the non-differentiable firing events of spiking neurons. On the other hand, using approximate gradients is effective, but computationally expensive over many time steps. One common technique, then, for training a spiking neural network is to train a topologically-equivalent non-spiking network, and then convert it to an spiking network, replacing real-valued inputs with proportionally rate-encoded Poisson spike trains. Converted SNNs function sufficiently well because the mean pre-firing membrane potential of a spiking neuron is proportional to the dot product of the input rate vector and the neuron weight vector, similar to the functionality of a non-spiking network. However, this conversion only considers the mean and not the temporal variance of the membrane potential. As the standard deviation of the pre-firing membrane potential is proportional to the L4-norm of the neuron weight vector, we propose a weight adjustment based on the L4-norm during the conversion process in order to improve classification accuracy of the converted network. </details>
+<details>	<summary>邮件日期</summary>	2021年11月19日</details>
+
+# 278、量子叠加激励的脉冲神经网络
+- [ ] Quantum Superposition Inspired Spiking Neural Network 
+时间：2021年11月17日                         第一作者：Yinqian Sun                       [链接](https://arxiv.org/abs/2010.12197).                     
+<details>	<summary>邮件日期</summary>	2021年11月18日</details>
+
+# 277、从卷积到脉冲：社区目前忽略的环境指标
+- [ ] From Convolutions towards Spikes: The Environmental Metric that the Community currently Misses 
+时间：2021年11月16日                         第一作者：Aviral Chharia                       [链接](https://arxiv.org/abs/2111.08361).                     
+## 摘要：如今，人工智能社区痴迷于将“最先进的”分数（80%的论文在NeurIPS中）作为主要的性能指标，因此一个重要参数，即环境指标，仍然没有报告。十年前，计算能力是一个限制因素；然而，在可预见的未来环境中，挑战将是开发环境友好且节能的算法。人类的大脑已经自我优化了将近一百万年，消耗的能量与典型的笔记本电脑一样。因此，开发受自然启发的算法是一种解决方案。在这项研究中，我们发现目前使用的人工神经网络并不是我们在自然界中发现的，这也是为什么尽管性能较低，但反映哺乳动物视觉皮层的脉冲神经网络却吸引了很多人的兴趣。我们进一步强调限制研究人员使用基于峰值的计算大规模开发神经形态节能微芯片的硬件缺口。使用神经形态处理器代替传统的GPU可能更环保、更高效。这些处理器将使SNN成为解决该问题的理想方案。本文对当前的差距、比较研究的缺乏进行了深入的关注，同时在神经科学和深度学习这两个领域的交叉点提出了新的研究方向。此外，我们定义了一个新的评估指标“自然”，用于报告人工智能模型的碳足迹。
+<details>	<summary>英文摘要</summary>	Today, the AI community is obsessed with 'state-of-the-art' scores (80% papers in NeurIPS) as the major performance metrics, due to which an important parameter, i.e., the environmental metric, remains unreported. Computational capabilities were a limiting factor a decade ago; however, in foreseeable future circumstances, the challenge will be to develop environment-friendly and power-efficient algorithms. The human brain, which has been optimizing itself for almost a million years, consumes the same amount of power as a typical laptop. Therefore, developing nature-inspired algorithms is one solution to it. In this study, we show that currently used ANNs are not what we find in nature, and why, although having lower performance, spiking neural networks, which mirror the mammalian visual cortex, have attracted much interest. We further highlight the hardware gaps restricting the researchers from using spike-based computation for developing neuromorphic energy-efficient microchips on a large scale. Using neuromorphic processors instead of traditional GPUs might be more environment friendly and efficient. These processors will turn SNNs into an ideal solution for the problem. This paper presents in-depth attention highlighting the current gaps, the lack of comparative research, while proposing new research directions at the intersection of two fields -- neuroscience and deep learning. Further, we define a new evaluation metric 'NATURE' for reporting the carbon footprint of AI models. </details>
+<details>	<summary>注释</summary>	NeurIPS 2021 Human-Centered AI Workshop </details>
+<details>	<summary>邮件日期</summary>	2021年11月17日</details>
+
 # 276、Spiking CapsNet：一种在胶囊之间具有生物学上合理的路由规则的Spiking神经网络
 - [ ] Spiking CapsNet: A Spiking Neural Network With A Biologically Plausible Routing Rule Between Capsules 
 时间：2021年11月15日                         第一作者：Dongcheng Zhao                       [链接](https://arxiv.org/abs/2111.07785).                     
