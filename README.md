@@ -1,3 +1,62 @@
+# 292、PrivateSNN：保护隐私的脉冲神经网络
+- [ ] PrivateSNN: Privacy-Preserving Spiking Neural Networks 
+时间：2021年12月02日                         第一作者：Youngeun Kim                       [链接](https://arxiv.org/abs/2104.03414).                     
+<details>	<summary>注释</summary>	Accepted to AAAI2022 </details>
+<details>	<summary>邮件日期</summary>	2021年12月03日</details>
+
+# 291、立体画：用脉冲神经网络进行深度学习
+- [ ] StereoSpike: Depth Learning with a Spiking Neural Network 
+时间：2021年11月25日                         第一作者：Ulysse Ran\c{c}on                       [链接](https://arxiv.org/abs/2109.13751).                     
+<details>	<summary>邮件日期</summary>	2021年11月29日</details>
+
+# 290、脉冲神经形态硬件上量子基态的变分学习
+- [ ] Variational learning of quantum ground states on spiking neuromorphic hardware 
+时间：2021年11月25日                         第一作者：Robert Klassert                       [链接](https://arxiv.org/abs/2109.15169).                     
+<details>	<summary>注释</summary>	14 pages, 7 figures </details>
+<details>	<summary>邮件日期</summary>	2021年11月29日</details>
+
+# 289、基于信息瓶颈的Hebbian学习规则自然地将工作记忆和突触更新联系起来
+- [ ] Information Bottleneck-Based Hebbian Learning Rule Naturally Ties Working Memory and Synaptic Updates 
+时间：2021年11月24日                         第一作者：Kyle Daruwalla                        [链接](https://arxiv.org/abs/2111.13187).                     
+## 摘要：人工神经网络通过反向传播训练极深的网络，成功地解决了各种各样的问题。反向传播直接应用于脉冲神经网络包含生物学上不可信的成分，如权重传递问题或独立的推理和学习阶段。各种方法分别处理不同的组件，但完整的解决方案仍然是无形的。这里，我们采用另一种方法，完全避免反向传播及其相关问题。最近在深度学习方面的工作建议通过信息瓶颈（IB）对网络的每一层进行独立培训。随后的研究指出，这种分层方法避免了错误在各层之间的传播，从而形成了一种生物学上合理的范式。不幸的是，IB是使用一批样本计算的。之前的工作通过仅使用两个样本（当前和以前的样本）的权重更新解决了这一问题。我们的工作采用不同的方法，将权重更新分解为局部和全局组件。局部分量是Hebbian分量，仅取决于当前样本。全局分量根据一批样本计算分层调制信号。我们证明了这种调制信号可以通过一个像储存器一样具有工作记忆（WM）的辅助电路来学习。因此，我们可以使用大于两个的批量大小，批量大小决定了WM所需的容量。据我们所知，我们的规则是第一个生物学上合理的机制，直接将突触更新与任务的WM相结合。我们在合成数据集和图像分类数据集（如MNIST）上评估了我们的规则，并探讨了WM能力对学习绩效的影响。我们希望我们的工作是理解记忆在学习中的机制作用的第一步。
+<details>	<summary>英文摘要</summary>	Artificial neural networks have successfully tackled a large variety of problems by training extremely deep networks via back-propagation. A direct application of back-propagation to spiking neural networks contains biologically implausible components, like the weight transport problem or separate inference and learning phases. Various methods address different components individually, but a complete solution remains intangible. Here, we take an alternate approach that avoids back-propagation and its associated issues entirely. Recent work in deep learning proposed independently training each layer of a network via the information bottleneck (IB). Subsequent studies noted that this layer-wise approach circumvents error propagation across layers, leading to a biologically plausible paradigm. Unfortunately, the IB is computed using a batch of samples. The prior work addresses this with a weight update that only uses two samples (the current and previous sample). Our work takes a different approach by decomposing the weight update into a local and global component. The local component is Hebbian and only depends on the current sample. The global component computes a layer-wise modulatory signal that depends on a batch of samples. We show that this modulatory signal can be learned by an auxiliary circuit with working memory (WM) like a reservoir. Thus, we can use batch sizes greater than two, and the batch size determines the required capacity of the WM. To the best of our knowledge, our rule is the first biologically plausible mechanism to directly couple synaptic updates with a WM of the task. We evaluate our rule on synthetic datasets and image classification datasets like MNIST, and we explore the effect of the WM capacity on learning performance. We hope our work is a first-step towards understanding the mechanistic role of memory in learning. </details>
+<details>	<summary>注释</summary>	21 pages, 10 figures, under review </details>
+<details>	<summary>邮件日期</summary>	2021年11月29日</details>
+
+# 288、实时智能车辆监控系统
+- [ ] Real-time smart vehicle surveillance system 
+时间：2021年11月24日                         第一作者：Shantha Kumar S                       [链接](https://arxiv.org/abs/2111.12289).                     
+## 摘要：在过去十年中，全球犯罪活动激增。据印度警察局称，车辆盗窃是最难侦破的犯罪之一，所有记录在案的案件中有近19%与机动车盗窃有关。为了战胜这些对手，我们提出了一种实时车辆监控系统，该系统使用CCTV视频源检测和跟踪可疑车辆。该系统提取车辆的各种属性，如品牌、型号、颜色、车牌号和车牌类型。各种图像处理和深度学习算法的使用，以满足该系统的目标。提取的特征可以用作报告违法行为的证据。尽管系统使用了更多的参数，但它仍然能够以最小的延迟和精度损失进行实时预测。
+<details>	<summary>英文摘要</summary>	Over the last decade, there has been a spike in criminal activity all around the globe. According to the Indian police department, vehicle theft is one of the least solved offenses, and almost 19% of all recorded cases are related to motor vehicle theft. To overcome these adversaries, we propose a real-time vehicle surveillance system, which detects and tracks the suspect vehicle using the CCTV video feed. The proposed system extracts various attributes of the vehicle such as Make, Model, Color, License plate number, and type of the license plate. Various image processing and deep learning algorithms are employed to meet the objectives of the proposed system. The extracted features can be used as evidence to report violations of law. Although the system uses more parameters, it is still able to make real time predictions with minimal latency and accuracy loss. </details>
+<details>	<summary>邮件日期</summary>	2021年11月25日</details>
+
+# 287、脉冲神经形态硬件上量子基态的变分学习
+- [ ] Variational learning of quantum ground states on spiking neuromorphic hardware 
+时间：2021年11月24日                         第一作者：Robert Klassert                       [链接](https://arxiv.org/abs/2109.15169).                     
+<details>	<summary>注释</summary>	14 pages, 7 figures </details>
+<details>	<summary>邮件日期</summary>	2021年11月25日</details>
+
+# 286、用于节能嵌入式神经形态计算的多核大小μ脑设计
+- [ ] Design of Many-Core Big Little \mu Brain for Energy-Efficient Embedded Neuromorphic Computing 
+时间：2021年11月23日                         第一作者：M. Lakshmi Varshika                       [链接](https://arxiv.org/abs/2111.11838).                     
+## 摘要：随着嵌入式系统中基于脉冲的深度学习推理应用的增加，这些系统倾向于集成神经形态加速器，如$\mu$Brain，以提高能源效率。我们提出了一种基于$\mu$大脑的可扩展多核神经形态硬件设计，以加速脉冲深度卷积神经网络（SDCNN）的计算。为了提高能源效率，内核在神经元和突触容量方面被设计为异构的（大内核的容量比小内核高），并且它们使用并行分段总线互连进行互连，与传统的基于网格的片上网络（NoC）相比，这导致更低的延迟和能量。我们提出了一个名为SentryOS的系统软件框架，将SDCNN推理应用程序映射到所提出的设计。SentryOS由编译器和运行时管理器组成。编译器利用大小$\mu$脑内核的内部架构，将SDCNN应用程序编译成子网。运行时管理器将这些子网络调度到核心上，并通过管道将其执行以提高吞吐量。我们使用五种常用的SDCNN推理应用程序评估了提议的大-小-多核心神经形态设计和系统软件框架，结果表明，提议的解决方案降低了能量（37%到98%），减少了延迟（9%到25%），并提高了应用程序吞吐量（20%到36%）。我们还表明，SentryOS可以很容易地扩展到其他脉冲神经形态加速器。
+<details>	<summary>英文摘要</summary>	As spiking-based deep learning inference applications are increasing in embedded systems, these systems tend to integrate neuromorphic accelerators such as $\mu$Brain to improve energy efficiency. We propose a $\mu$Brain-based scalable many-core neuromorphic hardware design to accelerate the computations of spiking deep convolutional neural networks (SDCNNs). To increase energy efficiency, cores are designed to be heterogeneous in terms of their neuron and synapse capacity (big cores have higher capacity than the little ones), and they are interconnected using a parallel segmented bus interconnect, which leads to lower latency and energy compared to a traditional mesh-based Network-on-Chip (NoC). We propose a system software framework called SentryOS to map SDCNN inference applications to the proposed design. SentryOS consists of a compiler and a run-time manager. The compiler compiles an SDCNN application into subnetworks by exploiting the internal architecture of big and little $\mu$Brain cores. The run-time manager schedules these sub-networks onto cores and pipeline their execution to improve throughput. We evaluate the proposed big little many-core neuromorphic design and the system software framework with five commonlyused SDCNN inference applications and show that the proposed solution reduces energy (between 37% and 98%), reduces latency (between 9% and 25%), and increases application throughput (between 20% and 36%). We also show that SentryOS can be easily extended for other spiking neuromorphic accelerators. </details>
+<details>	<summary>注释</summary>	Accepted for publication at DATE 2022 </details>
+<details>	<summary>邮件日期</summary>	2021年11月24日</details>
+
+# 285、BioLCNet：报酬调制局部连接脉冲神经网络
+- [ ] BioLCNet: Reward-modulated Locally Connected Spiking Neural Networks 
+时间：2021年11月23日                         第一作者：Hafez Ghaemi                       [链接](https://arxiv.org/abs/2109.05539).                     
+<details>	<summary>注释</summary>	12 pages, 5 figures ACM-class: I.2.6; I.5.1 </details>
+<details>	<summary>邮件日期</summary>	2021年11月24日</details>
+
+# 284、BioLeaF：一个用于训练脉冲神经网络的生物似然学习框架
+- [ ] BioLeaF: A Bio-plausible Learning Framework for Training of Spiking Neural Networks 
+时间：2021年11月14日                         第一作者：Yukun Yang                       [链接](https://arxiv.org/abs/2111.13188).                     
+## 摘要：我们的大脑由生物神经元组成，这些神经元通过精确的脉冲计时编码信息，但我们大脑的结构和学习规则在很大程度上仍然未知。与最近发展的基于反向传播（BP）的方法相比，基于反向传播的方法能够以高精度训练脉冲神经网络（SNN），生物学上可行的方法仍处于初级阶段。在这项工作中，我们希望回答这样一个问题：是否有可能通过基于BP的规则和生物似是而非的机制来训练SNN，从而获得可比的准确性。我们提出了一个新的生物似是而非的学习框架，由两个部分组成：一个新的体系结构及其支持的学习规则。通过两种类型的细胞和四种类型的突触连接，所提出的局部微电路结构可以通过局部反馈连接计算和传播错误信号，并支持具有全局定义的脉冲错误函数的多层SNN的训练。在我们的微电路架构下，我们采用了在局部隔室中运行的脉冲时间依赖性可塑性（STDP）规则来更新突触权重，并以生物学上合理的方式实现监督学习。最后，我们从优化的角度对该框架进行了解释，并在特定情况下证明了它与基于BP的规则的等价性。我们的实验表明，所提出的框架显示了与基于BP的规则相当的学习精度，并可能为生物系统中如何协调学习提供新的见解。
+<details>	<summary>英文摘要</summary>	Our brain consists of biological neurons encoding information through accurate spike timing, yet both the architecture and learning rules of our brain remain largely unknown. Comparing to the recent development of backpropagation-based (BP-based) methods that are able to train spiking neural networks (SNNs) with high accuracy, biologically plausible methods are still in their infancy. In this work, we wish to answer the question of whether it is possible to attain comparable accuracy of SNNs trained by BP-based rules with bio-plausible mechanisms. We propose a new bio-plausible learning framework, consisting of two components: a new architecture, and its supporting learning rules. With two types of cells and four types of synaptic connections, the proposed local microcircuit architecture can compute and propagate error signals through local feedback connections and support training of multi-layers SNNs with a globally defined spiking error function. Under our microcircuit architecture, we employ the Spike-Timing-Dependent-Plasticity (STDP) rule operating in local compartments to update synaptic weights and achieve supervised learning in a biologically plausible manner. Finally, We interpret the proposed framework from an optimization point of view and show the equivalence between it and the BP-based rules under a special circumstance. Our experiments show that the proposed framework demonstrates learning accuracy comparable to BP-based rules and may provide new insights on how learning is orchestrated in biological systems. </details>
+<details>	<summary>邮件日期</summary>	2021年11月29日</details>
+
 # 283、通过乘法突触的脉冲神经网络的非线性计算
 - [ ] Nonlinear computations in spiking neural networks through multiplicative synapses 
 时间：2021年11月22日                         第一作者：Michele Nardin                       [链接](https://arxiv.org/abs/2009.03857).                     
