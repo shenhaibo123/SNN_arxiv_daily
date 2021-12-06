@@ -1,3 +1,15 @@
+# 294、Nengo上使用脉冲神经网络的稀疏分布记忆
+- [ ] Sparse Distributed Memory using Spiking Neural Networks on Nengo 
+时间：2021年12月03日                         第一作者：Rohan Deepak Ajwani                       [链接](https://arxiv.org/abs/2109.03111).                     
+<details>	<summary>注释</summary>	8 pages, 11 figures, accepted as poster in Bernstein Conference 2021 ACM-class: H.3.2; I.5.5 </details>
+<details>	<summary>邮件日期</summary>	2021年12月06日</details>
+
+# 293、BioLCNet：报酬调制局部连接脉冲神经网络
+- [ ] BioLCNet: Reward-modulated Locally Connected Spiking Neural Networks 
+时间：2021年12月03日                         第一作者：Hafez Ghaemi                       [链接](https://arxiv.org/abs/2109.05539).                     
+<details>	<summary>注释</summary>	12 pages, 5 figures ACM-class: I.2.6; I.5.1 </details>
+<details>	<summary>邮件日期</summary>	2021年12月06日</details>
+
 # 292、PrivateSNN：保护隐私的脉冲神经网络
 - [ ] PrivateSNN: Privacy-Preserving Spiking Neural Networks 
 时间：2021年12月02日                         第一作者：Youngeun Kim                       [链接](https://arxiv.org/abs/2104.03414).                     
