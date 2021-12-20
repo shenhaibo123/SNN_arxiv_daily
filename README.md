@@ -1,3 +1,88 @@
+# 307、脉冲相机的光流估计
+- [ ] Optical Flow Estimation for Spiking Camera 
+时间：2021年12月17日                         第一作者：Liwen Hu                       [链接](https://arxiv.org/abs/2110.03916).                     
+<details>	<summary>注释</summary>	The first two authors contributed equally </details>
+<details>	<summary>邮件日期</summary>	2021年12月20日</details>
+
+# 306、向强大的深脉冲神经网络推进剩余学习
+- [ ] Advancing Residual Learning towards Powerful Deep Spiking Neural Networks 
+时间：2021年12月15日                         第一作者：Yifan Hu                       [链接](https://arxiv.org/abs/2112.08954).                     
+## 摘要：尽管神经形态计算发展迅速，但脉冲神经网络（SNN）的容量和表示能力不足严重限制了其实际应用范围。剩余学习和捷径已被证明是训练深层神经网络的一种重要方法，但以前的工作很少评估它们对基于棘波的通信和时空动力学特征的适用性。在本文中，我们首先发现，这种疏忽导致阻碍信息流，并伴随着退化问题，在以前的剩余SNN。然后，我们提出了一种新的面向SNN的残差块MS ResNet，它能够显著扩展直接训练的SNN的深度，例如，在CIFAR-10上可以扩展到482层，在ImageNet上可以扩展到104层，而不会观察到任何轻微的退化问题。我们在基于帧和神经形态的数据集上验证了MS-ResNet104的有效性，MS-ResNet104在ImageNet上获得了76.02%的准确率，这是在直接训练SNN领域中的首次。我们还观察到，平均每个神经元只需要一个脉冲就可以对输入样本进行分类，这具有很高的能量效率。我们相信，我们强大且可扩展的模型将为SNN的进一步开发提供强大支持。
+<details>	<summary>英文摘要</summary>	Despite the rapid progress of neuromorphic computing, inadequate capacity and insufficient representation power of spiking neural networks (SNNs) severely restrict their application scope in practice. Residual learning and shortcuts have been evidenced as an important approach for training deep neural networks, but rarely did previous work assess their applicability to the characteristics of spike-based communication and spatiotemporal dynamics. In this paper, we first identify that this negligence leads to impeded information flow and accompanying degradation problem in previous residual SNNs. Then we propose a novel SNN-oriented residual block, MS-ResNet, which is able to significantly extend the depth of directly trained SNNs, e.g. up to 482 layers on CIFAR-10 and 104 layers on ImageNet, without observing any slight degradation problem. We validate the effectiveness of MS-ResNet on both frame-based and neuromorphic datasets, and MS-ResNet104 achieves a superior result of 76.02% accuracy on ImageNet, the first time in the domain of directly trained SNNs. Great energy efficiency is also observed that on average only one spike per neuron is needed to classify an input sample. We believe our powerful and scalable models will provide a strong support for further exploration of SNNs. </details>
+<details>	<summary>邮件日期</summary>	2021年12月17日</details>
+
+# 305、利用生物神经元和突触进行规划
+- [ ] Planning with Biological Neurons and Synapses 
+时间：2021年12月15日                         第一作者：Francesco d'Amore                       [链接](https://arxiv.org/abs/2112.08186).                     
+## 摘要：我们重新讨论了块世界中的规划问题，并为此任务实现了一个已知的启发式方法。重要的是，我们的实现在生物学上是合理的，因为它完全是通过神经元的脉冲来实现的。尽管在过去的五十年里，区块世界已经取得了很多成就，但我们相信这是同类算法中的第一个。输入是编码初始块堆栈集和目标集的符号序列，输出是运动命令序列，如“将顶部块放入表上堆栈1”。该程序是在汇编演算中编写的，汇编演算是最近提出的一种计算框架，旨在通过弥合神经活动和认知功能之间的差距来模拟大脑中的计算。它的基本对象是神经元的集合（稳定的神经元集合，它们的同时放电意味着主体正在思考一个对象、概念、单词等），它的命令包括投射和合并，它的执行模型基于广泛接受的神经科学原理。这个框架中的一个程序基本上建立了一个神经元和突触的动态系统，最终以很高的概率完成了任务。这项工作的目的是从经验上证明，汇编演算中合理的大型程序能够正确可靠地执行；而这种相当现实的——如果理想化的话——更高的认知功能，比如街区世界的规划，可以通过这样的程序成功地实现。
+<details>	<summary>英文摘要</summary>	We revisit the planning problem in the blocks world, and we implement a known heuristic for this task. Importantly, our implementation is biologically plausible, in the sense that it is carried out exclusively through the spiking of neurons. Even though much has been accomplished in the blocks world over the past five decades, we believe that this is the first algorithm of its kind. The input is a sequence of symbols encoding an initial set of block stacks as well as a target set, and the output is a sequence of motion commands such as ``put the top block in stack 1 on the table''. The program is written in the Assembly Calculus, a recently proposed computational framework meant to model computation in the brain by bridging the gap between neural activity and cognitive function. Its elementary objects are assemblies of neurons (stable sets of neurons whose simultaneous firing signifies that the subject is thinking of an object, concept, word, etc.), its commands include project and merge, and its execution model is based on widely accepted tenets of neuroscience. A program in this framework essentially sets up a dynamical system of neurons and synapses that eventually, with high probability, accomplishes the task. The purpose of this work is to establish empirically that reasonably large programs in the Assembly Calculus can execute correctly and reliably; and that rather realistic -- if idealized -- higher cognitive functions, such as planning in the blocks world, can be implemented successfully by such programs. </details>
+<details>	<summary>邮件日期</summary>	2021年12月16日</details>
+
+# 304、全脉冲变分自动编码器
+- [ ] Fully Spiking Variational Autoencoder 
+时间：2021年12月14日                         第一作者：Hiromichi Kamata                       [链接](https://arxiv.org/abs/2110.00375).                     
+<details>	<summary>注释</summary>	Accepted to AAAI2022 </details>
+<details>	<summary>邮件日期</summary>	2021年12月15日</details>
+
+# 303、使用Extoll进行大规模Spike通信
+- [ ] BrainScaleS Large Scale Spike Communication using Extoll 
+时间：2021年12月14日                         第一作者：Tobias Thommes                       [链接](https://arxiv.org/abs/2111.15296).                     
+<details>	<summary>注释</summary>	3 pages, 2 figures, submitted to the Neuro Inspired Computational Elements 2020 (NICE'2020) conference, accepted and presented as a poster in March 2021; 1st replacement: add acknowledgement of DFG (German Research Foundation) </details>
+<details>	<summary>邮件日期</summary>	2021年12月15日</details>
+
+# 302、基于事件的卷积神经网络加速器的突触压缩
+- [ ] Synapse Compression for Event-Based Convolutional-Neural-Network Accelerators 
+时间：2021年12月13日                         第一作者：Lennart Bamberg                       [链接](https://arxiv.org/abs/2112.07019).                     
+## 摘要：制造可行的神经形态芯片需要新的计算机架构，以实现大脑轻松支持的大规模并行和高效的信息处理。新兴的基于事件的体系结构使这一梦想成为现实。然而，突触连接的大内存需求阻碍了现代卷积神经网络（CNN）在大规模并行、基于事件（脉冲）结构上的应用。这项工作克服了这一障碍，提供了一个轻量级的硬件方案，将突触内存需求压缩数千倍，使复杂的CNN能够在一个小型芯片上执行。12纳米技术中的硅实现表明，该技术仅增加了系统的实现成本2%，尽管与之前发布的最佳技术相比，总内存占用减少了374倍。
+<details>	<summary>英文摘要</summary>	Manufacturing-viable neuromorphic chips require novel computer architectures to achieve the massively parallel and efficient information processing the brain supports so effortlessly. Emerging event-based architectures are making this dream a reality. However, the large memory requirements for synaptic connectivity are a showstopper for the execution of modern convolutional neural networks (CNNs) on massively parallel, event-based (spiking) architectures. This work overcomes this roadblock by contributing a lightweight hardware scheme to compress the synaptic memory requirements by several thousand times, enabling the execution of complex CNNs on a single chip of small form factor. A silicon implementation in a 12-nm technology shows that the technique increases the system's implementation cost by only 2%, despite achieving a total memory-footprint reduction of up to 374x compared to the best previously published technique. </details>
+<details>	<summary>注释</summary>	Preprint submitted to IEEE Transactions on Parallel and Distributed Systems </details>
+<details>	<summary>邮件日期</summary>	2021年12月15日</details>
+
+# 301、神经形态混合脉冲运动检测器
+- [ ] NeuroHSMD: Neuromorphic Hybrid Spiking Motion Detector 
+时间：2021年12月12日                         第一作者：Pedro Machado                       [链接](https://arxiv.org/abs/2112.06102).                     
+## 摘要：脊椎动物的视网膜在处理诸如检测运动物体等琐碎的视觉任务方面非常高效，但对于现代计算机来说这是一项复杂的任务。物体运动的检测是由名为物体运动敏感神经节细胞（OMS-GC）的特殊视网膜神经节细胞完成的。OMS-GC处理连续信号，并产生视觉皮层后处理的脉冲模式。本文提出的神经形态混合脉冲运动检测器（NeuroHSMD）使用现场可编程门阵列（FPGA）加速了HSMD算法。混合脉冲运动检测器（HSMD）算法是第一个使用定制的3层脉冲神经网络（SNN）增强动态背景减法（DBS）算法的混合算法，该网络生成OMS-GC脉冲样响应。使用相同的2012年变更检测（CDnet2012）和2014年变更检测（CDnet2014）基准数据集，将NeuroHSMD算法与HSMD算法进行比较。结果表明，神经HSMD实时生成与HSMD算法相同的结果，且质量没有下降。此外，本文提出的神经HSMD完全用开放式计算机语言（OpenCL）实现，因此很容易在其他设备中复制，如图形处理器单元（GPU）和中央处理器单元集群（CPU）。
+<details>	<summary>英文摘要</summary>	Vertebrate retinas are highly-efficient in processing trivial visual tasks such as detecting moving objects, yet a complex task for modern computers. The detection of object motion is done by specialised retinal ganglion cells named Object-motion-sensitive ganglion cells (OMS-GC). OMS-GC process continuous signals and generate spike patterns that are post-processed by the Visual Cortex. The Neuromorphic Hybrid Spiking Motion Detector (NeuroHSMD) proposed in this work accelerates the HSMD algorithm using Field-Programmable Gate Arrays (FPGAs). The Hybrid Spiking Motion Detector (HSMD) algorithm was the first hybrid algorithm to enhance dynamic background subtraction (DBS) algorithms with a customised 3-layer spiking neural network (SNN) that generates OMS-GC spiking-like responses. The NeuroHSMD algorithm was compared against the HSMD algorithm, using the same 2012 change detection (CDnet2012) and 2014 change detection (CDnet2014) benchmark datasets. The results show that the NeuroHSMD has produced the same results as the HSMD algorithm in real-time without degradation of quality. Moreover, the NeuroHSMD proposed in this paper was completely implemented in Open Computer Language (OpenCL) and therefore is easily replicated in other devices such as Graphical Processor Units (GPUs) and clusters of Central Processor Units (CPUs). </details>
+<details>	<summary>邮件日期</summary>	2021年12月14日</details>
+
+# 300、随机STT-MRAM切换的同步无监督STDP学习
+- [ ] Synchronous Unsupervised STDP Learning with Stochastic STT-MRAM Switching 
+时间：2021年12月10日                         第一作者：Peng Zhou                       [链接](https://arxiv.org/abs/2112.05707).                     
+## 摘要：在神经形态系统中，模拟电阻状态用于存储权重受到制造不精确性和限制突触权重精度的设备随机性的阻碍。这一挑战可以通过模拟自旋转移转矩磁阻随机存取存储器（STT-MRAM）二元状态的随机切换来解决。然而，以前基于STT-MRAM的方法是以异步方式运行的，很难通过实验实现。本文提出了一种利用STT-MRAM的随机切换进行无监督学习的带时钟电路的同步脉冲神经网络系统。建议的系统使单层网络能够在MNIST数据集上实现90%的推理精度。
+<details>	<summary>英文摘要</summary>	The use of analog resistance states for storing weights in neuromorphic systems is impeded by fabrication imprecision and device stochasticity that limit the precision of synapse weights. This challenge can be resolved by emulating analog behavior with the stochastic switching of the binary states of spin-transfer torque magnetoresistive random-access memory (STT-MRAM). However, previous approaches based on STT-MRAM operate in an asynchronous manner that is difficult to implement experimentally. This paper proposes a synchronous spiking neural network system with clocked circuits that perform unsupervised learning leveraging the stochastic switching of STT-MRAM. The proposed system enables a single-layer network to achieve 90% inference accuracy on the MNIST dataset. </details>
+<details>	<summary>邮件日期</summary>	2021年12月13日</details>
+
+# 299、脉冲神经网络中的深度剩余学习
+- [ ] Deep Residual Learning in Spiking Neural Networks 
+时间：2021年12月07日                         第一作者：Wei Fang                       [链接](https://arxiv.org/abs/2102.04159).                     
+<details>	<summary>注释</summary>	Accepted by Advances in Neural Information Processing Systems (NeurIPS) 2021 </details>
+<details>	<summary>邮件日期</summary>	2021年12月08日</details>
+
+# 298、混合SNN-ANN：基于事件视觉的节能分类和目标检测
+- [ ] Hybrid SNN-ANN: Energy-Efficient Classification and Object Detection for Event-Based Vision 
+时间：2021年12月06日                         第一作者：Alex                       [链接](https://arxiv.org/abs/2112.03423).                     
+## 摘要：基于事件的视觉传感器对事件流而非图像帧中的局部像素亮度变化进行编码，并产生稀疏、节能的场景编码，此外还具有低延迟、高动态范围和缺少运动模糊的特点。基于事件的传感器在目标识别方面的最新进展来自使用反向传播训练的深层神经网络的转换。然而，将这些方法用于事件流需要转换为同步范式，这不仅会损失计算效率，而且还会错过提取时空特征的机会。在本文中，我们提出了一种用于基于事件的模式识别和目标检测的深度神经网络端到端训练的混合体系结构，结合了用于高效基于事件的特征提取的脉冲神经网络（SNN）主干，以及随后的模拟神经网络（ANN）头来解决同步分类和检测任务。这是通过将标准反向传播与代理梯度训练相结合来实现的，以通过SNN传播梯度。混合SNN ANN可以在不进行转换的情况下进行训练，并生成比ANN对应网络更具计算效率的高精度网络。我们展示了基于事件的分类和目标检测数据集的结果，其中只需要调整ANN头的结构以适应任务，并且不需要转换基于事件的输入。由于ANN和SNN需要不同的硬件模式来最大限度地提高其效率，我们设想SNN主干和ANN头部可以在不同的处理单元上执行，从而分析两部分之间通信所需的带宽。混合网络是一种很有前途的体系结构，可以在不影响效率的情况下进一步推进基于事件的视觉的机器学习方法。
+<details>	<summary>英文摘要</summary>	Event-based vision sensors encode local pixel-wise brightness changes in streams of events rather than image frames and yield sparse, energy-efficient encodings of scenes, in addition to low latency, high dynamic range, and lack of motion blur. Recent progress in object recognition from event-based sensors has come from conversions of deep neural networks, trained with backpropagation. However, using these approaches for event streams requires a transformation to a synchronous paradigm, which not only loses computational efficiency, but also misses opportunities to extract spatio-temporal features. In this article we propose a hybrid architecture for end-to-end training of deep neural networks for event-based pattern recognition and object detection, combining a spiking neural network (SNN) backbone for efficient event-based feature extraction, and a subsequent analog neural network (ANN) head to solve synchronous classification and detection tasks. This is achieved by combining standard backpropagation with surrogate gradient training to propagate gradients through the SNN. Hybrid SNN-ANNs can be trained without conversion, and result in highly accurate networks that are substantially more computationally efficient than their ANN counterparts. We demonstrate results on event-based classification and object detection datasets, in which only the architecture of the ANN heads need to be adapted to the tasks, and no conversion of the event-based input is necessary. Since ANNs and SNNs require different hardware paradigms to maximize their efficiency, we envision that SNN backbone and ANN head can be executed on different processing units, and thus analyze the necessary bandwidth to communicate between the two parts. Hybrid networks are promising architectures to further advance machine learning approaches for event-based vision, without having to compromise on efficiency. </details>
+<details>	<summary>注释</summary>	Accepted at DAGM German Conference on Pattern Recognition (GCPR 2021) </details>
+<details>	<summary>邮件日期</summary>	2021年12月08日</details>
+
+# 297、BS4NN：具有时间编码和学习的二值化脉冲神经网络
+- [ ] BS4NN: Binarized Spiking Neural Networks with Temporal Coding and Learning 
+时间：2021年12月06日                         第一作者：Saeed Reza Kheradpisheh                       [链接](https://arxiv.org/abs/2007.04039).                     
+<details>	<summary>邮件日期</summary>	2021年12月07日</details>
+
+# 296、基于代理的脉冲神经网络训练
+- [ ] Spiking neural networks trained via proxy 
+时间：2021年12月05日                         第一作者：Saeed Reza Kheradpisheh                       [链接](https://arxiv.org/abs/2109.13208).                     
+<details>	<summary>邮件日期</summary>	2021年12月07日</details>
+
+# 295、多阈值超低潜伏期脉冲神经网络的反向传播直接训练
+- [ ] Direct Training via Backpropagation for Ultra-low Latency Spiking Neural Networks with Multi-threshold 
+时间：2021年11月25日                         第一作者：Changqing Xu                       [链接](https://arxiv.org/abs/2112.07426).                     
+## 摘要：脉冲神经网络（SNN）可以利用时空信息，具有能量效率的特性，是深度神经网络（DNN）的一个很好的替代方案。事件驱动的信息处理使得SNNs可以减少DNNs的昂贵计算量，节省大量的能量消耗。然而，较高的训练和推理延迟限制了更深层次SNN的发展。snn在训练和推理过程中通常需要数十甚至数百个时间步长，这不仅会增加延迟，而且会造成能量消耗的浪费。为了克服这个问题，我们提出了一种新的基于反向传播（BP）的多阈值超低延迟（1-2个时间步长）SNN训练方法。为了提高每个脉冲的信息容量，我们引入了多阈值泄漏集成和触发（LIF）模型。在我们提出的训练方法中，我们提出了三个近似的脉冲活动导数，以解决基于BP的SNN直接训练中存在的不可微问题。实验结果表明，我们提出的方法在MNIST、FashionMNIST和CIFAR10上的平均准确率分别为99.56%、93.08%和87.90%，只需2个时间步长。对于CIFAR10数据集，我们提出的方法比以前报道的直接训练SNN的精度提高了1.12%，时间步长更少。
+<details>	<summary>英文摘要</summary>	Spiking neural networks (SNNs) can utilize spatio-temporal information and have a nature of energy efficiency which is a good alternative to deep neural networks(DNNs). The event-driven information processing makes SNNs can reduce the expensive computation of DNNs and save a lot of energy consumption. However, high training and inference latency is a limitation of the development of deeper SNNs. SNNs usually need tens or even hundreds of time steps during the training and inference process which causes not only the increase of latency but also the waste of energy consumption. To overcome this problem, we proposed a novel training method based on backpropagation (BP) for ultra-low latency(1-2 time steps) SNN with multi-threshold. In order to increase the information capacity of each spike, we introduce the multi-threshold Leaky Integrate and Fired (LIF) model. In our proposed training method, we proposed three approximated derivative for spike activity to solve the problem of the non-differentiable issue which cause difficulties for direct training SNNs based on BP. The experimental results show that our proposed method achieves an average accuracy of 99.56%, 93.08%, and 87.90% on MNIST, FashionMNIST, and CIFAR10, respectively with only 2 time steps. For the CIFAR10 dataset, our proposed method achieve 1.12% accuracy improvement over the previously reported direct trained SNNs with fewer time steps. </details>
+<details>	<summary>邮件日期</summary>	2021年12月15日</details>
+
 # 294、Nengo上使用脉冲神经网络的稀疏分布记忆
 - [ ] Sparse Distributed Memory using Spiking Neural Networks on Nengo 
 时间：2021年12月03日                         第一作者：Rohan Deepak Ajwani                       [链接](https://arxiv.org/abs/2109.03111).                     
