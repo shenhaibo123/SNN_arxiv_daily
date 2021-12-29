@@ -1,3 +1,43 @@
+# 313、N-Omniglot：一个用于时空稀疏少镜头学习的大规模数据集
+- [ ] N-Omniglot: a Large-scale Dataset for Spatio-Temporal Sparse Few-shot Learning 
+时间：2021年12月25日                         第一作者：Yang Li                       [链接](https://arxiv.org/abs/2112.13230).                     
+## 摘要：少镜头学习是人脑最重要的能力之一。然而，目前的人工智能系统在实现这一能力方面遇到了困难，生物上合理的脉冲神经网络（SNN）也是如此。传统少数镜头学习领域的数据集提供的时间信息量很少。而神经形态数据集的缺乏阻碍了SNN少数镜头学习的发展。在这里，我们使用动态视觉传感器（DVS）提供了第一个神经形态数据集：N-Omniglot。它包含1623类手写字符，每类只有20个样本。N-Omniglot消除了对SNN的神经形态数据集的需要，该数据集具有高度稀疏性和巨大的时间一致性。此外，由于笔划的时间顺序信息，该数据集为在少数镜头学习领域开发SNNs算法提供了强大的挑战和合适的基准。我们还提供了改进的最近邻、卷积网络、连体网和元学习算法，用于验证。
+<details>	<summary>英文摘要</summary>	Few-shot learning (learning with a few samples) is one of the most important capacities of the human brain. However, the current artificial intelligence systems meet difficulties in achieving this ability, so as the biologically plausible spiking neural networks (SNNs). Datasets for traditional few-shot learning domains provide few amounts of temporal information. And the absence of the neuromorphic datasets has hindered the development of few-shot learning for SNNs. Here, we provide the first neuromorphic dataset: N-Omniglot, using the Dynamic Vision Sensor (DVS). It contains 1623 categories of handwritten characters, with only 20 samples per class. N-Omniglot eliminates the need for a neuromorphic dataset for SNNs with high spareness and tremendous temporal coherence. Additionally, the dataset provides a powerful challenge and a suitable benchmark for developing SNNs algorithm in the few-shot learning domain due to the chronological information of strokes. We also provide the improved nearest neighbor, convolutional network, SiameseNet, and meta-learning algorithm in spiking version for verification. </details>
+<details>	<summary>邮件日期</summary>	2021年12月28日</details>
+
+# 312、向强大的深脉冲神经网络推进剩余学习
+- [ ] Advancing Residual Learning towards Powerful Deep Spiking Neural Networks 
+时间：2021年12月23日                         第一作者：Yifan Hu                       [链接](https://arxiv.org/abs/2112.08954).                     
+<details>	<summary>邮件日期</summary>	2021年12月24日</details>
+
+# 311、深度神经网络可以转换为超低延迟脉冲神经网络吗？
+- [ ] Can Deep Neural Networks be Converted to Ultra Low-Latency Spiking Neural Networks? 
+时间：2021年12月22日                         第一作者：Gourav Datta                        [链接](https://arxiv.org/abs/2112.12133).                     
+## 摘要：脉冲神经网络（SNN）通过随时间分布的二进制脉冲进行操作，已成为资源受限设备的一种有前途的节能ML范式。然而，目前最先进的（SOTA）SNN需要多个时间步才能达到可接受的推理精度，从而增加峰值活动，从而增加能耗。SNN的SOTA训练策略涉及非脉冲深度神经网络（DNN）的转换。在本文中，我们确定SOTA转换策略不能产生超低延迟，因为它们错误地假设DNN和SNN预激活值是均匀分布的。我们提出了一种新的训练算法，能够准确地捕获这些分布，最小化DNN和转换后的SNN之间的误差。由此产生的SNN具有超低延迟和高激活稀疏性，从而显著提高了计算效率。特别是，我们在几个VGG和ResNet体系结构上对CIFAR-10和CIFAR-100数据集的图像识别任务评估了我们的框架。与iso体系结构标准DNN相比，我们在CIFAR-100数据集上仅使用2个时间步长就获得了64.19%的顶级精度，计算能量降低了约159.2倍。与其他SOTA SNN模型相比，我们的模型推理速度快2.5-8倍（即，时间步长更少）。
+<details>	<summary>英文摘要</summary>	Spiking neural networks (SNNs), that operate via binary spikes distributed over time, have emerged as a promising energy efficient ML paradigm for resource-constrained devices. However, the current state-of-the-art (SOTA) SNNs require multiple time steps for acceptable inference accuracy, increasing spiking activity and, consequently, energy consumption. SOTA training strategies for SNNs involve conversion from a non-spiking deep neural network (DNN). In this paper, we determine that SOTA conversion strategies cannot yield ultra low latency because they incorrectly assume that the DNN and SNN pre-activation values are uniformly distributed. We propose a new training algorithm that accurately captures these distributions, minimizing the error between the DNN and converted SNN. The resulting SNNs have ultra low latency and high activation sparsity, yielding significant improvements in compute efficiency. In particular, we evaluate our framework on image recognition tasks from CIFAR-10 and CIFAR-100 datasets on several VGG and ResNet architectures. We obtain top-1 accuracy of 64.19% with only 2 time steps on the CIFAR-100 dataset with ~159.2x lower compute energy compared to an iso-architecture standard DNN. Compared to other SOTA SNN models, our models perform inference 2.5-8x faster (i.e., with fewer time steps). </details>
+<details>	<summary>注释</summary>	Accepted to DATE 2022 </details>
+<details>	<summary>邮件日期</summary>	2021年12月23日</details>
+
+# 310、通过时间向前传播实现动态脉冲神经网络的精确在线训练
+- [ ] Accurate online training of dynamical spiking neural networks through Forward Propagation Through Time 
+时间：2021年12月20日                         第一作者：Bojian Yin                       [链接](https://arxiv.org/abs/2112.11231).                     
+## 摘要：大脑中脉冲神经元之间的事件驱动和稀疏通信特性为灵活高效的人工智能带来了巨大的希望。学习算法的最新进展表明，与标准的递归神经网络相比，脉冲神经元的递归网络可以有效地训练，以获得具有竞争力的性能。尽管如此，由于这些学习算法使用时间误差反向传播（BPTT），它们的内存需求很高，训练速度很慢，并且与在线学习不兼容。这限制了这些学习算法在相对较小的网络和有限的时间序列长度上的应用。已经提出了具有较低计算和内存复杂度的BPTT在线近似（e-prop，OSTL），但在实践中也受到内存限制，并且作为近似，其性能并不优于标准BPTT训练。在这里，我们展示了一种新开发的BPTT替代方案，即通过时间的前向传播（FPTT）如何应用于脉冲神经网络。与BPTT不同，FPTT试图最大限度地降低持续的动态规范化损失风险。因此，FPTT可以在线计算，并且相对于序列长度具有固定的复杂性。结合一种新的动态脉冲神经元模型——液体时间常数神经元，我们证明了用FPTT训练的SNN优于在线BPTT近似，在时间分类任务上接近或超过离线BPTT精度。因此，这种方法可以在长序列上以对记忆友好的在线方式训练SNN，并将SNN扩展到新颖复杂的神经结构。
+<details>	<summary>英文摘要</summary>	The event-driven and sparse nature of communication between spiking neurons in the brain holds great promise for flexible and energy-efficient AI. Recent advances in learning algorithms have demonstrated that recurrent networks of spiking neurons can be effectively trained to achieve competitive performance compared to standard recurrent neural networks. Still, as these learning algorithms use error-backpropagation through time (BPTT), they suffer from high memory requirements, are slow to train, and are incompatible with online learning. This limits the application of these learning algorithms to relatively small networks and to limited temporal sequence lengths. Online approximations to BPTT with lower computational and memory complexity have been proposed (e-prop, OSTL), but in practice also suffer from memory limitations and, as approximations, do not outperform standard BPTT training. Here, we show how a recently developed alternative to BPTT, Forward Propagation Through Time (FPTT) can be applied in spiking neural networks. Different from BPTT, FPTT attempts to minimize an ongoing dynamically regularized risk on the loss. As a result, FPTT can be computed in an online fashion and has fixed complexity with respect to the sequence length. When combined with a novel dynamic spiking neuron model, the Liquid-Time-Constant neuron, we show that SNNs trained with FPTT outperform online BPTT approximations, and approach or exceed offline BPTT accuracy on temporal classification tasks. This approach thus makes it feasible to train SNNs in a memory-friendly online fashion on long sequences and scale up SNNs to novel and complex neural architectures. </details>
+<details>	<summary>注释</summary>	12 pages, 4 figures </details>
+<details>	<summary>邮件日期</summary>	2021年12月22日</details>
+
+# 309、基于事件视觉的脉冲卷积网络对抗攻击
+- [ ] Adversarial Attacks on Spiking Convolutional Networks for Event-based Vision 
+时间：2021年12月20日                         第一作者：Julian B\"uchel                       [链接](https://arxiv.org/abs/2110.02929).                     
+<details>	<summary>注释</summary>	16 pages, preprint, submitted to ICLR 2022 </details>
+<details>	<summary>邮件日期</summary>	2021年12月21日</details>
+
+# 308、平衡态隐式微分训练反馈脉冲神经网络
+- [ ] Training Feedback Spiking Neural Networks by Implicit Differentiation on the Equilibrium State 
+时间：2021年12月17日                         第一作者：Mingqing Xiao                       [链接](https://arxiv.org/abs/2109.14247).                     
+<details>	<summary>注释</summary>	Accepted by NeurIPS 2021 (Spotlight) </details>
+<details>	<summary>邮件日期</summary>	2021年12月21日</details>
+
 # 307、脉冲相机的光流估计
 - [ ] Optical Flow Estimation for Spiking Camera 
 时间：2021年12月17日                         第一作者：Liwen Hu                       [链接](https://arxiv.org/abs/2110.03916).                     
