@@ -1,3 +1,17 @@
+# 315、可塑性函数对神经装配的影响
+- [ ] Effects of Plasticity Functions on Neural Assemblies 
+时间：2021年12月29日                         第一作者：Christodoulos Constantinides                       [链接](https://arxiv.org/abs/2112.14853).                     
+## 摘要：我们探讨了各种可塑性功能对神经元组装的影响。为了弥合实验理论和计算理论之间的鸿沟，我们使用了一个概念框架，即组装演算，它是一个基于神经元组装描述大脑功能的正式系统。集合演算包括投射、关联和合并神经元集合的操作。我们的研究重点是用装配演算模拟不同的塑性函数。我们的主要贡献是修改和评估投影操作。我们用Oja和脉冲时间依赖塑性（STDP）规则进行实验，并测试各种超参数的影响。
+<details>	<summary>英文摘要</summary>	We explore the effects of various plasticity functions on assemblies of neurons. To bridge the gap between experimental and computational theories we make use of a conceptual framework, the Assembly Calculus, which is a formal system for the description of brain function based on assemblies of neurons. The Assembly Calculus includes operations for projecting, associating, and merging assemblies of neurons. Our research is focused on simulating different plasticity functions with Assembly Calculus. Our main contribution is the modification and evaluation of the projection operation. We experiment with Oja's and Spike Time-Dependent Plasticity (STDP) rules and test the effect of various hyper-parameters. </details>
+<details>	<summary>邮件日期</summary>	2022年01月03日</details>
+
+# 314、硅神经元事件计时的可靠性
+- [ ] Reliability of Event Timing in Silicon Neurons 
+时间：2021年12月28日                         第一作者：Tai Miyazaki Kirby                       [链接](https://arxiv.org/abs/2112.14134).                     
+## 摘要：模拟低压电子学在以前所未有的能源效率生产硅神经元（SIN）方面显示出巨大的潜力。然而，它们对工艺、电压和温度（PVT）变化以及噪声的固有高敏感性长期以来被认为是开发有效神经形态解决方案的主要瓶颈。受生物物理新皮质神经元棘波传导研究的启发，我们证明了与生物神经元类似，模拟捷联惯导系统中固有的噪声和可变性可以与可靠的棘波传导共存。我们通过展示三种不同类型的可靠事件传输：单脉冲传输、突发传输和半中心振荡器（HCO）网络的开关控制，在最近的爆破神经元的神经形态模型上说明了这一特性。
+<details>	<summary>英文摘要</summary>	Analog, low-voltage electronics show great promise in producing silicon neurons (SiNs) with unprecedented levels of energy efficiency. Yet, their inherently high susceptibility to process, voltage and temperature (PVT) variations, and noise has long been recognised as a major bottleneck in developing effective neuromorphic solutions. Inspired by spike transmission studies in biophysical, neocortical neurons, we demonstrate that the inherent noise and variability can coexist with reliable spike transmission in analog SiNs, similarly to biological neurons. We illustrate this property on a recent neuromorphic model of a bursting neuron by showcasing three different relevant types of reliable event transmission: single spike transmission, burst transmission, and the on-off control of a half-centre oscillator (HCO) network. </details>
+<details>	<summary>邮件日期</summary>	2021年12月30日</details>
+
 # 313、N-Omniglot：一个用于时空稀疏少镜头学习的大规模数据集
 - [ ] N-Omniglot: a Large-scale Dataset for Spatio-Temporal Sparse Few-shot Learning 
 时间：2021年12月25日                         第一作者：Yang Li                       [链接](https://arxiv.org/abs/2112.13230).                     
