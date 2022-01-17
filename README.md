@@ -1,3 +1,8 @@
+# 319、稀疏脉冲梯度下降
+- [ ] Sparse Spiking Gradient Descent 
+时间：2022年01月13日                         第一作者：Nicolas Perez-Nieves                        [链接](https://arxiv.org/abs/2105.08810).                     
+<details>	<summary>邮件日期</summary>	2022年01月14日</details>
+
 # 318、利用基于时间的神经元提高脉冲神经网络的精度
 - [ ] Improving Spiking Neural Network Accuracy Using Time-based Neurons 
 时间：2022年01月05日                         第一作者：Hanseok Kim                       [链接](https://arxiv.org/abs/2201.01394).                     
