@@ -1,3 +1,21 @@
+# 354、通过解决脉冲神经网络中的退化问题来推进深度剩余学习
+- [ ] Advancing Deep Residual Learning by Solving the Crux of Degradation in Spiking Neural Networks 
+时间：2022年02月17日                         第一作者：Yifan Hu                       [链接](https://arxiv.org/abs/2201.07209).                     
+<details>	<summary>注释</summary>	It is an older version of arXiv:2112.08954 and was submitted by mistake </details>
+<details>	<summary>邮件日期</summary>	2022年02月18日</details>
+
+# 353、学习探测飞行中的人：一个基于仿生事件的无人机视觉系统
+- [ ] Learning to Detect People on the Fly: A Bio-inspired Event-based Visual System for Drones 
+时间：2022年02月16日                         第一作者：Ali Safa                       [链接](https://arxiv.org/abs/2202.08023).                     
+## 摘要：我们首次证明，配备有脉冲时间依赖性可塑性（STDP）学习功能的生物可启动脉冲神经网络（SNN）可以持续学习使用视网膜启发的、基于事件的相机数据来检测飞行中行走的人。我们的管道工作如下。首先，向卷积SNNSTDP系统显示从飞行无人机捕捉行走的人的短序列事件数据（<2分钟），该系统还从卷积读数（形成半监督系统）接收教师脉冲信号。然后，停止STDP自适应，并根据测试序列评估学习系统。我们进行了一些实验来研究我们系统中关键机制的影响，并将我们的精确回忆性能与使用RGB或基于事件的相机帧的常规训练CNN进行比较。
+<details>	<summary>英文摘要</summary>	We demonstrate for the first time that a biologicallyplausible spiking neural network (SNN) equipped with Spike- Timing-Dependent Plasticity (STDP) learning can continuously learn to detect walking people on the fly using retina-inspired, event-based camera data. Our pipeline works as follows. First, a short sequence of event data (< 2 minutes), capturing a walking human from a flying drone, is shown to a convolutional SNNSTDP system which also receives teacher spiking signals from a convolutional readout (forming a semi-supervised system). Then, STDP adaptation is stopped and the learned system is assessed on testing sequences. We conduct several experiments to study the effect of key mechanisms in our system and we compare our precision-recall performance to conventionally-trained CNNs working with either RGB or event-based camera frames. </details>
+<details>	<summary>邮件日期</summary>	2022年02月17日</details>
+
+# 352、AutoSNN：走向节能的脉冲神经网络
+- [ ] AutoSNN: Towards Energy-Efficient Spiking Neural Networks 
+时间：2022年02月16日                         第一作者：Byunggook Na                       [链接](https://arxiv.org/abs/2201.12738).                     
+<details>	<summary>邮件日期</summary>	2022年02月17日</details>
+
 # 351、失重脉冲神经网络的时间延迟记忆
 - [ ] Memory via Temporal Delays in weightless Spiking Neural Network 
 时间：2022年02月15日                         第一作者：Hananel Hazan                       [链接](https://arxiv.org/abs/2202.07132).                     
