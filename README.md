@@ -1,3 +1,199 @@
+# 383、使用推文和视频创建多媒体摘要
+- [ ] Creating Multimedia Summaries Using Tweets and Videos 
+时间：2022年03月16日                         第一作者：Anietie Andy                        [链接](https://arxiv.org/abs/2203.08931).                     
+## 摘要：当总统辩论或电视节目等热门电视节目播出时，人们会实时提供评论。在本文中，我们提出了一种简单而有效的方法，将社交媒体评论和视频结合起来，创建电视事件的多媒体摘要。我们的方法基于事件中涉及人员的大量提及来识别这些事件中的场景，并自动从视频中选择推文和帧，这些视频发生在讨论和显示被讨论人员的时间段。
+<details>	<summary>英文摘要</summary>	While popular televised events such as presidential debates or TV shows are airing, people provide commentary on them in real-time. In this paper, we propose a simple yet effective approach to combine social media commentary and videos to create a multimedia summary of televised events. Our approach identifies scenes from these events based on spikes of mentions of people involved in the event and automatically selects tweets and frames from the videos that occur during the time period of the spike that talk about and show the people being discussed. </details>
+<details>	<summary>注释</summary>	8 pages, 3 figures, 7 tables </details>
+<details>	<summary>邮件日期</summary>	2022年03月18日</details>
+
+# 382、快速精确递归神经网络的脉冲激励秩编码
+- [ ] Spike-inspired Rank Coding for Fast and Accurate Recurrent Neural Networks 
+时间：2022年03月16日                         第一作者：Alan Jeffares                       [链接](https://arxiv.org/abs/2110.02865).                     
+<details>	<summary>注释</summary>	Spotlight paper at ICLR 2022 </details>
+<details>	<summary>邮件日期</summary>	2022年03月17日</details>
+
+# 381、Skydiver：利用时空工作负载平衡的脉冲神经网络加速器
+- [ ] Skydiver: A Spiking Neural Network Accelerator Exploiting Spatio-Temporal Workload Balance 
+时间：2022年03月14日                         第一作者：Qinyu Chen                       [链接](https://arxiv.org/abs/2203.07516).                     
+## 摘要：脉冲神经网络（SNN）是人工神经网络（ANN）的一种很有前途的替代方法，因为它具有更真实的大脑启发计算模型。SNN具有随时间变化的稀疏神经元放电，即时空稀疏性；因此，它们有助于实现节能硬件推断。然而，利用硬件中SNN的时空稀疏性会导致不可预测和不平衡的工作负载，降低能效。在这项工作中，我们提出了一种基于FPGA的卷积SNN加速器Skydiver，它利用了时空负载平衡。我们提出了一种近似比例关系构造（APRC）方法和一种通道平衡工作负载调度（CBWS）方法，以将硬件工作负载平衡率提高到90%以上。Skydiver在Xilinx XC7Z045 FPGA上实现，并在图像分割和MNIST分类任务上进行了验证。结果表明，这两项任务的吞吐量分别提高了1.4倍和1.2倍。Skydiver在分类任务中获得了22.6 KFPS的吞吐量和42.4 uJ/图像预测能量，准确率为98.5%。
+<details>	<summary>英文摘要</summary>	Spiking Neural Networks (SNNs) are developed as a promising alternative to Artificial Neural networks (ANNs) due to their more realistic brain-inspired computing models. SNNs have sparse neuron firing over time, i.e., spatio-temporal sparsity; thus, they are useful to enable energy-efficient hardware inference. However, exploiting spatio-temporal sparsity of SNNs in hardware leads to unpredictable and unbalanced workloads, degrading the energy efficiency. In this work, we propose an FPGA-based convolutional SNN accelerator called Skydiver that exploits spatio-temporal workload balance. We propose the Approximate Proportional Relation Construction (APRC) method that can predict the relative workload channel-wisely and a Channel-Balanced Workload Schedule (CBWS) method to increase the hardware workload balance ratio to over 90%. Skydiver was implemented on a Xilinx XC7Z045 FPGA and verified on image segmentation and MNIST classification tasks. Results show improved throughput by 1.4X and 1.2X for the two tasks. Skydiver achieved 22.6 KFPS throughput, and 42.4 uJ/Image prediction energy on the classification task with 98.5% accuracy. </details>
+<details>	<summary>注释</summary>	Accepted to be published in the IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2022 DOI: 10.1109/TCAD.2022.3158834 </details>
+<details>	<summary>邮件日期</summary>	2022年03月16日</details>
+
+# 380、脉冲神经网络集成电路：趋势和未来方向综述
+- [ ] Spiking Neural Network Integrated Circuits: A Review of Trends and Future Directions 
+时间：2022年03月14日                         第一作者：Arindam Basu                       [链接](https://arxiv.org/abs/2203.07006).                     
+## 摘要：本文回顾了脉冲神经网络（SNN）集成电路的设计，分析了混合信号核、全数字核和大规模多核设计的发展趋势。最近报道的SNN集成电路分为三大类：（a）具有专用于脉冲路由的NOC的大规模多核设计，（b）数字单核设计和（c）混合信号单核设计。最后，我们完成了论文，并对未来的研究方向进行了展望。
+<details>	<summary>英文摘要</summary>	In this paper, we reviewed Spiking neural network (SNN) integrated circuit designs and analyzed the trends among mixed-signal cores, fully digital cores and large-scale, multi-core designs. Recently reported SNN integrated circuits are compared under three broad categories: (a) Large-scale multi-core designs that have dedicated NOC for spike routing, (b) digital single-core designs and (c) mixed-signal single-core designs. Finally, we finish the paper with some directions for future progress. </details>
+<details>	<summary>邮件日期</summary>	2022年03月15日</details>
+
+# 379、神经体系结构寻找脉冲神经网络
+- [ ] Neural Architecture Search for Spiking Neural Networks 
+时间：2022年03月12日                         第一作者：Youngeun Kim                       [链接](https://arxiv.org/abs/2201.10355).                     
+<details>	<summary>邮件日期</summary>	2022年03月15日</details>
+
+# 378、SoftSNN：软错误下脉冲神经网络加速器的低成本容错
+- [ ] SoftSNN: Low-Cost Fault Tolerance for Spiking Neural Network Accelerators under Soft Errors 
+时间：2022年03月12日                         第一作者：Rachmad Vidya Wicaksana Putra                       [链接](https://arxiv.org/abs/2203.05523).                     
+<details>	<summary>注释</summary>	To appear at the 59th IEEE/ACM Design Automation Conference (DAC), July 2022, San Francisco, CA, USA </details>
+<details>	<summary>邮件日期</summary>	2022年03月15日</details>
+
+# 377、SNN中的整体可塑性和网络适应性
+- [ ] Ensemble plasticity and network adaptability in SNNs 
+时间：2022年03月11日                         第一作者：Mahima Milinda Alwis Weerasinghe                       [链接](https://arxiv.org/abs/2203.07039).                     
+## 摘要：由于基于离散事件（即脉冲）的计算，人工脉冲神经网络（ASNN）有望提高信息处理效率。一些机器学习（ML）应用程序使用生物启发的可塑性机制作为无监督学习技术，以提高ASNN的鲁棒性，同时保持效率。脉冲时间依赖性可塑性（STDP）和内在可塑性（IP）（即动态脉冲阈值适应）是两种这样的机制，它们被结合起来形成了一种集成学习方法。然而，目前尚不清楚这种整体学习应该如何基于扣球活动进行调节。此外，之前的研究已经尝试在STDP后进行基于阈值的突触修剪，以提高ASNN的推理效率，同时牺牲ASNN的性能。然而，这种类型的结构适应，采用个体的重量机制，不考虑脉冲活动修剪，这是一个更好的表示输入刺激。我们设想，基于可塑性的穗调控和基于穗的修剪将导致ASSN在低资源情况下表现更好。本文介绍了一种基于熵和网络激活的集成学习方法，该方法与专门使用脉冲活动的脉冲率神经元修剪技术相结合。使用两个脑电图（EEG）数据集作为分类实验的输入，使用一次通过学习训练的三层前馈ASNN。在学习过程中，我们观察到神经元根据脉冲率聚集成一系列簇。研究发现，修剪低棘波率神经元簇会导致泛化程度的增加或可预测的性能下降。
+<details>	<summary>英文摘要</summary>	Artificial Spiking Neural Networks (ASNNs) promise greater information processing efficiency because of discrete event-based (i.e., spike) computation. Several Machine Learning (ML) applications use biologically inspired plasticity mechanisms as unsupervised learning techniques to increase the robustness of ASNNs while preserving efficiency. Spike Time Dependent Plasticity (STDP) and Intrinsic Plasticity (IP) (i.e., dynamic spiking threshold adaptation) are two such mechanisms that have been combined to form an ensemble learning method. However, it is not clear how this ensemble learning should be regulated based on spiking activity. Moreover, previous studies have attempted threshold based synaptic pruning following STDP, to increase inference efficiency at the cost of performance in ASNNs. However, this type of structural adaptation, that employs individual weight mechanisms, does not consider spiking activity for pruning which is a better representation of input stimuli. We envisaged that plasticity-based spike-regulation and spike-based pruning will result in ASSNs that perform better in low resource situations. In this paper, a novel ensemble learning method based on entropy and network activation is introduced, which is amalgamated with a spike-rate neuron pruning technique, operated exclusively using spiking activity. Two electroencephalography (EEG) datasets are used as the input for classification experiments with a three-layer feed forward ASNN trained using one-pass learning. During the learning process, we observed neurons assembling into a hierarchy of clusters based on spiking rate. It was discovered that pruning lower spike-rate neuron clusters resulted in increased generalization or a predictable decline in performance. </details>
+<details>	<summary>注释</summary>	19 pages, 12 figures ACM-class: I.2.6 </details>
+<details>	<summary>邮件日期</summary>	2022年03月15日</details>
+
+# 376、细胞自动机可以通过诱导轨迹相位共存来对数据进行分类
+- [ ] Cellular automata can classify data by inducing trajectory phase coexistence 
+时间：2022年03月10日                         第一作者：Stephen Whitelam                       [链接](https://arxiv.org/abs/2203.05551).                     
+## 摘要：我们证明了细胞自动机可以通过诱导一种形式的动态相位共存来对数据进行分类。我们使用蒙特卡罗方法来搜索一般的二维确定性自动机，该自动机根据活动、从图像开始的轨迹中发生的状态变化数量对图像进行分类。当自动机的深度是一个可训练的参数时，搜索方案会根据初始条件识别自动机，自动机生成一组动态轨迹，显示高或低活动。这种性质的自动机表现为非线性激活函数，其输出实际上是二进制的，类似于脉冲神经元的出现版本。我们的工作将机器学习和水库计算与概念上类似于磁铁和眼镜等物理系统的现象联系起来。
+<details>	<summary>英文摘要</summary>	We show that cellular automata can classify data by inducing a form of dynamical phase coexistence. We use Monte Carlo methods to search for general two-dimensional deterministic automata that classify images on the basis of activity, the number of state changes that occur in a trajectory initiated from the image. When the depth of the automaton is a trainable parameter, the search scheme identifies automata that generate a population of dynamical trajectories displaying high or low activity, depending on initial conditions. Automata of this nature behave as nonlinear activation functions with an output that is effectively binary, resembling an emergent version of a spiking neuron. Our work connects machine learning and reservoir computing to phenomena conceptually similar to those seen in physical systems such as magnets and glasses. </details>
+<details>	<summary>邮件日期</summary>	2022年03月11日</details>
+
+# 375、SoftSNN：软错误下脉冲神经网络加速器的低成本容错
+- [ ] SoftSNN: Low-Cost Fault Tolerance for Spiking Neural Network Accelerators under Soft Errors 
+时间：2022年03月10日                         第一作者：Rachmad Vidya Wicaksana Putra                       [链接](https://arxiv.org/abs/2203.05523).                     
+## 摘要：专门的硬件加速器被设计和使用，以最大限度地提高脉冲神经网络（SNN）的性能效率。然而，这种加速器容易受到瞬态故障（即软错误）的影响，这些故障是由高能粒子撞击引起的，并在硬件层表现为位翻转。这些错误可能会改变SNN加速器计算引擎中的权重值和神经元操作，从而导致不正确的输出和精度下降。然而，对于SNN，计算引擎中软错误的影响以及相应的缓解技术尚未得到彻底研究。一个潜在的解决方案是使用冗余执行（重新执行）来确保正确的输出，但它会导致巨大的延迟和能源开销。为此，我们提出了SoftSNN，这是一种新的方法，可以在不重新执行的情况下减轻SNN加速器的权重寄存器（突触）和神经元中的软错误，从而在低延迟和能量开销的情况下保持准确性。我们的软SNN方法采用了以下关键步骤：（1）分析软错误下的SNN特征，以识别错误权重和神经元操作，这是识别错误SNN行为所必需的；（2） 一种限制和保护技术，利用这种分析，通过限制权重值和保护神经元免受错误操作，提高SNN的容错能力；（3）为神经硬件加速器设计轻量级硬件增强，以有效支持所提出的技术。实验结果表明，对于高故障率的900个神经元网络，我们的SoftSNN保持了3%以下的精度下降，同时与重新执行技术相比，延迟和能量分别减少了3倍和2.3倍。
+<details>	<summary>英文摘要</summary>	Specialized hardware accelerators have been designed and employed to maximize the performance efficiency of Spiking Neural Networks (SNNs). However, such accelerators are vulnerable to transient faults (i.e., soft errors), which occur due to high-energy particle strikes, and manifest as bit flips at the hardware layer. These errors can change the weight values and neuron operations in the compute engine of SNN accelerators, thereby leading to incorrect outputs and accuracy degradation. However, the impact of soft errors in the compute engine and the respective mitigation techniques have not been thoroughly studied yet for SNNs. A potential solution is employing redundant executions (re-execution) for ensuring correct outputs, but it leads to huge latency and energy overheads. Toward this, we propose SoftSNN, a novel methodology to mitigate soft errors in the weight registers (synapses) and neurons of SNN accelerators without re-execution, thereby maintaining the accuracy with low latency and energy overheads. Our SoftSNN methodology employs the following key steps: (1) analyzing the SNN characteristics under soft errors to identify faulty weights and neuron operations, which are required for recognizing faulty SNN behavior; (2) a Bound-and-Protect technique that leverages this analysis to improve the SNN fault tolerance by bounding the weight values and protecting the neurons from faulty operations; and (3) devising lightweight hardware enhancements for the neural hardware accelerator to efficiently support the proposed technique. The experimental results show that, for a 900-neuron network with even a high fault rate, our SoftSNN maintains the accuracy degradation below 3%, while reducing latency and energy by up to 3x and 2.3x respectively, as compared to the re-execution technique. </details>
+<details>	<summary>注释</summary>	To appear at the 59th IEEE/ACM Design Automation Conference (DAC), July 2022, San Francisco, CA, USA </details>
+<details>	<summary>邮件日期</summary>	2022年03月11日</details>
+
+# 374、一种具有无监督学习的全记忆脉冲神经网络
+- [ ] A Fully Memristive Spiking Neural Network with Unsupervised Learning 
+时间：2022年03月10日                         第一作者：Peng Zhou                       [链接](https://arxiv.org/abs/2203.01416).                     
+<details>	<summary>邮件日期</summary>	2022年03月11日</details>
+
+# 373、SPICEprop：通过记忆脉冲神经网络反向传播错误
+- [ ] SPICEprop: Backpropagating Errors Through Memristive Spiking Neural Networks 
+时间：2022年03月10日                         第一作者：Peng Zhou                       [链接](https://arxiv.org/abs/2203.01426).                     
+<details>	<summary>邮件日期</summary>	2022年03月11日</details>
+
+# 372、SPICEprop：通过记忆脉冲神经网络反向传播错误
+- [ ] SPICEprop: Backpropagating Errors Through Memristive Spiking Neural Networks 
+时间：2022年03月08日                         第一作者：Peng Zhou                       [链接](https://arxiv.org/abs/2203.01426).                     
+<details>	<summary>邮件日期</summary>	2022年03月09日</details>
+
+# 371、基于STDP的脉冲神经网络监督学习算法
+- [ ] An STDP-Based Supervised Learning Algorithm for Spiking Neural Networks 
+时间：2022年03月07日                         第一作者：Zhanhao Hu                       [链接](https://arxiv.org/abs/2203.03379).                     
+## 摘要：与基于速率的人工神经网络相比，脉冲神经网络（SNN）为大脑提供了一个更具生物合理性的模型。但他们如何进行监督学习仍然是个谜。受Bengio等人最近工作的启发，我们提出了一种基于脉冲时间依赖可塑性（STDP）的监督学习算法，用于由漏积分和激发（LIF）神经元组成的分层SNN。为突触前神经元设计了一个时间窗口，只有该窗口中的脉冲参与STDP更新过程。模型在MNIST数据集上进行训练。分类精度接近由标准反向传播算法训练的具有类似结构的多层感知器（MLP）。
+<details>	<summary>英文摘要</summary>	Compared with rate-based artificial neural networks, Spiking Neural Networks (SNN) provide a more biological plausible model for the brain. But how they perform supervised learning remains elusive. Inspired by recent works of Bengio et al., we propose a supervised learning algorithm based on Spike-Timing Dependent Plasticity (STDP) for a hierarchical SNN consisting of Leaky Integrate-and-fire (LIF) neurons. A time window is designed for the presynaptic neuron and only the spikes in this window take part in the STDP updating process. The model is trained on the MNIST dataset. The classification accuracy approach that of a Multilayer Perceptron (MLP) with similar architecture trained by the standard back-propagation algorithm. </details>
+<details>	<summary>邮件日期</summary>	2022年03月08日</details>
+
+# 370、基于事件的电位辅助脉冲神经网络视频重建
+- [ ] Event-based Video Reconstruction via Potential-assisted Spiking Neural Network 
+时间：2022年03月03日                         第一作者：Lin Zhu                       [链接](https://arxiv.org/abs/2201.10943).                     
+<details>	<summary>注释</summary>	Accepted at CVPR2022 </details>
+<details>	<summary>邮件日期</summary>	2022年03月07日</details>
+
+# 369、重新思考标准化和剩余块在脉冲神经网络中的作用
+- [ ] Rethinking the role of normalization and residual blocks for spiking neural networks 
+时间：2022年03月03日                         第一作者：Shin-ichi Ikegawa                       [链接](https://arxiv.org/abs/2203.01544).                     
+## 摘要：受生物启发的脉冲神经网络（SNN）被广泛用于实现超低功耗。然而，由于隐藏层中的脉冲神经元过度放电，深层SNN不容易训练。为了解决这个问题，我们提出了一种新颖但简单的标准化技术，称为突触后电位标准化。这种归一化从标准归一化中删除减法项，并使用第二个原始矩而不是方差作为除法项。通过对突触后电位进行简单的标准化，可以控制棘波放电，使训练能够进行分配。实验结果表明，使用我们的归一化处理的SNN优于使用其他归一化处理的其他模型。此外，通过预激活剩余块，该模型可以训练超过100层，而无需其他专用于SNN的特殊技术。
+<details>	<summary>英文摘要</summary>	Biologically inspired spiking neural networks (SNNs) are widely used to realize ultralow-power energy consumption. However, deep SNNs are not easy to train due to the excessive firing of spiking neurons in the hidden layers. To tackle this problem, we propose a novel but simple normalization technique called postsynaptic potential normalization. This normalization removes the subtraction term from the standard normalization and uses the second raw moment instead of the variance as the division term. The spike firing can be controlled, enabling the training to proceed appropriating, by conducting this simple normalization to the postsynaptic potential. The experimental results show that SNNs with our normalization outperformed other models using other normalizations. Furthermore, through the pre-activation residual blocks, the proposed model can train with more than 100 layers without other special techniques dedicated to SNNs. </details>
+<details>	<summary>注释</summary>	14 pages, 9 figures, 3 tables </details>
+<details>	<summary>邮件日期</summary>	2022年03月04日</details>
+
+# 368、用于噪声图像识别的随机量子神经网络
+- [ ] Random Quantum Neural Networks (RQNN) for Noisy Image Recognition 
+时间：2022年03月03日                         第一作者：Debanjan Konar                       [链接](https://arxiv.org/abs/2203.01764).                     
+## 摘要：经典的随机神经网络（RNN）在决策、信号处理和图像识别任务中得到了有效的应用。然而，它们的实现仅限于确定性数字系统，这些系统输出概率分布来代替随机脉冲信号的随机行为。我们引入了一类新的有监督随机量子神经网络（RQNN），该网络具有鲁棒性训练策略，可以更好地利用脉冲RNN的随机性。受量子信息理论和大脑神经元信息编码的时空随机脉冲特性的启发，提出的RQNN采用了具有叠加态和振幅编码特征的混合经典量子算法。我们已经广泛验证了我们提出的RQNN模型，通过PennyLane量子模拟器使用有限数量的\emph{qubits}依赖混合经典量子算法。在MNIST、FashionMNIST和KMNIST数据集上的实验表明，所提出的RQNN模型的平均分类准确率为94.9\%。此外，实验结果表明，与经典神经网络（RNN）、经典脉冲神经网络（SNN）和经典卷积神经网络（AlexNet）相比，所提出的RQNN在噪声环境下的有效性和弹性，以及增强的图像分类精度。此外，RQNN可以处理噪声，这对各种应用非常有用，包括NISQ设备中的计算机视觉。PyTorch密码(https://github.com/darthsimpus/RQN)可在GitHub上获取，以复制本手稿中报告的结果。
+<details>	<summary>英文摘要</summary>	Classical Random Neural Networks (RNNs) have demonstrated effective applications in decision making, signal processing, and image recognition tasks. However, their implementation has been limited to deterministic digital systems that output probability distributions in lieu of stochastic behaviors of random spiking signals. We introduce the novel class of supervised Random Quantum Neural Networks (RQNNs) with a robust training strategy to better exploit the random nature of the spiking RNN. The proposed RQNN employs hybrid classical-quantum algorithms with superposition state and amplitude encoding features, inspired by quantum information theory and the brain's spatial-temporal stochastic spiking property of neuron information encoding. We have extensively validated our proposed RQNN model, relying on hybrid classical-quantum algorithms via the PennyLane Quantum simulator with a limited number of \emph{qubits}. Experiments on the MNIST, FashionMNIST, and KMNIST datasets demonstrate that the proposed RQNN model achieves an average classification accuracy of $94.9\%$. Additionally, the experimental findings illustrate the proposed RQNN's effectiveness and resilience in noisy settings, with enhanced image classification accuracy when compared to the classical counterparts (RNNs), classical Spiking Neural Networks (SNNs), and the classical convolutional neural network (AlexNet). Furthermore, the RQNN can deal with noise, which is useful for various applications, including computer vision in NISQ devices. The PyTorch code (https://github.com/darthsimpus/RQN) is made available on GitHub to reproduce the results reported in this manuscript. </details>
+<details>	<summary>注释</summary>	This article is submitted to Nature Machine Intelligence journal for review and possible publications </details>
+<details>	<summary>邮件日期</summary>	2022年03月04日</details>
+
+# 367、一种具有无监督学习的全记忆脉冲神经网络
+- [ ] A Fully Memristive Spiking Neural Network with Unsupervised Learning 
+时间：2022年03月02日                         第一作者：Peng Zhou                       [链接](https://arxiv.org/abs/2203.01416).                     
+## 摘要：我们提出了一个由物理可实现的记忆神经元和记忆突触组成的全记忆脉冲神经网络（MSNN），以实现无监督的脉冲时间依赖性可塑性（STDP）学习规则。这个系统是完全记忆的，因为神经元和突触的动力学都可以通过记忆器来实现。该神经元采用SPICE级记忆积分和激发（MIF）模型实现，该模型由实现不同去极化、超极化和复极电压波形所需的最少电路元件组成。所提出的MSNN独特地实现了STDP学习，它利用记忆性突触中的累积权重变化来实现记忆性突触的学习。记忆性突触中的电压波形变化源于训练过程中突触前和突触后的脉冲电压信号。研究了两种MSNN结构：1）生物学上合理的记忆检索系统，2）多类分类系统。我们的电路仿真结果通过复制生物记忆检索机制验证了MSNN的无监督学习效率，并在大规模判别式MSNN的4模式识别问题中实现了97.5%的准确率。
+<details>	<summary>英文摘要</summary>	We present a fully memristive spiking neural network (MSNN) consisting of physically-realizable memristive neurons and memristive synapses to implement an unsupervised Spiking Time Dependent Plasticity (STDP) learning rule. The system is fully memristive in that both neuronal and synaptic dynamics can be realized by using memristors. The neuron is implemented using the SPICE-level memristive integrate-and-fire (MIF) model, which consists of a minimal number of circuit elements necessary to achieve distinct depolarization, hyperpolarization, and repolarization voltage waveforms. The proposed MSNN uniquely implements STDP learning by using cumulative weight changes in memristive synapses from the voltage waveform changes across the synapses, which arise from the presynaptic and postsynaptic spiking voltage signals during the training process. Two types of MSNN architectures are investigated: 1) a biologically plausible memory retrieval system, and 2) a multi-class classification system. Our circuit simulation results verify the MSNN's unsupervised learning efficacy by replicating biological memory retrieval mechanisms, and achieving 97.5% accuracy in a 4-pattern recognition problem in a large scale discriminative MSNN. </details>
+<details>	<summary>邮件日期</summary>	2022年03月04日</details>
+
+# 366、SPICEprop：通过记忆脉冲神经网络反向传播错误
+- [ ] SPICEprop: Backpropagating Errors Through Memristive Spiking Neural Networks 
+时间：2022年03月02日                         第一作者：Peng Zhou                       [链接](https://arxiv.org/abs/2203.01426).                     
+## 摘要：我们提出了一种完全忆阻性脉冲神经网络（MSNN），由使用时间反向传播（BPTT）学习规则训练的新型忆阻神经元组成。梯度下降直接应用于记忆集成与激发（MIF）神经元，该神经元使用模拟SPICE电路模型设计，产生明显的去极化、超极化和复极电压波形。突触重量由BPTT利用MIF神经元模型的膜电位进行训练，并可在记忆交叉杆上进行处理。MIF神经元模型的自然脉冲动态和完全可微性，消除了脉冲神经网络文献中普遍存在的梯度近似的需要。尽管直接在SPICE电路模型上进行训练会增加复杂性，但我们在MNIST测试数据集和时装MNIST测试数据集上的准确率分别达到97.58%和75.26%，是所有完全MSNN中准确率最高的。
+<details>	<summary>英文摘要</summary>	We present a fully memristive spiking neural network (MSNN) consisting of novel memristive neurons trained using the backpropagation through time (BPTT) learning rule. Gradient descent is applied directly to the memristive integrated-and-fire (MIF) neuron designed using analog SPICE circuit models, which generates distinct depolarization, hyperpolarization, and repolarization voltage waveforms. Synaptic weights are trained by BPTT using the membrane potential of the MIF neuron model and can be processed on memristive crossbars. The natural spiking dynamics of the MIF neuron model and fully differentiable, eliminating the need for gradient approximations that are prevalent in the spiking neural network literature. Despite the added complexity of training directly on SPICE circuit models, we achieve 97.58% accuracy on the MNIST testing dataset and 75.26% on the Fashion-MNIST testing dataset, the highest accuracies among all fully MSNNs. </details>
+<details>	<summary>邮件日期</summary>	2022年03月04日</details>
+
+# 365、重新思考预培训作为从ANN到SNN的桥梁
+- [ ] Rethinking Pretraining as a Bridge from ANNs to SNNs 
+时间：2022年03月02日                         第一作者：Yihan Lin                       [链接](https://arxiv.org/abs/2203.01158).                     
+## 摘要：脉冲神经网络（Spiking neural networks，SNN）是一种典型的脑激励模型，具有丰富的神经元动力学特性、多样的编码方案和低功耗特性。如何获得高精度的模型一直是SNN领域的主要挑战。目前，有两种主流方法，即通过将经过良好训练的人工神经网络（ANN）转换为其对应的SNN来获得转换后的SNN，或直接训练SNN。然而，转换后的SNN的推理时间太长，而SNN训练通常非常昂贵且效率低下。在这项工作中，通过结合两种不同训练方法的概念，借助预训练技术和基于BP的深度SNN训练机制，提出了一种新的SNN训练范式。我们认为，提出的范例是训练SNN的更有效途径。管道包括用于静态数据传输任务的管道和用于动态数据传输任务的管道。SOTA结果是在大规模事件驱动数据集ES ImageNet中获得的。对于训练加速，我们使用ImageNet-1K上的1/10训练时间和ES ImageNet上的2/5训练时间，实现了与类似LIF SNN相同（或更高）的最佳精度，并为新数据集ES-UCF101提供了时间精度基准。这些实验结果揭示了ANN和SNN之间参数函数的相似性，也展示了该SNN训练管道的各种潜在应用。
+<details>	<summary>英文摘要</summary>	Spiking neural networks (SNNs) are known as a typical kind of brain-inspired models with their unique features of rich neuronal dynamics, diverse coding schemes and low power consumption properties. How to obtain a high-accuracy model has always been the main challenge in the field of SNN. Currently, there are two mainstream methods, i.e., obtaining a converted SNN through converting a well-trained Artificial Neural Network (ANN) to its SNN counterpart or training an SNN directly. However, the inference time of a converted SNN is too long, while SNN training is generally very costly and inefficient. In this work, a new SNN training paradigm is proposed by combining the concepts of the two different training methods with the help of the pretrain technique and BP-based deep SNN training mechanism. We believe that the proposed paradigm is a more efficient pipeline for training SNNs. The pipeline includes pipeS for static data transfer tasks and pipeD for dynamic data transfer tasks. SOTA results are obtained in a large-scale event-driven dataset ES-ImageNet. For training acceleration, we achieve the same (or higher) best accuracy as similar LIF-SNNs using 1/10 training time on ImageNet-1K and 2/5 training time on ES-ImageNet and also provide a time-accuracy benchmark for a new dataset ES-UCF101. These experimental results reveal the similarity of the functions of parameters between ANNs and SNNs and also demonstrate the various potential applications of this SNN training pipeline. </details>
+<details>	<summary>注释</summary>	8 pages, 4 figures </details>
+<details>	<summary>邮件日期</summary>	2022年03月03日</details>
+
+# 364、利用基于时间的神经元提高脉冲神经网络的精度
+- [ ] Improving Spiking Neural Network Accuracy Using Time-based Neurons 
+时间：2022年03月02日                         第一作者：Hanseok Kim                       [链接](https://arxiv.org/abs/2201.01394).                     
+<details>	<summary>注释</summary>	Accepted in ISCAS 2022 </details>
+<details>	<summary>邮件日期</summary>	2022年03月03日</details>
+
+# 363、神经形态硬件中的时间编码脉冲傅里叶变换
+- [ ] Time-coded Spiking Fourier Transform in Neuromorphic Hardware 
+时间：2022年02月25日                         第一作者：Javier L\'opez-R                       [链接](https://arxiv.org/abs/2202.12650).                     
+## 摘要：经过几十年的不断优化计算系统，摩尔定律正在走向终结。然而，人们对快速高效的处理系统的需求越来越大，这些系统可以处理大量数据流，同时减少系统占用。神经形态计算通过创建随时间推移与二进制事件通信的分散架构来满足这一需求。尽管在过去几年中快速增长，但需要新的算法来利用这种新兴计算范式的潜力，并刺激高级神经形态芯片的设计。在这项工作中，我们提出了一种基于时间的脉冲神经网络，它在数学上等价于傅里叶变换。我们在神经形态芯片Loihi中实现了该网络，并用汽车调频连续波雷达在五种不同的实际场景中进行了实验。实验结果验证了该算法的有效性，我们希望它们能促进adhoc神经形态芯片的设计，从而提高最先进的数字信号处理器的效率，并鼓励神经形态计算用于信号处理的研究。
+<details>	<summary>英文摘要</summary>	After several decades of continuously optimizing computing systems, the Moore's law is reaching itsend. However, there is an increasing demand for fast and efficient processing systems that can handlelarge streams of data while decreasing system footprints. Neuromorphic computing answers thisneed by creating decentralized architectures that communicate with binary events over time. Despiteits rapid growth in the last few years, novel algorithms are needed that can leverage the potential ofthis emerging computing paradigm and can stimulate the design of advanced neuromorphic chips.In this work, we propose a time-based spiking neural network that is mathematically equivalent tothe Fourier transform. We implemented the network in the neuromorphic chip Loihi and conductedexperiments on five different real scenarios with an automotive frequency modulated continuouswave radar. Experimental results validate the algorithm, and we hope they prompt the design of adhoc neuromorphic chips that can improve the efficiency of state-of-the-art digital signal processorsand encourage research on neuromorphic computing for signal processing. </details>
+<details>	<summary>注释</summary>	Submitted to IEEE Transactions on Computers. Revised version </details>
+<details>	<summary>邮件日期</summary>	2022年02月28日</details>
+
+# 362、生物纠错码产生容错神经网络
+- [ ] Biological error correction codes generate fault-tolerant neural networks 
+时间：2022年02月25日                         第一作者：Alex                       [链接](https://arxiv.org/abs/2202.12887).                     
+## 摘要：在深度学习中，容错计算是否可行一直是一个悬而未决的问题：仅使用不可靠的神经元能否实现任意可靠的计算？在哺乳动物的大脑皮层中，人们观察到被称为网格码的模拟纠错码可以保护状态免受神经脉冲噪声的影响，但它们在信息处理中的作用尚不清楚。在这里，我们使用这些生物代码来表明，如果每个神经元的不完美性低于一个尖锐的阈值，则可以实现一个通用的容错神经网络，我们发现该阈值在数量级上与生物神经元中观察到的噪声相一致。从故障到容错神经计算的急剧相变的发现为理解人工智能和神经科学中的噪声模拟系统开辟了一条道路。
+<details>	<summary>英文摘要</summary>	It has been an open question in deep learning if fault-tolerant computation is possible: can arbitrarily reliable computation be achieved using only unreliable neurons? In the mammalian cortex, analog error correction codes known as grid codes have been observed to protect states against neural spiking noise, but their role in information processing is unclear. Here, we use these biological codes to show that a universal fault-tolerant neural network can be achieved if the faultiness of each neuron lies below a sharp threshold, which we find coincides in order of magnitude with noise observed in biological neurons. The discovery of a sharp phase transition from faulty to fault-tolerant neural computation opens a path towards understanding noisy analog systems in artificial intelligence and neuroscience. </details>
+<details>	<summary>邮件日期</summary>	2022年02月28日</details>
+
+# 361、用脉冲神经网络进化学习强化学习任务
+- [ ] Evolving-to-Learn Reinforcement Learning Tasks with Spiking Neural Networks 
+时间：2022年02月24日                         第一作者：J. Lu                       [链接](https://arxiv.org/abs/2202.12322).                     
+## 摘要：受自然神经系统启发，突触可塑性规则被用于训练具有局部信息的脉冲神经网络，使其适合在神经形态硬件上进行在线学习。然而，当实现这些规则来学习不同的新任务时，它们通常需要在依赖于任务的微调方面进行大量工作。本文旨在通过采用进化算法，为手头的任务进化出合适的突触可塑性规则，使这一过程变得更容易。更具体地说，我们提供了一组不同的局部信号、一组数学算子和一个全局奖励信号，然后笛卡尔遗传规划过程从这些组件中找到一个最优学习规则。使用这种方法，我们找到了成功解决XOR和cart-pole任务的学习规则，并发现了优于文献中基线规则的新学习规则。
+<details>	<summary>英文摘要</summary>	Inspired by the natural nervous system, synaptic plasticity rules are applied to train spiking neural networks with local information, making them suitable for online learning on neuromorphic hardware. However, when such rules are implemented to learn different new tasks, they usually require a significant amount of work on task-dependent fine-tuning. This paper aims to make this process easier by employing an evolutionary algorithm that evolves suitable synaptic plasticity rules for the task at hand. More specifically, we provide a set of various local signals, a set of mathematical operators, and a global reward signal, after which a Cartesian genetic programming process finds an optimal learning rule from these components. Using this approach, we find learning rules that successfully solve an XOR and cart-pole task, and discover new learning rules that outperform the baseline rules from literature. </details>
+<details>	<summary>邮件日期</summary>	2022年02月28日</details>
+
+# 360、基于梯度重加权的脉冲神经网络时间有效训练
+- [ ] Temporal Efficient Training of Spiking Neural Network via Gradient Re-weighting 
+时间：2022年02月24日                         第一作者：Shikuang Deng                       [链接](https://arxiv.org/abs/2202.11946).                     
+## 摘要：近年来，脑激励的脉冲神经元网络（SNN）因其事件驱动和高效节能的特点引起了广泛的研究兴趣。然而，由于深层SNN激活函数的不可微性，很难有效地训练深层SNN，这使得传统人工神经网络（ANN）中通常使用的梯度下降方法失效。虽然采用替代梯度（SG）形式上允许损失的反向传播，但离散脉冲机制实际上将SNN的损失情况与ANN的损失情况区分开来，使替代梯度方法无法达到与ANN相当的精度。在本文中，我们首先分析了为什么当前使用替代梯度的直接训练方法会导致SNN泛化性差。然后，我们引入时间有效训练（TET）方法来补偿梯度下降过程中的动量损失，从而使训练过程收敛到更平坦的极小值，具有更好的泛化性。同时，我们证明了TET提高了SNN的时间可伸缩性，并诱导了一种时间可继承的加速训练。我们的方法在所有报告的主流数据集（包括CIFAR-10/100和ImageNet）上始终优于SOTA。值得注意的是，在DVS-CIFAR10上，我们获得了83$\%%$top-1精度，与现有技术水平相比，提高了10$\%%$。代码可从\url获取{https://github.com/Gus-Lab/temporal_efficient_training}.
+<details>	<summary>英文摘要</summary>	Recently, brain-inspired spiking neuron networks (SNNs) have attracted widespread research interest because of their event-driven and energy-efficient characteristics. Still, it is difficult to efficiently train deep SNNs due to the non-differentiability of its activation function, which disables the typically used gradient descent approaches for traditional artificial neural networks (ANNs). Although the adoption of surrogate gradient (SG) formally allows for the back-propagation of losses, the discrete spiking mechanism actually differentiates the loss landscape of SNNs from that of ANNs, failing the surrogate gradient methods to achieve comparable accuracy as for ANNs. In this paper, we first analyze why the current direct training approach with surrogate gradient results in SNNs with poor generalizability. Then we introduce the temporal efficient training (TET) approach to compensate for the loss of momentum in the gradient descent with SG so that the training process can converge into flatter minima with better generalizability. Meanwhile, we demonstrate that TET improves the temporal scalability of SNN and induces a temporal inheritable training for acceleration. Our method consistently outperforms the SOTA on all reported mainstream datasets, including CIFAR-10/100 and ImageNet. Remarkably on DVS-CIFAR10, we obtained 83$\%$ top-1 accuracy, over 10$\%$ improvement compared to existing state of the art. Codes are available at \url{https://github.com/Gus-Lab/temporal_efficient_training}. </details>
+<details>	<summary>注释</summary>	Published as a conference paper at ICLR 2022 </details>
+<details>	<summary>邮件日期</summary>	2022年02月25日</details>
+
+# 359、BioLCNet：奖励调制的局部连接脉冲神经网络
+- [ ] BioLCNet: Reward-modulated Locally Connected Spiking Neural Networks 
+时间：2022年02月24日                         第一作者：Hafez Ghaemi                       [链接](https://arxiv.org/abs/2109.05539).                     
+<details>	<summary>注释</summary>	9 pages, 6 figures ACM-class: I.2.6; I.5.1 </details>
+<details>	<summary>邮件日期</summary>	2022年02月25日</details>
+
+# 358、脉冲神经元的自然梯度学习
+- [ ] Natural-gradient learning for spiking neurons 
+时间：2022年02月23日                         第一作者：Elena Kreutzer                       [链接](https://arxiv.org/abs/2011.11710).                     
+<details>	<summary>注释</summary>	Joint senior authorship: Walter M. Senn and Mihai A. Petrovici </details>
+<details>	<summary>邮件日期</summary>	2022年02月25日</details>
+
+# 357、用于时空特征学习的脉冲时间相关可塑性网络的新视角
+- [ ] A New Look at Spike-Timing-Dependent Plasticity Networks for Spatio-Temporal Feature Learning 
+时间：2022年02月22日                         第一作者：Ali Safa                       [链接](https://arxiv.org/abs/2111.00791).                     
+<details>	<summary>邮件日期</summary>	2022年02月23日</details>
+
+# 356、早产儿高效节能呼吸异常检测
+- [ ] Energy-Efficient Respiratory Anomaly Detection in Premature Newborn Infants 
+时间：2022年02月21日                         第一作者：Ankita Paul                       [链接](https://arxiv.org/abs/2202.10570).                     
+## 摘要：准确监测早产儿的呼吸频率对于根据需要启动医疗干预至关重要。有线技术可能对患者具有侵入性和侵扰性。我们提出了一种针对早产儿的支持深度学习的可穿戴式监测系统，该系统使用从佩戴在婴儿身上的无创可穿戴式Bellypatch无线采集的信号来预测呼吸停止。我们提出了一个五阶段的设计流程，包括数据收集和标记、特征缩放、带有超参数调整的模型选择、模型训练和验证、模型测试和部署。所使用的模型是一个一维卷积神经网络（1DCNN）结构，具有1个卷积层、1个池层和3个完全连接层，实现了97.15%的精度。为了解决可穿戴处理的能量限制，探索了几种量化技术，并对其性能和能耗进行了分析。我们提出了一种新的基于脉冲神经网络（SNN）的呼吸分类解决方案，可以在事件驱动的神经形态硬件上实现。我们提出了一种将基线1DCNN的模拟操作转换为其峰值等效值的方法。我们使用转换后的SNN的参数进行设计空间探索，以生成具有不同精度和能量足迹的推理解。我们选择了一个解决方案，与基线1DCNN模型相比，该解决方案以18倍的能量实现了93.33%的精度。此外，提出的SNN解决方案实现了类似的精度，但能耗减少了4倍。
+<details>	<summary>英文摘要</summary>	Precise monitoring of respiratory rate in premature infants is essential to initiate medical interventions as required. Wired technologies can be invasive and obtrusive to the patients. We propose a Deep Learning enabled wearable monitoring system for premature newborn infants, where respiratory cessation is predicted using signals that are collected wirelessly from a non-invasive wearable Bellypatch put on infant's body. We propose a five-stage design pipeline involving data collection and labeling, feature scaling, model selection with hyperparameter tuning, model training and validation, model testing and deployment. The model used is a 1-D Convolutional Neural Network (1DCNN) architecture with 1 convolutional layer, 1 pooling layer and 3 fully-connected layers, achieving 97.15% accuracy. To address energy limitations of wearable processing, several quantization techniques are explored and their performance and energy consumption are analyzed. We propose a novel Spiking-Neural-Network(SNN) based respiratory classification solution, which can be implemented on event-driven neuromorphic hardware. We propose an approach to convert the analog operations of our baseline 1DCNN to their spiking equivalent. We perform a design-space exploration using the parameters of the converted SNN to generate inference solutions having different accuracy and energy footprints. We select a solution that achieves 93.33% accuracy with 18 times lower energy compared with baseline 1DCNN model. Additionally the proposed SNN solution achieves similar accuracy but with 4 times less energy. </details>
+<details>	<summary>邮件日期</summary>	2022年02月23日</details>
+
+# 355、在神经形态结构上实现脉冲神经网络：综述
+- [ ] Implementing Spiking Neural Networks on Neuromorphic Architectures: A Review 
+时间：2022年02月17日                         第一作者：Phu Khanh Huynh                       [链接](https://arxiv.org/abs/2202.08897).                     
+## 摘要：最近，工业界和学术界都提出了几种不同的神经形态系统来执行使用脉冲神经网络（SNN）设计的机器学习应用程序。随着设计和技术前沿的日益复杂，为此类系统编程以接纳和执行机器学习应用程序变得越来越具有挑战性。此外，神经形态系统需要保证实时性能，消耗较低的能量，并提供对逻辑和内存故障的容忍度。因此，显然需要系统软件框架，能够在当前和新兴的神经形态系统上实现机器学习应用，同时解决性能、能量和可靠性问题。在这里，我们将对基于平台的设计和软硬件协同设计提出的此类框架进行全面概述。我们强调了神经形态计算系统软件技术领域未来面临的挑战和机遇。
+<details>	<summary>英文摘要</summary>	Recently, both industry and academia have proposed several different neuromorphic systems to execute machine learning applications that are designed using Spiking Neural Networks (SNNs). With the growing complexity on design and technology fronts, programming such systems to admit and execute a machine learning application is becoming increasingly challenging. Additionally, neuromorphic systems are required to guarantee real-time performance, consume lower energy, and provide tolerance to logic and memory failures. Consequently, there is a clear need for system software frameworks that can implement machine learning applications on current and emerging neuromorphic systems, and simultaneously address performance, energy, and reliability. Here, we provide a comprehensive overview of such frameworks proposed for both, platform-based design and hardware-software co-design. We highlight challenges and opportunities that the future holds in the area of system software technology for neuromorphic computing. </details>
+<details>	<summary>邮件日期</summary>	2022年02月21日</details>
+
 # 354、通过解决脉冲神经网络中的退化问题来推进深度剩余学习
 - [ ] Advancing Deep Residual Learning by Solving the Crux of Degradation in Spiking Neural Networks 
 时间：2022年02月17日                         第一作者：Yifan Hu                       [链接](https://arxiv.org/abs/2201.07209).                     
