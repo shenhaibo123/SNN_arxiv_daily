@@ -1,3 +1,11 @@
+# 596、一种快速提取深度卷积神经网络的方法
+- [ ] A Faster Approach to Spiking Deep Convolutional Neural Networks 
+时间：2022年10月31日                         第一作者：Shahriar Rezghi Shirsavar (University of Tehran                       [链接](https://arxiv.org/abs/2210.17442).                     
+## 摘要：脉冲神经网络（SNN）比当前的深度神经网络更接近大脑的动态。它们的低功耗和采样效率使这些网络变得有趣。最近，已经提出了几种深度卷积脉冲神经网络。这些网络旨在提高生物合理性，同时创建用于机器学习任务的强大工具。在这里，我们建议基于先前工作的网络结构，以提高网络运行时间和准确性。对网络的改进包括将训练迭代减少到一次，有效地使用主成分分析（PCA）降维、权重量化、分类的定时输出以及更好的超参数调整。此外，改变预处理步骤以允许处理彩色图像而不是仅处理黑白图像，以提高精度。所提出的结构将运行时细分，并引入了深度卷积SNN的有效方法。
+<details>	<summary>英文摘要</summary>	Spiking neural networks (SNNs) have closer dynamics to the brain than current deep neural networks. Their low power consumption and sample efficiency make these networks interesting. Recently, several deep convolutional spiking neural networks have been proposed. These networks aim to increase biological plausibility while creating powerful tools to be applied to machine learning tasks. Here, we suggest a network structure based on previous work to improve network runtime and accuracy. Improvements to the network include reducing training iterations to only once, effectively using principal component analysis (PCA) dimension reduction, weight quantization, timed outputs for classification, and better hyperparameter tuning. Furthermore, the preprocessing step is changed to allow the processing of colored images instead of only black and white to improve accuracy. The proposed structure fractionalizes runtime and introduces an efficient approach to deep convolutional SNNs. </details>
+<details>	<summary>注释</summary>	6 pages, 7 figures, to be published in the Asilomar 2022 conference ACM-class: I.2.6 </details>
+<details>	<summary>邮件日期</summary>	2022年11月01日</details>
+
 # 595、非线性回归的脉冲神经网络
 - [ ] Spiking neural networks for nonlinear regression 
 时间：2022年10月26日                         第一作者：Alex                       [链接](https://arxiv.org/abs/2210.03515).                     
