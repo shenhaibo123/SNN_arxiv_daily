@@ -1,3 +1,9 @@
+# 597、基于脉冲神经网络的贝叶斯连续学习
+- [ ] Bayesian Continual Learning via Spiking Neural Networks 
+时间：2022年11月01日                         第一作者：Nicolas Skatchkovsky                       [链接](https://arxiv.org/abs/2208.13723).                     
+<details>	<summary>注释</summary>	Accepted for publication in Frontiers in Computational Neuroscience </details>
+<details>	<summary>邮件日期</summary>	2022年11月02日</details>
+
 # 596、一种快速提取深度卷积神经网络的方法
 - [ ] A Faster Approach to Spiking Deep Convolutional Neural Networks 
 时间：2022年10月31日                         第一作者：Shahriar Rezghi Shirsavar (University of Tehran                       [链接](https://arxiv.org/abs/2210.17442).                     
