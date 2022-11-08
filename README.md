@@ -1,3 +1,48 @@
+# 604、基于脉冲的局部突触可塑性：计算模型和神经形态回路综述
+- [ ] Spike-based local synaptic plasticity: A survey of computational models and neuromorphic circuits 
+时间：2022年11月05日                         第一作者：Lyes Khacef                       [链接](https://arxiv.org/abs/2209.15536).                     
+<details>	<summary>邮件日期</summary>	2022年11月08日</details>
+
+# 603、基于神经振荡的梯度掩蔽对抗防御
+- [ ] Adversarial Defense via Neural Oscillation inspired Gradient Masking 
+时间：2022年11月04日                         第一作者：Chunming Jiang                       [链接](https://arxiv.org/abs/2211.02223).                     
+## 摘要：脉冲神经网络（SNN）由于其低功耗、低延迟和生物合理性而备受关注。随着它们被广泛部署在用于低功耗脑启发计算的神经形态设备中，安全问题变得越来越重要。然而，与深度神经网络（DNN）相比，SNN目前缺乏针对对抗性攻击的专门设计的防御方法。受神经膜电位振荡的启发，我们提出了一种新的神经模型，该模型结合了生物激励振荡机制，以增强SNN的安全性。我们的实验表明，在各种架构和数据集上，具有神经振荡神经元的SNN比具有LIF神经元的普通SNN具有更好的对抗性攻击能力。此外，我们提出了一种防御方法，通过替换振荡的形式来改变模型的梯度，这种方法隐藏了原始的训练梯度，并使攻击者迷惑于使用“假”神经元的梯度来生成
+<details>	<summary>英文摘要</summary>	Spiking neural networks (SNNs) attract great attention due to their low power consumption, low latency, and biological plausibility. As they are widely deployed in neuromorphic devices for low-power brain-inspired computing, security issues become increasingly important. However, compared to deep neural networks (DNNs), SNNs currently lack specifically designed defense methods against adversarial attacks. Inspired by neural membrane potential oscillation, we propose a novel neural model that incorporates the bio-inspired oscillation mechanism to enhance the security of SNNs. Our experiments show that SNNs with neural oscillation neurons have better resistance to adversarial attacks than ordinary SNNs with LIF neurons on kinds of architectures and datasets. Furthermore, we propose a defense method that changes model's gradients by replacing the form of oscillation, which hides the original training gradients and confuses the attacker into using gradients of 'fake' neurons to generate invalid adversarial samples. Our experiments suggest that the proposed defense method can effectively resist both single-step and iterative attacks with comparable defense effectiveness and much less computational costs than adversarial training methods on DNNs. To the best of our knowledge, this is the first work that establishes adversarial defense through masking surrogate gradients on SNNs. </details>
+<details>	<summary>邮件日期</summary>	2022年11月07日</details>
+
+# 602、基于铁电隧道结的集成和火灾神经元
+- [ ] A Ferroelectric Tunnel Junction-based Integrate-and-Fire Neuron 
+时间：2022年11月04日                         第一作者：Paolo Gibertini                       [链接](https://arxiv.org/abs/2211.02598).                     
+## 摘要：基于事件的神经形态系统通过使用人工神经元和突触以脉冲形式异步处理数据，提供了一种低功耗的解决方案。铁电隧道结（FTJ）是超低功耗存储器件，非常适合集成在这些系统中。在这里，我们提出了一种混合FTJ-CMOS集成和Fire神经元，它构成了用于边缘计算的新一代神经形态网络的基本构建块。我们演示了通过调谐FTJ装置的开关可实现的电可调谐神经动力学。
+<details>	<summary>英文摘要</summary>	Event-based neuromorphic systems provide a low-power solution by using artificial neurons and synapses to process data asynchronously in the form of spikes. Ferroelectric Tunnel Junctions (FTJs) are ultra low-power memory devices and are well-suited to be integrated in these systems. Here, we present a hybrid FTJ-CMOS Integrate-and-Fire neuron which constitutes a fundamental building block for new-generation neuromorphic networks for edge computing. We demonstrate electrically tunable neural dynamics achievable by tuning the switching of the FTJ device. </details>
+<details>	<summary>邮件日期</summary>	2022年11月07日</details>
+
+# 601、用于脉冲神经网络的无ADC内存计算硬件的硬件/软件协同设计
+- [ ] Hardware/Software co-design with ADC-Less In-memory Computing Hardware for Spiking Neural Networks 
+时间：2022年11月03日                         第一作者：Marco Paul E. Apolinario                       [链接](https://arxiv.org/abs/2211.02167).                     
+## 摘要：脉冲神经网络（SNN）是一种生物可信的模型，在资源受限的边缘设备上实现顺序任务的节能实现具有巨大潜力。然而，基于标准GPU的商业边缘平台没有优化以部署SNN，导致高能量和延迟。虽然模拟内存计算（IMC）平台可以作为节能推理引擎，但它们受到高精度ADC（HP-ADC）巨大的能量、延迟和面积要求的困扰，从而掩盖了内存计算的好处。我们提出了一种硬件/软件协同设计方法，以将SNN部署到无ADC IMC架构中，使用感测放大器作为1位ADC来取代传统的HP ADC并缓解上述问题。我们提出的框架通过执行硬件感知训练而导致最小的精度下降，并且能够从简单的图像分类任务扩展到更复杂的序列回归任务。com上的实验
+<details>	<summary>英文摘要</summary>	Spiking Neural Networks (SNNs) are bio-plausible models that hold great potential for realizing energy-efficient implementations of sequential tasks on resource-constrained edge devices. However, commercial edge platforms based on standard GPUs are not optimized to deploy SNNs, resulting in high energy and latency. While analog In-Memory Computing (IMC) platforms can serve as energy-efficient inference engines, they are accursed by the immense energy, latency, and area requirements of high-precision ADCs (HP-ADC), overshadowing the benefits of in-memory computations. We propose a hardware/software co-design methodology to deploy SNNs into an ADC-Less IMC architecture using sense-amplifiers as 1-bit ADCs replacing conventional HP-ADCs and alleviating the above issues. Our proposed framework incurs minimal accuracy degradation by performing hardware-aware training and is able to scale beyond simple image classification tasks to more complex sequential regression tasks. Experiments on complex tasks of optical flow estimation and gesture recognition show that progressively increasing the hardware awareness during SNN training allows the model to adapt and learn the errors due to the non-idealities associated with ADC-Less IMC. Also, the proposed ADC-Less IMC offers significant energy and latency improvements, $2-7\times$ and $8.9-24.6\times$, respectively, depending on the SNN model and the workload, compared to HP-ADC IMC. </details>
+<details>	<summary>注释</summary>	12 pages, 13 figures </details>
+<details>	<summary>邮件日期</summary>	2022年11月07日</details>
+
+# 600、StereoSpike：利用Spiking神经网络进行深度学习
+- [ ] StereoSpike: Depth Learning with a Spiking Neural Network 
+时间：2022年11月03日                         第一作者：Ulysse Ran\c{c}on                       [链接](https://arxiv.org/abs/2109.13751).                     
+<details>	<summary>邮件日期</summary>	2022年11月04日</details>
+
+# 599、GLIF：一种用于脉冲神经网络的统一门控泄漏集成和火灾神经元
+- [ ] GLIF: A Unified Gated Leaky Integrate-and-Fire Neuron for Spiking Neural Networks 
+时间：2022年11月03日                         第一作者：Xingting Yao                       [链接](https://arxiv.org/abs/2210.13768).                     
+<details>	<summary>注释</summary>	Accepted at NeurIPS 2022 </details>
+<details>	<summary>邮件日期</summary>	2022年11月04日</details>
+
+# 598、用于高效图形表示学习的脉冲变分图自动编码器
+- [ ] Spiking Variational Graph Auto-Encoders for Efficient Graph Representation Learning 
+时间：2022年10月24日                         第一作者：Hanxuan Yang                       [链接](https://arxiv.org/abs/2211.01952).                     
+## 摘要：图表示学习是一个基本的研究问题，有利于图结构数据的广泛应用。传统的基于人工神经网络的方法，如图神经网络（GNNs）和变分图自动编码器（VGAEs）在图上学习方面取得了很好的结果，但它们在训练和推理阶段的能耗极高。受脉冲神经网络（SNN）的生物保真度和能量效率的启发，最近的方法试图通过用脉冲神经元代替激活功能，使GNN适应SNN框架。然而，现有的基于SNN的GNN方法不能应用于由链路预测表示的更一般的多节点表示学习问题。此外，这些方法没有充分利用SNN的生物保真度，因为它们仍然需要昂贵的乘法累加（MAC）操作，这严重损害了能源效率。解决上述问题并改善能源
+<details>	<summary>英文摘要</summary>	Graph representation learning is a fundamental research issue and benefits a wide range of applications on graph-structured data. Conventional artificial neural network-based methods such as graph neural networks (GNNs) and variational graph auto-encoders (VGAEs) have achieved promising results in learning on graphs, but they suffer from extremely high energy consumption during training and inference stages. Inspired by the bio-fidelity and energy-efficiency of spiking neural networks (SNNs), recent methods attempt to adapt GNNs to the SNN framework by substituting spiking neurons for the activation functions. However, existing SNN-based GNN methods cannot be applied to the more general multi-node representation learning problem represented by link prediction. Moreover, these methods did not fully exploit the bio-fidelity of SNNs, as they still require costly multiply-accumulate (MAC) operations, which severely harm the energy efficiency. To address the above issues and improve energy efficiency, in this paper, we propose an SNN-based deep generative method, namely the Spiking Variational Graph Auto-Encoders (S-VGAE) for efficient graph representation learning. To deal with the multi-node problem, we propose a probabilistic decoder that generates binary latent variables as spiking node representations and reconstructs graphs via the weighted inner product. To avoid the MAC operations for energy efficiency, we further decouple the propagation and transformation layers of conventional GNN aggregators. We conduct link prediction experiments on multiple benchmark graph datasets, and the results demonstrate that our model consumes significantly lower energy with the performances superior or comparable to other ANN- and SNN-based methods for graph representation learning. </details>
+<details>	<summary>邮件日期</summary>	2022年11月04日</details>
+
 # 597、基于脉冲神经网络的贝叶斯连续学习
 - [ ] Bayesian Continual Learning via Spiking Neural Networks 
 时间：2022年11月01日                         第一作者：Nicolas Skatchkovsky                       [链接](https://arxiv.org/abs/2208.13723).                     
