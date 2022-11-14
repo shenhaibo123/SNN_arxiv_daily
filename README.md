@@ -1,3 +1,11 @@
+# 607、脉冲神经网络决策反馈均衡
+- [ ] Spiking Neural Network Decision Feedback Equalization 
+时间：2022年11月09日                         第一作者：Eike-Manuel Bansbach                       [链接](https://arxiv.org/abs/2211.04756).                     
+## 摘要：在过去的几年中，人工神经网络（ANN）已经成为解决通信工程中难以用传统方法解决的任务的事实标准。与此同时，人工智能社区将其研究转向了生物学启发的、类似大脑的脉冲神经网络（SNNs），这一网络有望实现极其节能的计算。在本文中，我们研究了SNN在超低复杂度接收机信道均衡中的应用。我们提出了一种基于SNN的均衡器，其反馈结构类似于决策反馈均衡器（DFE）。为了将真实世界数据转换为脉冲信号，我们引入了一种新的三值编码，并将其与传统的对数尺度编码进行了比较。我们表明，对于三个不同的示例性信道，我们的方法明显优于传统的线性均衡器。我们强调，主要是将信道输出转换为脉冲会带来较小的性能损失。建议的SNN具有dec
+<details>	<summary>英文摘要</summary>	In the past years, artificial neural networks (ANNs) have become the de-facto standard to solve tasks in communications engineering that are difficult to solve with traditional methods. In parallel, the artificial intelligence community drives its research to biology-inspired, brain-like spiking neural networks (SNNs), which promise extremely energy-efficient computing. In this paper, we investigate the use of SNNs in the context of channel equalization for ultra-low complexity receivers. We propose an SNN-based equalizer with a feedback structure akin to the decision feedback equalizer (DFE). For conversion of real-world data into spike signals we introduce a novel ternary encoding and compare it with traditional log-scale encoding. We show that our approach clearly outperforms conventional linear equalizers for three different exemplary channels. We highlight that mainly the conversion of the channel output to spikes introduces a small performance penalty. The proposed SNN with a decision feedback structure enables the path to competitive energy-efficient transceivers. </details>
+<details>	<summary>注释</summary>	Submitted to SCC 2023 </details>
+<details>	<summary>邮件日期</summary>	2022年11月10日</details>
+
 # 606、用于图像稀疏表示和动态视觉传感器数据压缩的脉冲采样网络
 - [ ] Spiking sampling network for image sparse representation and dynamic vision sensor data compression 
 时间：2022年11月08日                         第一作者：Chunming Jiang                       [链接](https://arxiv.org/abs/2211.04166).                     
