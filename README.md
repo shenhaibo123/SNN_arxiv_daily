@@ -1,3 +1,33 @@
+# 612、GLIF：一种用于脉冲神经网络的统一门控泄漏集成和火灾神经元
+- [ ] GLIF: A Unified Gated Leaky Integrate-and-Fire Neuron for Spiking Neural Networks 
+时间：2022年11月13日                         第一作者：Xingting Yao                       [链接](https://arxiv.org/abs/2210.13768).                     
+<details>	<summary>注释</summary>	Accepted at NeurIPS 2022 Spotlight </details>
+<details>	<summary>邮件日期</summary>	2022年11月15日</details>
+
+# 611、NeuroHSMD：神经形态混合脉冲运动检测器
+- [ ] NeuroHSMD: Neuromorphic Hybrid Spiking Motion Detector 
+时间：2022年11月12日                         第一作者：Pedro Machado                       [链接](https://arxiv.org/abs/2112.06102).                     
+<details>	<summary>邮件日期</summary>	2022年11月15日</details>
+
+# 610、SNN和ANN之舞：结合脉冲计时和重建注意力解决绑定问题
+- [ ] Dance of SNN and ANN: Solving binding problem by combining spike timing and reconstructive attention 
+时间：2022年11月11日                         第一作者：Hao Zheng                       [链接](https://arxiv.org/abs/2211.06027).                     
+## 摘要：绑定问题是阻碍人工神经网络（ANN）对人类感知世界的合成理解的根本挑战之一，因为当呈现具有多个对象的复杂数据时，生成因子的非纠缠和分布式表示可能会干扰并导致模糊。在本文中，我们提出了一种大脑启发的混合神经网络（HNN），该网络通过将脉冲计时动力学（通过脉冲神经网络，SNN）与重建注意力（通过ANN）相结合，将源自神经科学的时间绑定理论引入到ANN中。脉冲定时为分组提供了额外的维度，而重建反馈将脉冲协调为时间相干状态。通过ANN和SNN的迭代交互，该模型在SNN编码空间中以交替的同步触发时间连续绑定多个对象。在二值图像的合成数据集上评估了模型的有效性。通过visu
+<details>	<summary>英文摘要</summary>	The binding problem is one of the fundamental challenges that prevent the artificial neural network (ANNs) from a compositional understanding of the world like human perception, because disentangled and distributed representations of generative factors can interfere and lead to ambiguity when complex data with multiple objects are presented. In this paper, we propose a brain-inspired hybrid neural network (HNN) that introduces temporal binding theory originated from neuroscience into ANNs by integrating spike timing dynamics (via spiking neural networks, SNNs) with reconstructive attention (by ANNs). Spike timing provides an additional dimension for grouping, while reconstructive feedback coordinates the spikes into temporal coherent states. Through iterative interaction of ANN and SNN, the model continuously binds multiple objects at alternative synchronous firing times in the SNN coding space. The effectiveness of the model is evaluated on synthetic datasets of binary images. By visualization and analysis, we demonstrate that the binding is explainable, soft, flexible, and hierarchical. Notably, the model is trained on single object datasets without explicit supervision on grouping, but successfully binds multiple objects on test datasets, showing its compositional generalization capability. Further results show its binding ability in dynamic situations. </details>
+<details>	<summary>邮件日期</summary>	2022年11月14日</details>
+
+# 609、通过时间前向传播精确在线训练动态脉冲神经网络
+- [ ] Accurate online training of dynamical spiking neural networks through Forward Propagation Through Time 
+时间：2022年11月11日                         第一作者：Bojian Yin                       [链接](https://arxiv.org/abs/2112.11231).                     
+<details>	<summary>注释</summary>	12 pages, 4 figures </details>
+<details>	<summary>邮件日期</summary>	2022年11月14日</details>
+
+# 608、脉冲神经网络决策反馈均衡
+- [ ] Spiking Neural Network Decision Feedback Equalization 
+时间：2022年11月11日                         第一作者：Eike-Manuel Bansbach                       [链接](https://arxiv.org/abs/2211.04756).                     
+<details>	<summary>注释</summary>	Submitted to SCC 2023 </details>
+<details>	<summary>邮件日期</summary>	2022年11月14日</details>
+
 # 607、脉冲神经网络决策反馈均衡
 - [ ] Spiking Neural Network Decision Feedback Equalization 
 时间：2022年11月09日                         第一作者：Eike-Manuel Bansbach                       [链接](https://arxiv.org/abs/2211.04756).                     
