@@ -1,3 +1,50 @@
+# 724、自主无人机飞行的全神经形态视觉和控制
+- [ ] Fully neuromorphic vision and control for autonomous drone flight 
+时间：2023年03月15日                         第一作者：Federico Paredes-Vall\'es                       [链接](https://arxiv.org/abs/2303.08778).                     
+## 摘要：生物感知和处理是异步和稀疏的，导致低延迟和高效的感知和行动。在机器人技术中，用于基于事件的视觉和脉冲神经网络的神经形态硬件有望表现出类似的特征。然而，由于当前嵌入式神经形态处理器中的网络大小有限以及训练脉冲神经网络的困难，机器人的实现仅限于具有低维感觉输入和运动动作的基本任务。在这里，我们提出了第一个完全神经形态的视觉控制管道，用于控制自由飞行的无人机。具体来说，我们训练一个脉冲神经网络，该网络接受基于高维原始事件的相机数据，并输出低级别的控制动作，以执行基于自主视觉的飞行。该网络的视觉部分由五层和28.8k个神经元组成，将传入的原始事件映射到自我运动估计，并在真实环境中进行自我监督学习训练
+<details>	<summary>英文摘要</summary>	Biological sensing and processing is asynchronous and sparse, leading to low-latency and energy-efficient perception and action. In robotics, neuromorphic hardware for event-based vision and spiking neural networks promises to exhibit similar characteristics. However, robotic implementations have been limited to basic tasks with low-dimensional sensory inputs and motor actions due to the restricted network size in current embedded neuromorphic processors and the difficulties of training spiking neural networks. Here, we present the first fully neuromorphic vision-to-control pipeline for controlling a freely flying drone. Specifically, we train a spiking neural network that accepts high-dimensional raw event-based camera data and outputs low-level control actions for performing autonomous vision-based flight. The vision part of the network, consisting of five layers and 28.8k neurons, maps incoming raw events to ego-motion estimates and is trained with self-supervised learning on real event data. The control part consists of a single decoding layer and is learned with an evolutionary algorithm in a drone simulator. Robotic experiments show a successful sim-to-real transfer of the fully learned neuromorphic pipeline. The drone can accurately follow different ego-motion setpoints, allowing for hovering, landing, and maneuvering sideways$\unicode{x2014}$even while yawing at the same time. The neuromorphic pipeline runs on board on Intel's Loihi neuromorphic processor with an execution frequency of 200 Hz, spending only 27 $\unicode{x00b5}$J per inference. These results illustrate the potential of neuromorphic sensing and processing for enabling smaller, more intelligent robots. </details>
+<details>	<summary>邮件日期</summary>	2023年03月16日</details>
+
+# 723、利用视点变换和时空拉伸训练鲁棒Spiking神经网络
+- [ ] Training Robust Spiking Neural Networks with ViewPoint Transform and SpatioTemporal Stretching 
+时间：2023年03月14日                         第一作者：Haibo Shen                       [链接](https://arxiv.org/abs/2303.07609).                     
+## 摘要：神经形态视觉传感器（事件摄像机）模拟生物视觉感知系统，具有时间分辨率高、数据冗余少、功耗低、动态范围大等优点。由于事件和脉冲都是根据神经信号建模的，因此事件摄像机天生适合脉冲神经网络（SNN），SNN被认为是人工智能（AI）和理论神经科学的有前途的模型。然而，这些相机的非常规视觉信号对脉冲神经网络的鲁棒性提出了巨大挑战。在本文中，我们提出了一种新的数据增强方法，视点变换和时空拉伸（VPT-STS）。它通过变换时空域中的旋转中心和角度来生成来自不同视点的样本，从而提高了SNN的鲁棒性。此外，我们引入了时空拉伸，以避免视点转换中潜在的信息丢失。广泛的实验
+<details>	<summary>英文摘要</summary>	Neuromorphic vision sensors (event cameras) simulate biological visual perception systems and have the advantages of high temporal resolution, less data redundancy, low power consumption, and large dynamic range. Since both events and spikes are modeled from neural signals, event cameras are inherently suitable for spiking neural networks (SNNs), which are considered promising models for artificial intelligence (AI) and theoretical neuroscience. However, the unconventional visual signals of these cameras pose a great challenge to the robustness of spiking neural networks. In this paper, we propose a novel data augmentation method, ViewPoint Transform and SpatioTemporal Stretching (VPT-STS). It improves the robustness of SNNs by transforming the rotation centers and angles in the spatiotemporal domain to generate samples from different viewpoints. Furthermore, we introduce the spatiotemporal stretching to avoid potential information loss in viewpoint transformation. Extensive experiments on prevailing neuromorphic datasets demonstrate that VPT-STS is broadly effective on multi-event representations and significantly outperforms pure spatial geometric transformations. Notably, the SNNs model with VPT-STS achieves a state-of-the-art accuracy of 84.4\% on the DVS-CIFAR10 dataset. </details>
+<details>	<summary>注释</summary>	Accepted by ICASSP 2023. arXiv admin note: text overlap with arXiv:2207.11659 </details>
+<details>	<summary>邮件日期</summary>	2023年03月15日</details>
+
+# 722、皮层棘波序列中的突发生物功能相似性解码棘波神经网络促进神经计算的预测
+- [ ] Emergent Bio-Functional Similarities in a Cortical-Spike-Train-Decoding Spiking Neural Network Facilitate Predictions of Neural Computation 
+时间：2023年03月14日                         第一作者：Tengjun Liu                       [链接](https://arxiv.org/abs/2303.07830).                     
+## 摘要：尽管目标驱动的脉冲神经网络（SNN）具有更好的生物合理性，但它在分类生物脉冲序列方面并没有达到适用的性能，并且与传统的人工神经网络相比，几乎没有表现出生物功能的相似性。在这项研究中，我们提出了运动SRNN，这是一种受灵长类动物神经运动回路拓扑启发的递归SNN。通过使用motorSRNN解码猴子初级运动皮层的脉冲序列，我们在分类准确性和能量消耗之间实现了良好的平衡。运动SRNN通过捕捉和培养更多的余弦调谐来与输入进行通信，这是运动皮层神经元的一个基本特性，并在训练过程中保持其稳定性。在我们的猴子身上也观察到了这种训练诱导的余弦调谐的培养和持续性。此外，马达SRNN在单个神经元、群体和电路水平上产生了额外的生物功能相似性，证明了生物
+<details>	<summary>英文摘要</summary>	Despite its better bio-plausibility, goal-driven spiking neural network (SNN) has not achieved applicable performance for classifying biological spike trains, and showed little bio-functional similarities compared to traditional artificial neural networks. In this study, we proposed the motorSRNN, a recurrent SNN topologically inspired by the neural motor circuit of primates. By employing the motorSRNN in decoding spike trains from the primary motor cortex of monkeys, we achieved a good balance between classification accuracy and energy consumption. The motorSRNN communicated with the input by capturing and cultivating more cosine-tuning, an essential property of neurons in the motor cortex, and maintained its stability during training. Such training-induced cultivation and persistency of cosine-tuning was also observed in our monkeys. Moreover, the motorSRNN produced additional bio-functional similarities at the single-neuron, population, and circuit levels, demonstrating biological authenticity. Thereby, ablation studies on motorSRNN have suggested long-term stable feedback synapses contribute to the training-induced cultivation in the motor cortex. Besides these novel findings and predictions, we offer a new framework for building authentic models of neural computation. </details>
+<details>	<summary>邮件日期</summary>	2023年03月15日</details>
+
+# 721、基于时空片段的神经形态数据训练鲁棒Spiking神经网络
+- [ ] Training Robust Spiking Neural Networks on Neuromorphic Data with Spatiotemporal Fragments 
+时间：2023年03月14日                         第一作者：Haibo Shen                       [链接](https://arxiv.org/abs/2207.11659).                     
+<details>	<summary>注释</summary>	Accepted by ICASSP 2023 </details>
+<details>	<summary>邮件日期</summary>	2023年03月15日</details>
+
+# 720、自适应SpikeNet：使用具有可学习神经元动力学的Spiking神经网络的基于事件的光流估计
+- [ ] Adaptive-SpikeNet: Event-based Optical Flow Estimation using Spiking Neural Networks with Learnable Neuronal Dynamics 
+时间：2023年03月14日                         第一作者：Adarsh Kumar Kosta                        [链接](https://arxiv.org/abs/2209.11741).                     
+<details>	<summary>邮件日期</summary>	2023年03月15日</details>
+
+# 719、用仿生自适应内部关联神经元训练更强的Spiking神经网络
+- [ ] Training Stronger Spiking Neural Networks with Biomimetic Adaptive Internal Association Neurons 
+时间：2023年03月14日                         第一作者：Haibo Shen                       [链接](https://arxiv.org/abs/2207.11670).                     
+<details>	<summary>注释</summary>	Accepted by ICASSP 2023 </details>
+<details>	<summary>邮件日期</summary>	2023年03月15日</details>
+
+# 718、基于动态事件的光流识别与通信
+- [ ] Dynamic Event-based Optical Flow Identification and Communication 
+时间：2023年03月13日                         第一作者：Axel von Arnim                       [链接](https://arxiv.org/abs/2303.07169).                     
+## 摘要：光学识别通常通过空间或时间视觉模式识别和定位来完成。时间模式识别，取决于技术，涉及通信频率、范围和精确跟踪之间的权衡。我们提出了一种带有发光信标的解决方案，该解决方案通过利用基于事件的快速摄像机和使用脉冲神经元计算的稀疏神经形态光流来跟踪来改善这种权衡。在一个资产监控用例中，我们证明了嵌入模拟无人机的系统对相对运动具有鲁棒性，并能够与多个移动信标同时通信和跟踪。最后，在一个硬件实验室原型中，我们实现了最先进的光学相机通信频率，达到了kHz量级。
+<details>	<summary>英文摘要</summary>	Optical identification is often done with spatial or temporal visual pattern recognition and localization. Temporal pattern recognition, depending on the technology, involves a trade-off between communication frequency, range and accurate tracking. We propose a solution with light-emitting beacons that improves this trade-off by exploiting fast event-based cameras and, for tracking, sparse neuromorphic optical flow computed with spiking neurons. In an asset monitoring use case, we demonstrate that the system, embedded in a simulated drone, is robust to relative movements and enables simultaneous communication with, and tracking of, multiple moving beacons. Finally, in a hardware lab prototype, we achieve state-of-the-art optical camera communication frequencies in the kHz magnitude. </details>
+<details>	<summary>注释</summary>	5 pages, 6 figures and 1 table </details>
+<details>	<summary>邮件日期</summary>	2023年03月14日</details>
+
 # 717、使用3D卷积神经网络检测小麦赤霉病、小穗估计和严重程度评估
 - [ ] Fusarium head blight detection, spikelet estimation, and severity assessment in wheat using 3D convolutional neural networks 
 时间：2023年03月10日                         第一作者：Oumaima Hamila                       [链接](https://arxiv.org/abs/2303.05634).                     
